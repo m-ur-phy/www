@@ -1,0 +1,67 @@
+<?
+    session_start();
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>재단소개-재단영상</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="../favicon.ico">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="../common/css/sub_common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content4.css">
+
+    <script src="https://kit.fontawesome.com/33cd326170.js" crossorigin="anonymous"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <div class="main">
+            <img src="./common/images/visual_01.jpg" alt="">
+            <h3>재단소개</h3>
+        </div>
+        <div class="subNav">
+            <ul>
+                <li>
+                    <a href="./sub1_1.html">재단소개</a>
+                </li>
+                <li>
+                    <a href="./sub1_2.html">연혁</a>
+                </li>
+                <li>
+                    <a href="./sub1_3.html">오시는길</a>
+                </li>
+                <li>
+                    <a class="current" href="./sub1_4.html">재단영상</a>
+                </li>
+            </ul>
+        </div>
+        <article id="content">
+            <div class="titleArea">
+                <div class="lineMap">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <span class="hidden">HOME</span>
+                    &gt;<span> 재단소개 </span>&gt; 
+                    <strong>재단영상</strong>
+                </div>
+                <h2>재단영상</h2>
+            </div>
+            <div class="contentArea">
+                <p>금호문화재단의 영상들과 함께</p>
+                <p>금호문화재단을 소개합니다</p>
+                <section class="video">
+                    <h3 class="hidden">광고영상</h3>
+                    <div class="mainVideo">
+                    </div>
+                    <ul class="videoList">
+                    </ul>
+                </section>
+            </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+        <script src="./js/video.js"></script>
+</body>
+</html>

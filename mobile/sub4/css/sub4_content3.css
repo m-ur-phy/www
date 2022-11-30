@@ -1,0 +1,11 @@
+/* etiquette */
+.tabNav li { width: 50%; }
+#contentArea section p { margin: 20px 0; } 
+#contentArea .contlist>div:nth-child(2) { overflow: hidden; margin: 20px; } 
+#contentArea .all { display: block; text-align: center; font-size: 1.1em; font-weight: 500; } 
+#contentArea .article { border-radius: 16px; margin: 20px; background: #f9f9f9; } 
+#contentArea .article .q { font-size: 1.125em; text-align: justify; } 
+#contentArea .article i { margin: 20px; font-size: 1.1em; color: #aaa } 
+#contentArea .article a { display: block; } 
+#contentArea .article .a { display: none; position: relative; top: -15px; font-size: 1em; color: #666; margin: 0 20px 0 50px } 
+#contentArea .article .a::after { content: ''; display: block; position: absolute; top: 5px; left: -15px; width: 5px; height: 10px; background: #c01; } 

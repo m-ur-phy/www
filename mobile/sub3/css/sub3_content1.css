@@ -1,0 +1,8 @@
+#contentArea section img { border-radius: 15px; } 
+#contentArea section:nth-of-type(2) ul { display: flex; justify-content: space-around; } 
+#contentArea section:nth-of-type(2) dt,
+#contentArea section:nth-of-type(2) dd { text-align: center; } 
+#contentArea section:nth-of-type(2) dl { margin-top: 20px; } 
+#contentArea section:nth-of-type(2) dt { font-size: 1.3em; color: #c01; } 
+#contentArea section:nth-of-type(2) dd { font-size: 3em; } 
+#contentArea section:nth-of-type(3) ul { margin: 20px; } 

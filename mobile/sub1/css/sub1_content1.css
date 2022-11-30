@@ -1,0 +1,19 @@
+#contentArea h3 { color: #c01; margin-bottom: 50px; text-align: center; } 
+
+#contentArea .intro1 { text-align: center; margin-top: 30px;} 
+#contentArea .intro1 span { font-size: 1.7em; color: #c01; } 
+#contentArea .intro1 span>span { font-size: 1.5rem; color: #666; } 
+#contentArea .intro1 p { margin: 20px 0;}
+#contentArea .intro1 img { border-radius: 15px; } 
+
+#contentArea .intro2 .intro2s { position: relative; height: 150px; margin-bottom: 20px; } 
+#contentArea .intro2 span { position: absolute; display: block; font-size: 4em; font-family: 'Roboto', sans-serif; font-weight: 700; color: #fff; -webkit-text-stroke: 1px #c01; } 
+#contentArea .intro2 span:nth-of-type(1) { top:0; left: 0; } 
+#contentArea .intro2 span:nth-of-type(2) { bottom:0; right: 0; } 
+#contentArea .intro2 h4 { font-size: 1.5em; font-weight: 500; margin-bottom: 20px; transition: all .5s; } 
+
+#contentArea .intro3 ul { display: flex; justify-content: space-between; } 
+#contentArea .intro3 li { width: 100%; } 
+#contentArea .intro3 dl { padding: 2px; text-align: center;} 
+#contentArea .intro3 dt { font-weight: 500; color: #fff; font-size: .87em; margin-bottom: 10px; background: #c01; border-radius: 5px; padding: 10px 0; } 
+#contentArea .intro3 dd { font-size: .9em; background: #efefef; border-radius: 5px; padding: 10px 0; } 

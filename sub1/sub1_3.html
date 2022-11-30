@@ -1,0 +1,174 @@
+<?
+    session_start();
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>재단소개-오시는길</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="../favicon.ico">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="../common/css/sub_common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content3.css">
+
+    <script src="https://kit.fontawesome.com/33cd326170.js" crossorigin="anonymous"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=821f87f3de92e2219fe11392e556605a"></script>
+    <script src="./js/kakao_map2.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <div class="main">
+            <img src="./common/images/visual_01.jpg" alt="">
+            <h3>재단소개</h3>
+        </div>
+        <div class="subNav">
+            <ul>
+                <li>
+                    <a href="./sub1_1.html">재단소개</a>
+                </li>
+                <li>
+                    <a href="./sub1_2.html">연혁</a>
+                </li>
+                <li>
+                    <a class="current" href="./sub1_3.html">오시는길</a>
+                </li>
+                <li>
+                    <a href="./sub1_4.html">재단영상</a>
+                </li>
+            </ul>
+        </div>
+        <article id="content">
+            <div class="titleArea">
+                <div class="lineMap">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <span class="hidden">HOME</span>
+                    &gt;<span> 재단소개 </span>&gt; 
+                    <strong>오시는길</strong>
+                </div>
+                <h2>오시는길</h2>
+            </div>
+            <div class="contentArea">
+                <ul class="tabNav">
+                    <li><a class="tab tab1" href="#">금호문화재단 &amp; 금호미술관</a></li>
+                    <li><a class="tab tab2" href="#">금호연세아트홀</a></li>
+                    <li><a class="tab tab3" href="#">금호유스퀘어</a></li>
+                </ul>
+                <section class="map">
+                    <h3 class="hidden">금호문화재단&amp;금호미술관</h3>
+                    <div id="kumhoHeadOffice"></div>
+                    <dl>
+                        <dt>주소 및 연락처 <i class="fa-solid fa-phone"></i>
+                            <span>금호문화재단 &amp; 금호미술관</span>
+                        </dt>
+                        <dd>
+                            <p>
+                                <span>주소</span>
+                                (03062) 서울시 종로구 삼청로 18, 금호문화재단&amp;금호미술관
+                            </p>
+                            <p>
+                                <span>전화</span>
+                                02-6303-1977 (금호문화재단)<br>
+                                02-720-5114 (금호미술관)
+                            </p>
+                            <p>
+                                <span>팩스</span>
+                                02-720-8572 (금호문화재단)
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>교통편 및 주차 <i class="fa-solid fa-car-rear"></i>
+                            <span>자가용 또는 지하철 이용</span>
+                        </dt>
+                        <dd>
+                            <p>
+                                <span>교통편</span>
+                                지하철 3호선 안국역 1번 출구나 경복궁역 5번 출구 이용<br>
+                                지하철 5호선 광화문역 2번 출구 이용<br>
+                            </p>
+                            <p>
+                                <span>주차</span>
+                                미술관 건물 앞 정면주차 최대 10대 가능<br>
+                                만차 시, 미술관 건너편 경복궁 주차장 이용(유료)
+                            </p>
+                        </dd>
+                    </dl>
+                </section>
+                <section class="map">
+                    <h3 class="hidden">금호연세아트홀</h3>
+                    <div id="kumhoYonsei"></div>
+                    <dl>
+                        <dt>주소 및 연락처 <i class="fa-solid fa-phone"></i>
+                            <span>금호연세아트홀</span>
+                        </dt>
+                        <dd>
+                            <p>
+                                <span>주소</span>
+                                서울 서대문구 연세로 50 연세대학교 백양누리 지하 1층 금호아트홀 연세
+                            </p>
+                            <p>
+                                <span>전화</span>
+                                02-6303-1977
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>교통편 및 주차 <i class="fa-solid fa-car-rear"></i>
+                            <span>자가용 또는 지하철 이용</span>
+                        </dt>
+                        <dd>
+                            <p>
+                                <span>교통편</span>
+                                지하철 2호선 신촌역 2번출구 이용
+                            </p>
+                            <p>
+                                <span>주차</span>
+                                연세대학교 신촌 캠퍼스 정문 우측 지하주차장 이용 가능
+                            </p>
+                        </dd>
+                    </dl>
+                </section>
+                <section class="map">
+                    <h3 class="hidden">금호유스퀘어</h3>
+                    <div id="kumhoUsquare"></div>
+                    <dl>
+                        <dt>주소 및 연락처 <i class="fa-solid fa-phone"></i>
+                            <span>금호유스퀘어문화관</span>
+                        </dt>
+                        <dd>
+                            <p>
+                                <span>주소</span>
+                                광주광역시 서구 무진대로 904
+                            </p>
+                            <p>
+                                <span>전화</span>
+                                062-360-8432<br>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>교통편 및 주차 <i class="fa-solid fa-car-rear"></i>
+                            <span>자가용 또는 버스 이용</span>
+                        </dt>
+                        <dd>
+                            <p>
+                                <span>교통편</span>
+                                버스정류장 유스퀘어 터미널앞 하차<br>
+                                버스정류장 백화점/이마트 앞 하차
+                            </p>
+                            <p>
+                                <span>주차</span>
+                                유스퀘어 문화관 주차장 2층, 3층 이용 가능
+                            </p>
+                        </dd>
+                    </dl>
+                </section>
+            </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+</body>
+</html>

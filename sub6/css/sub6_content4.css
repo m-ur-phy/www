@@ -1,0 +1,6 @@
+/* calendar */
+#calendar {font-family: 'Roboto', sans-serif;max-width: 1200px;margin: 200px auto; } 
+#calendar .fc-toolbar-title { font-size: 4em; font-weight: 100; } 
+#calendar .fc-today-button.fc-button-primary { background: #c01; } 
+#calendar .fc-button-primary { background: #999; border: 1px solid #fff; } 
+#calendar tbody tr th { padding: 15px 0; font-size: 1.6em; font-weight: 400; } 

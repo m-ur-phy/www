@@ -1,0 +1,103 @@
+<!-- header 공통 요소 -->
+<div id="skipNav">
+    <a href="#content">본문바로가기</a>
+    <a href="#gnb">글로벌네비게이션바로가기</a>
+</div>
+<div class="wrap">
+    <header id="headerArea">
+        <div class="headerInner">
+            <h1>
+                <a href="./index.html">금호문화재단로고</a>
+            </h1>
+            <nav id="gnb">
+                <h2 class="hidden">글로벌네비게이션영역</h2>
+                <ul class="dropdownmenu">
+                    <li class="m1 menu">
+                        <h3><a class="depth1" href="./sub1/sub1_1.html">재단소개</a></h3>
+                        <ul>
+                            <li><a href="./sub1/sub1_1.html">재단소개</a></li>
+                            <li><a href="./sub1/sub1_2.html">연혁</a></li>
+                            <li><a href="./sub1/sub1_3.html">오시는길</a></li>
+                            <li><a href="./sub1/sub1_4.html">재단영상</a></li>
+                        </ul>
+                    </li>
+                    <li class="m2 menu">
+                        <h3><a class="depth1" href="./sub2/sub2_1.html">음악사업</a></h3>
+                        <ul>
+                            <li><a href="./sub2/sub2_1.html">클래식공연지원</a></li>
+                            <li><a href="./sub2/sub2_2.html">음악교육및지원</a></li>
+                            <li><a href="./sub2/sub2_3.html">시상및기금</a></li>
+                            <li><a href="./archive/list.php">금호아카이브</a></li>
+                        </ul>
+                    </li>
+                    <li class="m3 menu">
+                        <h3><a class="depth1" href="./sub3/sub3_1.html">미술사업</a></h3>
+                        <ul>
+                            <li><a href="./sub3/sub3_1.html">전시</a></li>
+                            <li><a href="./sub3/sub3_2.html">창작공간지원</a></li>
+                            <li><a href="./sub3/sub3_3.html">미술교육</a></li>
+                            <li><a href="./sub3/sub3_4.html">소장품사업</a></li>
+                        </ul>
+                    </li>
+                    <li class="m4 menu">
+                        <h3><a class="depth1" href="./sub4/sub4_1.html">장학사업</a></h3>
+                        <ul>
+                            <li><a href="./sub4/sub4_1.html">음악장학제도</a></li>
+                            <li><a href="./sub4/sub4_2.html">미술장학제도</a></li>
+                            <li><a href="./sub4/sub4_3.html">장학사업</a></li>
+                            <li><a href="./sub4/sub4_4.html">장학신청</a></li>
+                        </ul>
+                    </li>
+                    <li class="m5 menu">
+                        <h3><a class="depth1" href="./sub5/sub5_1.html">아트센터</a></h3>
+                        <ul>
+                            <li><a href="./sub5/sub5_1.html">금호미술관</a></li>
+                            <li><a href="./sub5/sub5_2.html">금호아트홀</a></li>
+                            <li><a href="./sub5/sub5_3.html">금호유스퀘어</a></li>
+                        </ul>
+                    </li>
+                    <li class="m6 menu">
+                        <h3><a class="depth1" href="./sub6/sub6_1.html">커뮤니티</a></h3>
+                        <ul>
+                            <li><a href="./sub6/sub6_1.html">관람예절</a></li>
+                            <li><a href="./greet/list.php">공지사항</a></li>
+                            <li><a href="./news/list.php">NEWS</a></li>
+                            <li><a href="./sub6/sub6_4.html">일정</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="topMenu">
+                <?
+
+                @extract($_GET); 
+                @extract($_POST); 
+                @extract($_SESSION);
+                // $userid = $_SESSION['userid'];
+                
+                    if(!$userid)
+                    {
+                ?>
+
+                <ul>
+                    <li><a href="./login/login_form.php">로그인</a></li>
+                    <li><a href="./member/member_check.html">회원가입</a></li>
+                </ul>
+
+                <?
+                    }
+                    else
+                    {
+                ?>
+
+                <ul>
+                    <li><a href="./login/logout.php">로그아웃</a></li>
+                    <li><a href="./member/member_form_modify.php">정보수정</a></li>
+                </ul>
+
+                <?
+                    }
+                ?>
+            </div>
+        </div>
+    </header>

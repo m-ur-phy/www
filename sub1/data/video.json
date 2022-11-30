@@ -1,0 +1,40 @@
+{
+    "video" : [
+        {
+            "image" : "./images/content4/video1.jpg",
+            "youtube" : "https://www.youtube.com/embed/52p5mDSJaBY",
+            "title" : "아름다운 로비음악회",
+            "con" : "The season with 허니보이스"
+        },
+        {
+            "image" : "./images/content4/video2.jpg",
+            "youtube" : "https://www.youtube.com/embed/XJJdFEnJ_wU",
+            "title" : "찾아가는 사랑의 금호아트홀",
+            "con" : "전북 무주 안성중고등학교 편"
+        },
+        {
+            "image" : "./images/content4/video3.jpg",
+            "youtube" : "https://www.youtube.com/embed/p_xOAorq0oQ",
+            "title" : "금호 음악인상",
+            "con" : "바이올리니스트 임지영"
+        },
+        {
+            "image" : "./images/content4/video4.jpg",
+            "youtube" : "https://www.youtube.com/embed/ND0zlN3RNHc",
+            "title" : "금호 교육 기부",
+            "con" : "금호아트홀 원데이 비전"
+        },
+        {
+            "image" : "./images/content4/video5.jpg",
+            "youtube" : "https://www.youtube.com/embed/CfVXPuB-o-Q",
+            "title" : "금호아트홀 상주음악가",
+            "con" : "첼리스트 문태국"
+        },
+        {
+            "image" : "./images/content4/video6.jpg",
+            "youtube" : "https://www.youtube.com/embed/8hYqatZMza0",
+            "title" : "금호아트홀 상주음악가",
+            "con" : "바이올리니스트 조진주"
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "modernWorks":[
+        {
+            "artistName":"이강소",
+            "title":"ultitle",
+            "artPic":"./images/content4/modern_main_1.jpg"
+        },
+        {
+            "artistName":"윤동천",
+            "title":"만나다",
+            "artPic":"./images/content4/modern_main_2.jpg"
+        },
+        {
+            "artistName":"정연두",
+            "title":"Location",
+            "artPic":"./images/content4/modern_main_3.jpg"
+        },
+        {
+            "artistName":"이대원",
+            "title":"FARM",
+            "artPic":"./images/content4/modern_main_4.jpg"
+        },
+        {
+            "artistName":"곽인식",
+            "title":"A WORK",
+            "artPic":"./images/content4/modern_main_5.jpg"
+        },
+        {
+            "artistName":"김창열",
+            "title":"기억의 발견 1",
+            "artPic":"./images/content4/modern_main_6.jpg"
+        },
+        {
+            "artistName":"박서보",
+            "title":"묘법 시리즈 1",
+            "artPic":"./images/content4/modern_main_7.jpg"
+        }
+    ],
+    "designWorks":[
+        {
+            "title":"키친 컬렉션",
+            "num":"001",
+            "artPic":"./images/content4/design_main_furniture_1.jpg"
+        },
+        {
+            "title":"키친 컬렉션",
+            "num":"002",
+            "artPic":"./images/content4/design_main_furniture_2.jpg"
+        },
+        {
+            "title":"키친 컬렉션",
+            "num":"003",
+            "artPic":"./images/content4/design_main_furniture_3.jpg"
+        },
+        {
+            "title":"키친 컬렉션",
+            "num":"004",
+            "artPic":"./images/content4/design_main_furniture_4.jpg"
+        },
+        {
+            "title":"가구 컬렉션",
+            "num":"001",
+            "artPic":"./images/content4/design_main_furniture_5.jpg"
+        },
+        {
+            "title":"가구 컬렉션",
+            "num":"002",
+            "artPic":"./images/content4/design_main_furniture_6.jpg"
+        },
+        {
+            "title":"가구 컬렉션",
+            "num":"003",
+            "artPic":"./images/content4/design_main_furniture_7.jpg"
+        },
+        {
+            "title":"키친 컬렉션",
+            "num":"005",
+            "artPic":"./images/content4/design_main_furniture_8.jpg"
+        }
+    ]
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>BlackPinkNew</title>
+<link rel="shortcut icon"  type="image/x-icon"  href="./favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+
+<link rel="stylesheet" href="./css/common.css">
+<link rel="stylesheet" href="./css/layout.css">
+<link rel="stylesheet" href="./css/swiper.min.css">
+
+<script src="https://kit.fontawesome.com/33cd326170.js" crossorigin="anonymous"></script>
+<script src="js/prefixfree.min.js"></script>
+
+<script>
+	// <![CDATA[
+		try {
+			window.addEventListener('load', function(){
+	    	    setTimeout(scrollTo, 0, 0, 1); 
+	    	}, false);
+		} catch(e) {}
+	// ]]>
+</script>
+</head>
+
+<body>
+	<div id="skipNav">
+		<a href="#content">본문바로가기</a>
+		<a href="#gnb">네비게이션바로가기</a>
+	</div>
+<div id="wrap">
+	<div class="videoBox">
+		    <video autoplay loop muted id="videoBG"></video>
+			<img src="images/back.jpg" id="imgBG" alt="">
+			
+			<a class="down" href="#">SCROLL DOWN</a>
+	</div>
+	
+	<? include "./header.html" ?>
+
+	<article id="contentArea">
+		<h2 class="hidden">본문콘텐츠영역</h2>
+		<div class="intro">
+			<div class="textVisual">
+				<div id="introCon">
+					<span id="text1"></span>
+					<span id="text2"></span>
+				</div>
+				<svg id="filters">
+					<defs>
+						<filter id="threshold">
+							<feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+													0 1 0 0 0
+													0 0 1 0 0
+													0 0 0 255 -140" />
+						</filter>
+					</defs>
+				</svg>
+			</div>
+			<p>On July 31, it was announced that the group's second album, Born Pink, would be released in September, preceded by a pre-release 
+				single titled "Pink Venom" on August 19 and its second single "Shut Down" were both released on September 16, 2022. </p>
+		</div>
+		<section class="about">
+			<h3 class="hidden">ABOUT</h3>
+			<ul>
+				<li>
+					<strong class="hidden">Pink Venom</strong>
+					<img src="./images/pinkvenom.png" alt="">
+					<p>"Pink Venom" is a song recorded by South Korean girl 
+						group Blackpink for their second studio album Born 
+						Pink. It was released through YG Entertainment and Interscope Records as a pre-release single on August 
+						19, 2022.</p>
+					<a class="more" href="./about.html">MORE VIEW</a>
+				</li>
+				<li><div class="aboutImg"></div></li>
+				<li><div class="aboutImg"></div></li>
+				<li><div class="aboutImg"></div></li>
+				<li><div class="aboutImg"></div></li>
+				<li><div class="aboutImg"></div></li>
+				<li>
+					<strong class="hidden">Shut Down</strong>
+					<img src="./images/shutdown.png" alt="">
+					<p>Shut Down were both released on September 
+						16, 2022. The latter samples Niccolò Paganini's 
+						19th century piece "La campanella", combined 
+						with hip-hop beats.</p>
+					<a class="more" href="./about.html">MORE VIEW</a>
+				</li>
+			</ul>
+		</section>
+		<section class="member">
+			<h3>MEMBER</h3>
+			<div class="memberImgBox">
+				<img src="./images/member_main.gif" alt="">
+			</div>
+			<strong>IT'S NOT A COMEBACK<br>SINCE WE'VE NEVER LEFT</strong>
+			<p>Blackpink is a South Korean girl-group formed by YG Entertainment, consisting of members Jisoo, Jennie, Rosé, and Lisa. their first 
+				number-one entries on South Korea's Gaon Digital Chart and the US Billboard World Digital Song Sales chart, respectively.</p>
+				<a class="more" href="./member.html">MORE VIEW</a>
+			<ul class="memberList">
+				<li>
+					<a href="./member.html">
+						<img src="./images/lisa.jpg" alt="lisa">
+						<dl>
+							<dt>LISA</dt>
+							<dd>Lalisa Manoban (born March 27, 1997) is a Thai rapper, singer and dancer based in South Korea.</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="./member.html">
+						<img src="./images/rose.jpg" alt="rose">
+						<dl>
+							<dt>ROSE</dt>
+							<dd>Roseanne Park (born February 11, 1997) is a Korean-New Zealand singer and dancer based in South Korea.</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="./member.html">
+						<img src="./images/jisoo.jpg" alt="jisoo">
+						<dl>
+							<dt>JISOO</dt>
+							<dd>Kim Ji-soo (born January 3, 1995) is a South Korean singer and actress. </dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="./member.html">
+						<img src="./images/jennie.jpg" alt="jennie">
+						<dl>
+							<dt>JENNIE</dt>
+							<dd>Jennie Kim (born January 16, 1996) is a South Korean singer and rapper. </dd>
+						</dl>
+					</a>
+				</li>
+			</ul>
+		</section>
+		<section class="video">
+			<h3>VIDEO</h3>
+			<div class="swiper-container">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide">
+						<ul>
+							<li>
+								<img src="./images/video_1.jpg" alt="">
+								<i class="fa-brands fa-youtube"></i>
+							</li>
+							<li>
+								<div class="videoCon">
+									<h4>SHUT DOWN</h4>
+									<p>Shut Down were both released on September
+										16, 2022. The latter samples Niccolò Paganini's
+										19th century piece "La campanella", combined
+										with hip-hop beats.</p>
+									<a class="more" href="./video.html">MORE VIEW</a>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li class="swiper-slide">
+						<ul>
+							<li>
+								<img src="./images/video_2.jpg" alt="">
+								<i class="fa-brands fa-youtube"></i>
+							</li>
+							<li>
+								<div class="videoCon">
+									<h4>PINK VENOM</h4>
+									<p>The album's lead single "Pink Venom" (2022) was also the first song by a Korean group to top the ARIA Singles Chart and the first song by a female Korean act to top the Billboard Global 200.</p>
+									<a class="more" href="video.html">MORE VIEW</a>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li class="swiper-slide">
+						<ul>
+							<li>
+								<img src="./images/video_3.jpg" alt="">
+								<i class="fa-brands fa-youtube"></i>
+							</li>
+							<li>
+								<div class="videoCon">
+									<h4>2022 VMAs</h4>
+									<p>The album's lead single "Pink Venom" (2022) was also the first song by a Korean group to top the ARIA Singles Chart and the first song by a female Korean act to top the Billboard Global 200.</p>
+									<a class="more" href="./video.html">MORE VIEW</a>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<div>
+					<a class="swiper-button-next" href="#"></a>
+					<a class="swiper-button-prev" href="#"></a>
+				</div>
+			</div>
+			
+		</section>
+		<section class="gallery">
+			<h3>GALLERY</h3>
+			<ul class="contlist galleryPV active">
+				<li><img src="./images/gallery_pv_1.jpg" alt=""></li>
+				<li><img src="./images/gallery_pv_2.jpg" alt=""></li>
+				<li><img src="./images/gallery_pv_3.jpg" alt=""></li>
+				<li><img src="./images/gallery_pv_4.jpg" alt=""></li>
+				<li><img src="./images/gallery_pv_5.jpg" alt=""></li>
+				<li><img src="./images/gallery_pv_6.jpg" alt=""></li>
+				<li><img src="./images/gallery_pv_7.jpg" alt=""></li>
+			</ul>
+			<ul class="contlist gallerySD">
+				<li><img src="./images/gallery_sd_1.jpg" alt=""></li>
+				<li><img src="./images/gallery_sd_2.jpg" alt=""></li>
+				<li><img src="./images/gallery_sd_3.jpg" alt=""></li>
+				<li><img src="./images/gallery_sd_4.jpg" alt=""></li>
+				<li><img src="./images/gallery_sd_5.jpg" alt=""></li>
+				<li><img src="./images/gallery_sd_6.jpg" alt=""></li>
+				<li><img src="./images/gallery_sd_7.jpg" alt=""></li>
+			</ul>
+			<ul class="tabBtn">
+				<li class="active"><a class="tab" href="#">PINK VENOM</a></li>
+				<li><a class="tab" href="#">SHUT DOWN</a></li>
+			</ul>
+		</section>
+	</article>
+
+	<? include "./footer.html" ?>
+
+</div>
+
+	<script src="./js/common.js"></script>
+
+	<script type="module" src="./js/tabModule.js">
+		import tab from './js/tabModule.js';
+		tab();
+	</script>
+	
+	<script src="./js/swiper.min.js"></script>
+	<script src="./js/main.js"></script>
+
+</body>
+</html>

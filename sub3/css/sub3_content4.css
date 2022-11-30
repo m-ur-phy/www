@@ -1,0 +1,15 @@
+/* art collection */
+.tabNav li { width: 50%; } 
+
+.contlist { display: none; } 
+
+.artworkMain { margin: 150px auto; } 
+.artworkMain li { width: 1080px; height: 900px; margin: 0 auto; border-radius: 50px; padding: 100px 95px; box-shadow: 0 10px 30px rgba(0, 0, 0, .2); } 
+.artworkMain p { text-align: center; font-size: 2em; margin-top: 10%; font-weight: 100; } 
+.artworkSubNav { position: relative; } 
+.modernSub { width: 1420px; top: 0; left: 50%; margin: 0 0 50px -710px; } 
+.designSub { width: 1630px; top: 0; left: 50%; margin: 0 0 50px -815px; } 
+.artworkSubNav::after { content: ''; display: block; clear: both; }
+.artworkSubNav li { float: left; margin-right: 50px; opacity: .5; transition: all .5s; } 
+.artworkSubNav li:hover { opacity: 1; } 
+.artworkSubNav li:last-child { margin-right: 0; } 

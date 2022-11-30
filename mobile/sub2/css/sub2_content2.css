@@ -1,0 +1,15 @@
+/* artAcademy */
+.kumhoArtAcademy ul { display: flex; justify-content: center; } 
+.kumhoArtAcademy li { margin: 20px 10px; border-radius: 50px; background: linear-gradient(145deg, #ffffff, #eee);; box-shadow: 20px 20px 60px #d5d5d5, -20px -20px 60px #ffffff; } 
+.kumhoArtAcademy img { position: relative; transform: translateY(10%); display: block; width: 40%; margin: 10px auto; } 
+.kumhoArtAcademy li span { position: relative; display: block; text-align: center; font-size: 1.3em; color: #c01; margin: 10px auto; } 
+
+/* kidsPopcorn */
+.kidsPopcorn { position: relative; } 
+.kidsPopcorn::after { content: ''; display: block; position: absolute; top: -25px; left: -10%; width: 120%; height: 400px; background: #eee; z-index: -10; } 
+.kidsPopcorn>span { display: block; width: 280px; height: 280px; margin: 30px auto; padding-top: 120px; font-size: 1.4em; text-align: center; font-weight: 100; border-radius: 50%; background: #eee; box-shadow: -20px 20px 40px #cacaca, 20px -20px 40px #ffffff; transition: all .5s; } 
+.kidsPopcorn ol li { border-bottom: 1px solid #ccc; padding: 40px 0; } 
+.kidsPopcorn dl { display: flex; } 
+.kidsPopcorn dt { width: 20%; font-size: 1.3em; font-weight: 500; } 
+.kidsPopcorn dt span { display: block; font-size: 2em; width: 20%; color: #c01; margin-bottom: 10px; } 
+.kidsPopcorn dd { float: right; width: 80%; text-align: justify; } 

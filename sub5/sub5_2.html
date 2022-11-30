@@ -1,0 +1,272 @@
+<?
+    session_start();
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>아트센터-금호 아트홀 연세</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="../favicon.ico">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="../common/css/sub_common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_content2.css">
+
+    <script src="https://kit.fontawesome.com/33cd326170.js" crossorigin="anonymous"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <div class="main">
+            <img src="./common/images/visual_05.jpg" alt="">
+            <h3>아트센터</h3>
+        </div>
+        <div class="subNav">
+            <ul>
+                <li>
+                    <a href="./sub5_1.html">금호 미술관</a>
+                </li>
+                <li>
+                    <a class="current" href="./sub5_2.html">금호 아트홀</a>
+                </li>
+                <li>
+                    <a href="./sub5_3.html">금호 유스퀘어</a>
+                </li>
+            </ul>
+        </div>
+        <article id="content">
+            <div class="titleArea">
+                <div class="lineMap">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <span class="hidden">HOME</span>
+                    &gt;<span> 아트센터 </span>&gt; 
+                    <strong>금호 아트홀 연세</strong>
+                </div>
+                <h2>금호 아트홀 연세</h2>
+            </div>
+            <div class="contentArea">
+                <p>국내 최고의 실내악 전용 공연장</p>
+                <p>금호 아트홀을 소개합니다</p>
+                <section class="greet">
+                    <div class="greetInner">
+                        <h3>인사말</h3>
+                        <img src="./images/content2/kumho_arthall_main.jpg" alt="">
+                    </div>
+                    <div class="greetCon">
+                        <p>금호아트홀 연세는 연세대학교 백양로에 위치한 실내악 전용 공연장으로, 금호아시아나그룹의 문화 예술 진흥을 위한 100억원 기부로 시작되어
+                            2014년 8월 착공, 약 1년여간의 공사기간을 거쳐 2015년 10월 완공되었습니다.</p>
+                        <p>금호문화재단은 한층 업그레이드된 탄탄하고 편리한 기반 시설을 바탕으로, 새로운 공간에서도 변함없이 한국 클래식 음악을 보다 풍성하게 할 무대와
+                            지원 사업들을 계속해서 이어 나가며 클래식에 관심있는 미래의 청중들에게 한걸음 더 다가가겠습니다.</p>
+                        <p>2019년 5월 1일부터 금호문화재단의 기획공연 금호영재, 영아티스트, 영체임버콘서트 시리즈, 아름다운 목요일 콘서트 시리즈가 광화문 금호아트홀에서
+                            금호아트홀 연세로 무대를 옮겨 그 역사를 이어갑니다.</p>
+                        <p>앞으로도 금호아트홀에게 많은 사랑 부탁드립니다.</p>
+                        <p>감사합니다.</p>
+                    </div>
+                </section>
+                <section>
+                    <h3 class="contentTitle">관람시간</h3>
+                    <p>매주 토, 일요일을 제외한 평일과 주말 오전 9시 &#126; 오후 6시(오후 5시 30분까지 입장 제한)<br>
+                        토요일은 오후 2시 &#126; 오후 10시까지 운영하며, 일요일은 정기 휴관입니다.</p>
+                    <div class="timeBox">
+                        <p class="nowTime"></p>
+                        <p class="canTime canTime2"></p>
+                    </div>
+                </section>
+                <section>
+                    <h3 class="contentTitle">시설안내</h3>
+                    <ul class="infoNav">
+                        <li><a class="info" href="#">시설정보</a></li>
+                        <li><a class="info" href="#">좌석배치도</a></li>
+                        <li><a class="info" href="#">음향장비</a></li>
+                        <li><a class="info" href="#">영상장비</a></li>
+                    </ul>
+                    <div class="contlist">
+                        <table>
+                            <caption class="hidden">시설안내표</caption>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">음향설계</th>
+                                    <td>OSD &#47; ARUP</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">객석수</th>
+                                    <td>390 석</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">객석면적</th>
+                                    <td>400 m&sup2;</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">무대면적</th>
+                                    <td>100 m&sup2;</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">천정높이</th>
+                                    <td>8 m</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">홀면적</th>
+                                    <td>580 m&sup2;</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="contlist">
+                        <img src="./images/content2/stage.jpg" alt="좌석배치도그림">
+                        <p>A열부터 N열까지 구성되어있으며, 총 390석에 장애인 좌석은 4석이 준비되어있습니다.</p>
+                    </div>
+                    <div class="contlist">
+                        <table>
+                            <caption class="hidden">음향장비 안내표</caption>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Microphone</th>
+                                    <td>
+                                        <ul>
+                                            <li>- Neumann U87Ai : 2ea</li>
+                                            <li>- Neumann KM184 : 2ea</li>
+                                            <li>- DPA 4006 : 2ea</li>
+                                            <li>- DPA 4011 : 2ea</li>
+                                            <li>- DPA 4015 : 2ea</li>
+                                            <li>- Schoeps MK 2 : 2ea</li>
+                                            <li>- Schoeps MK 4V : 2ea</li>
+                                            <li>- Schoeps MK 8 : 2ea</li>
+                                            <li>- AKG : C414-XL2</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Microphone Preamp</th>
+                                    <td>
+                                        <ul>
+                                            <li>- Millennia media HV3D 8ch : 1ea</li>
+                                            <li>- Avalon AD2022 2ch : 1ea</li>
+                                            <li>- Crane song Spider 8ch mixer : 1ea</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">A/D/A converter</th>
+                                    <td>- Pyramix HORUS</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">DAW</th>
+                                    <td>- Pyramix Mastering Pack MassCore</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Recorder</th>
+                                    <td>- Tascam SS-CDR200</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">WordClock</th>
+                                    <td>- Brain Storm DCD 8</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Monitoring system</th>
+                                    <td>
+                                        <ul>
+                                            <li>- Speaker : B&W nautilus 802D : 1pair</li>
+                                            <li>- Amp : Classe 300W Mono</li>
+                                            <li>- Cranesong : Avocet (w remote)</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Effector</th>
+                                    <td>
+                                        <ul>
+                                            <li>- Rev : Bricasti M7</li>
+                                            <li>- EQ : Avalon AD2055 </li>
+                                            <li>- Comp : Millennia TCL-2-</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Main Mixing Console</th>
+                                    <td>
+                                        <ul>
+                                            <li>- Digico SD8</li>
+                                            <li>- Yamaha DM1000 VCM-</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Main Speaker</th>
+                                    <td>- Meyer Sound CQ-1</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Concert Piano</th>
+                                    <td>
+                                        <ul>
+                                            <li>- SteinWay D type : Hamburg 2</li>
+                                            <li>- Kawai Full size 1</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="contlist">
+                        <table>
+                            <caption class="hidden">영상장비 안내표</caption>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Camera</th>
+                                    <td>
+                                        <ul>
+                                            <li>- Panasonic AW-HE870N Camera : 3ea</li>
+                                            <li>- Panasonic AW-PH360N : 3ea</li>
+                                            <li>- Panasonic AW-HDD870 : 3ea</li>
+                                            <li>- Canon XA20Sx8.5BMD : 3ea</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Mixer</th>
+                                    <td>
+                                        <ul>
+                                            <li>- Panasonic : AV-HS410E</li>
+                                            <li>- Panasonic : AW-RP120G</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Recorder</th>
+                                    <td>- BlackMagic HyperDeck</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Digital Editing</th>
+                                    <td>
+                                        <ul>
+                                            <li>- Apple mac pro 3.6Ghz 5Core</li>
+                                            <li>- Final Cut Pro X</li>
+                                            <li>- Adobe Premiere Pro CC</li>
+                                            <li>- Adobe Photoshop CC</li>
+                                            <li>- Adobe Illustrator CC</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Beam Projector</th>
+                                    <td>
+                                        <ul>
+                                            <li>- Barco HDF-W26</li>
+                                            <li>- Barco HDF-W26 Zoom Lens</li>
+                                            <li>- Sony VPL-FHZ700L :3ea</li>
+                                            <li>- Christie DWX951-Q : 2ea</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+        <script src="./js/sub5.js"></script>
+        <script src="./js/clock2.js"></script>
+</body>
+</html>

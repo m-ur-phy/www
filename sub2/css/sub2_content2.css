@@ -1,0 +1,52 @@
+/* music edu and support */
+.tabNav li { float: left; width: 50%; } 
+#musicEdu, #musicSupport { display: none; } 
+
+/* musicEdu */
+#musicEdu div { margin-top: 100px; } 
+#musicEdu ul { width: 550px; margin: 0 auto; text-align: center; } 
+#musicEdu ul::after { content: ''; display: block; clear: both; } 
+#musicEdu li { width: 250px; height: 250px; margin-bottom: 50px; box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, .1); font-size: 1.5em; transition: all .5s ease-out; } 
+#musicEdu li:hover { transform: scale(1.1); } 
+#musicEdu li:first-child { float: left; } 
+#musicEdu li:last-child { float: right; } 
+#musicEdu ul:nth-of-type(1) li:first-child { border-top-left-radius: 100%; padding: 130px 0 0 50px; background: #c01; color: #fff; } 
+#musicEdu ul:nth-of-type(1) li:last-child { border-top-right-radius: 100%; padding: 130px 50px 0 0; } 
+#musicEdu ul:nth-of-type(2) li:first-child { border-bottom-left-radius: 100%; padding: 80px 0 0 50px; } 
+#musicEdu ul:nth-of-type(2) li:last-child { border-bottom-right-radius: 100%; padding: 100px 50px 0 0; background: #c01; color: #fff; } 
+#musicEdu ul:nth-of-type(1) li:first-child:hover, #musicEdu ul:nth-of-type(2) li:last-child:hover { background: none; color: #333; } 
+#musicEdu ul:nth-of-type(1) li:last-child:hover, #musicEdu ul:nth-of-type(2) li:first-child:hover { background: #c01; color: #fff; } 
+#musicEdu img { transition: all .5s ease-out; } 
+#musicEdu img:hover { filter: grayscale(100); } 
+
+/* musicSupport */
+#musicSupport section>img { position: relative; top: 0; left: -400px; } 
+#musicSupport section:nth-of-type(1) ul { overflow: hidden; margin-top: 100px; border-bottom: 1px solid #666; padding-bottom: 100px; } 
+#musicSupport section:nth-of-type(1) li { float: left; width: 550px; } 
+#musicSupport section:nth-of-type(1) li:last-child { float: right; } 
+#musicSupport section:nth-of-type(1) li span { position: relative; text-align: left; font-size: 4.375em; font-weight: 700; color: #333; } 
+#musicSupport section:nth-of-type(1) li span::after { content: ''; display: block; position: absolute; width: 100px; height: 5px; background: #c01; top: 0; transform-origin: left; transform: scaleX(.1); transition: all .5s; } 
+#musicSupport section:nth-of-type(1) li:hover span::after { transform: scaleX(1); } 
+#musicSupport dt { font-size: 1.875em; margin: 20px 0; } 
+#musicSupport dd { text-align: justify; color: #666; } 
+#musicSupport section p:nth-last-of-type(1) { margin-top: 100px; text-align: center; font-size: 2em; color: #c01; } 
+#musicSupport .popMenu { overflow: hidden; } 
+#musicSupport .popMenu ul { width: 600px; text-align: center; } 
+#musicSupport .popMenu ul:nth-child(1) { float: left; } 
+#musicSupport .popMenu ul:nth-child(2) { float: right; } 
+#musicSupport .popMenu ul li { font-size: 1.2em; border: 1px solid #c01; border-bottom: 0; transition: all .5s; } 
+#musicSupport .popMenu ul li:last-child { border-bottom: 1px solid #c01; } 
+#musicSupport .popMenu ul:first-child li { border-right: 0; } 
+#musicSupport .popMenu ul li:hover { background: #c01; } 
+#musicSupport div>ul a { display: block; padding: 30px 0; transition: all .5s; } 
+#musicSupport div>ul li:hover a { color: #fff; } 
+#musicSupport .modalBox { display: none; position: fixed; left: 0; top: 0; z-index: 50; width: 100%; height: 100%; background: rgba(0, 0, 0, .7); } 
+#musicSupport .popUp { position: fixed; top: 50%; left: 50%; margin: -350px 0 0 -500px; width: 1000px; height: 700px; background: #fff; box-shadow: 0 0 20px rgba(0, 0, 0, .2); z-index: 60; display:none; } 
+#musicSupport .popUp dl { margin: 30px; text-align: center; } 
+#musicSupport .popUp dt { font-size: 2em; font-weight: 400; color: #c01}
+#musicSupport .popUp dd img { display: block; margin: 0 auto; } 
+#musicSupport .popUp dd>span { display: block; margin-top: 20px; } 
+#musicSupport .popUp dd:nth-of-type(1) { margin: 20px 0; text-align: center; font-size: 1.8em; color: #333; } 
+#musicSupport .popUp dd:nth-of-type(1) span span { margin-right: 10px; font-weight: 100; } 
+#musicSupport .popUp dd:nth-of-type(2) { text-align: justify; } 
+#musicSupport .popUp .popUpCloseBtn { position: absolute; top: 30px; right: 30px; display: block; font-size: 2em; } 

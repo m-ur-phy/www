@@ -1,0 +1,160 @@
+{
+    "worldtour":[
+        {
+            "day":"2022.10.15 SAT 6PM",
+            "country":"SEOUL",
+            "place":"KSPO DOME",
+            "link":"https://tickets.interpark.com/goods/22010748"
+        },
+        {
+            "day":"2022.10.25 TUE 8PM",
+            "country":"DALLAS",
+            "place":"AMERICAN AIRLINES CENTER",
+            "link":"https://www.ticketmaster.com/event/0C005D22A0BB2BDA"
+        },
+        {
+            "day":"2022.10.29 SAT 8PM",
+            "country":"HOUSTON",
+            "place":"TOYOTA CENTER",
+            "link":"https://www.toyotacenter.com/events/detail/blackpink"
+        },
+        {
+            "day":"2022.11.02 WED 8PM",
+            "country":"ATLANTA",
+            "place":"STATE FARM ARENA",
+            "link":"https://www.ticketmaster.com/event/0E005D22E827565F"
+        },
+        {
+            "day":"2022.11.30 WED 8PM",
+            "country":"LONDON",
+            "place":"THE O2"
+        },
+        {
+            "day":"2022.12.05 MON 8PM",
+            "country":"BARCELONA",
+            "place":"PALAU SANT JORDI"
+        }
+    ],
+    "member":[
+        {
+            "name":"Rose",
+            "realName":"Roseanne Park",
+            "birth":"February 11, 1997",
+            "height":"168.7",
+            "weight":"44",
+            "MBTI":"ENFP",
+            "link":"./images/member/rose1.jpg"
+        },
+        {
+            "name":"Jisoo",
+            "realName":"Jisoo Kim",
+            "birth":"January 3, 1995",
+            "height":"162",
+            "weight":"44",
+            "MBTI":"INFJ",
+            "link":"./images/member/jisoo1.jpg"
+        },
+        {
+            "name":"Jennie",
+            "realName":"Jennie Kim",
+            "birth":"January 16, 1996",
+            "height":"163",
+            "weight":"45",
+            "MBTI":"INFP",
+            "link":"./images/member/jennie1.jpg"
+        },
+        {
+            "name":"Lisa",
+            "realName":"Lalisa Manoban",
+            "birth":"March 27, 1997",
+            "height":"166.5",
+            "weight":"44.7",
+            "MBTI":"ISFP",
+            "link":"./images/member/lisa1.jpg"
+        }
+    ],
+    "video":[
+        {
+            "title":"Shut Down M/V",
+            "con":"'Shut Down' is a hip hop-based track with strings and an insistent bass sound. It samples the beginning of the third movement of Italian composer Niccolò Paganini's second violin concerto, commonly known as 'La Campanella'. YG Entertainment described the song's title as 'intuitive but strangely tense,' noting that 'Shut Down' is a word that means the closure of a certain space.",
+            "link":"https://youtu.be/POe9SOEKotk",
+            "iframe":"<iframe width='560' height='315' src='https://www.youtube.com/embed/POe9SOEKotk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+        },
+        {
+            "title":"Shut Down M/V - MAKING FILM",
+            "con":"'Shut Down' debuted at number one on the Billboard Global 200 with 152.8 million streams and 17,000 downloads sold, earning Blackpink their second number-one hit on the chart after 'Pink Venom'. The group joined BTS, Justin Bieber and Olivia Rodrigo as the only acts with multiple leaders on the chart.",
+            "link":"https://youtu.be/L0zIUVVEW6g",
+            "iframe":"<iframe width='560 height='315' src='https://www.youtube.com/embed/L0zIUVVEW6g' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            
+        },
+        {
+            "title":"Pink Venom M/V",
+            "con":"'Pink Venom' was written by Teddy Park and Danny Chung and composed by Teddy, 24, R. Tee, and Ido, while production was handled by 24, R. Tee, and Ido. It was described as a dance and EDM, hip-hop and pop rap song that incorporates traditional Korean instruments such as the geomungo.",
+            "link":"https://youtu.be/gQlMMD8auMs",
+            "iframe":"<iframe width='560' height='315' src='https://www.youtube.com/embed/gQlMMD8auMs' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+        },
+        {
+            "title":"Pink Venom M/V - MAKING FILM",
+            "con":"On July 31, YG Entertainment officially released the album trailer video through the group's official social media accounts, announcing that the world tour would start in October, following a pre-release single in August and the album itself in September. The label later confirmed that two music videos were filmed to support the album, reportedly with the highest production budgets they have ever invested into a music video.",
+            "link":"https://youtu.be/pDP9SEP7vCo",
+            "iframe":"<iframe width='560' height='315' src='https://www.youtube.com/embed/pDP9SEP7vCo' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+        }
+    ],
+    "gallery": [
+        {
+            "title":"BlackPink",
+            "con":"Billboard charts records? Check!",
+            "src":"./images/gallery/gallery1.jpg"
+        },
+        {
+            "title":"Member",
+            "con":"First K-pop girl group to perform at Coachella? Done!",
+            "src":"./images/gallery/gallery2.jpg"
+        },
+        {
+            "title":"Loook! BP!",
+            "con":"New Guinness World Records? Yep!",
+            "src":"./images/gallery/gallery3.jpg"
+        },
+        {
+            "title":"PinkArea",
+            "con":"Surpassing Justin Bieber in YouTube subscribers? You know it!",
+            "src":"./images/gallery/gallery4.jpg"
+        },
+        {
+            "title":"Story",
+            "con":"Billboard charts records? Check!",
+            "src":"./images/gallery/gallery5.jpg"
+        },
+        {
+            "title":"BP girls",
+            "con":"First K-pop girl group to perform at Coachella? Done!",
+            "src":"./images/gallery/gallery6.jpg"
+        },
+        {
+            "title":"Black Pink In Your Area",
+            "con":"New Guinness World Records? Yep!",
+            "src":"./images/gallery/gallery7.jpg"
+        },
+        {
+            "title":"Guinness",
+            "con":"New Guinness World Records? Yep!",
+            "src":"./images/gallery/gallery8.jpg"
+        },
+        {
+            "title":"Billboard",
+            "con":"Billboard charts records? Check!",
+            "src":"./images/gallery/gallery9.jpg"
+        },
+        {
+            "title":"Coachella",
+            "con":"First K-pop girl group to perform at Coachella? Done!",
+            "src":"./images/gallery/gallery10.jpg"
+        },
+        {
+            "title":"Surpassing",
+            "con":"Surpassing Justin Bieber in YouTube subscribers? You know it!",
+            "src":"./images/gallery/gallery11.jpg"
+        }
+    ]
+}

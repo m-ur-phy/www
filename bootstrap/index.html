@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주제</title>
+
+    <link rel="shortcut icon"  type="image/x-icon"  href="favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    
+
+    <script src="./js/prefixfree.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    
+
+<script>
+	// <![CDATA[
+		try {
+			window.addEventListener('load', function(){
+	    	    setTimeout(scrollTo, 0, 0, 1); 
+	    	}, false);
+		} catch(e) {}
+	// ]]>
+</script>
+</head>
+<body>
+    <div id="skipNav">
+        <a href="#contentArea">본문 바로가기</a>
+        <a href="#navbar">글로벌 네비게이션 바로가기</a>
+    </div>
+    <div class="pageIntro">
+        <p class="introTxt"></p>
+        <video class="introVideo" src="./introVideo.mp4" muted autoplay></video>
+    </div>
+    <div class="container-fluid">
+        <header id="headerArea">
+            <h1 class="hidden">ROUNDLAB</h1>
+            <nav class="navbar navbar-expand-md fixed-top">
+                <h2 class="hidden">글로벌 네비게이션 영역</h2>
+                <a class="navbar-brand" href="./index.html">ROUNDLAB</a>
+                <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#brand"><h3>BRAND</h3></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#best"><h3>BEST</h3></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#story"><h3>STORY</h3></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#product"><h3>PRODUCT</h3></a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </header>
+        <div class="main">
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/main1.jpg" alt="" class="img-fluid">
+            
+                    <div class="container">
+                      <div class="carousel-caption text-end">
+                        <p>
+                            <span>9관왕 수상!</span>
+                            <strong>믿고쓰는 국민토너</strong>
+                        </p>
+                        <span>1025 독도토너 200ML 500ML</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/main2.jpg" alt="" class="img-fluid">
+            
+                    <div class="container">
+                      <div class="carousel-caption text-end">
+                        <p>
+                            <span>대체불가 5관왕</span>
+                            <strong>수분밀착 선크림</strong>
+                        </p>
+                        <span>자작나무 수분 선크림 50ML</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/main3.jpg" alt="" class="img-fluid">
+            
+                    <div class="container">
+                      <div class="carousel-caption text-end">
+                        <p>
+                            <span>민감 남성피부 맞춤</span>
+                            <strong>포 맨 수분 솔루션</strong>
+                        </p>
+                        <span>포 맨 자작나무 수분 시리즈</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <article id="contentArea" data-bs-spy="scroll">
+            <h2 class="hidden">본문 콘텐츠 영역</h2>
+        
+            <section id="brand" class="brand">
+                <div class="sectionTtl">
+                    <h3>BRAND</h3>
+                    <span>BETTER SKIN, BETTER ROUND</span>
+                </div>
+                <div class="brandBg"></div>
+                <ul class="row list-unstyled">
+                    <li class="col-md-6">
+                        <div class="image"><img src="./images/brand1.jpg" alt="" class="img-fluid"></div>
+                    </li>
+                    <li class="col-md-6">
+                        <div class="brandTxt">
+                            <strong>피부와 세상을 변화시키는 <br> 매일의 힘, 라운드랩</strong>
+                            <p>
+                                지친 하루의 끝, 나를 웃음 짓게 하는 소소한 행복처럼 삶의 휴식이 필요한 당신에게
+                                피부를 위한 다정한 쉬어감을 제안합니다. 
+                            </p>
+                            <p>
+                                건강한 원료들이 전하는 따스한 토닥임으로 오늘도 ‘라운드랩’하세요.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section id="best" class="best">
+                <div class="sectionTtl">
+                    <h3>BEST</h3>
+                    <span>BEST PRODUCT</span>
+                </div>
+                <div class="swiper-container">
+                    <ul class="list-unstyled swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <div class="image"><img src="./images/best1.jpg" alt="" class="img-fluid"></div>
+                                <div class="hoverImage"><img src="./images/hover_best1.jpg" alt="" class="img-fluid"></div>
+                                <dl>
+                                    <dt>1025 독도 토너 200ML</dt>
+                                    <dd>12000원</dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <div class="image"><img src="./images/best2.jpg" alt="" class="img-fluid"></div>
+                                <div class="hoverImage"><img src="./images/hover_best2.jpg" alt="" class="img-fluid"></div>
+                                <dl>
+                                    <dt>1025 독도 로션 200ML</dt>
+                                    <dd>16000원</dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <div class="image"><img src="./images/best3.jpg" alt="" class="img-fluid"></div>
+                                <div class="hoverImage"><img src="./images/hover_best3.jpg" alt="" class="img-fluid"></div>
+                                <dl>
+                                    <dt>1025 독도 크림 80ML</dt>
+                                    <dd>25600원</dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <div class="image"><img src="./images/best4.jpg" alt="" class="img-fluid"></div>
+                                <div class="hoverImage"><img src="./images/hover_best4.jpg" alt="" class="img-fluid"></div>
+                                <dl>
+                                    <dt>1025 독도 클렌징 오일 200ML</dt>
+                                    <dd>18400원</dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <div class="image"><img src="./images/best5.jpg" alt="" class="img-fluid"></div>
+                                <div class="hoverImage"><img src="./images/hover_best5.jpg" alt="" class="img-fluid"></div>
+                                <dl>
+                                    <dt>자작나무 수분 크림 80ML</dt>
+                                    <dd>25600원</dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <div class="image"><img src="./images/best6.jpg" alt="" class="img-fluid"></div>
+                                <div class="hoverImage"><img src="./images/hover_best6.jpg" alt="" class="img-fluid"></div>
+                                <dl>
+                                    <dt>자작나무 수분 선크림 50ML</dt>
+                                    <dd>20000원</dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <div class="image"><img src="./images/best7.jpg" alt="" class="img-fluid"></div>
+                                <div class="hoverImage"><img src="./images/hover_best7.jpg" alt="" class="img-fluid"></div>
+                                <dl>
+                                    <dt>자작나무 수분 세럼 50ML</dt>
+                                    <dd>22400원</dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <div class="image"><img src="./images/best8.jpg" alt="" class="img-fluid"></div>
+                                <div class="hoverImage"><img src="./images/hover_best8.jpg" alt="" class="img-fluid"></div>
+                                <dl>
+                                    <dt>약콩 영양 크림 50ML</dt>
+                                    <dd>17600원</dd>
+                                </dl>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="popUp">
+                    <div class="popUpImage">
+                        <div class="image on"><img src="./images/best1.jpg" alt="" class="img-fluid"></div>
+                        <div class="hoverImage"><img src="./images/hover_best1.jpg" alt="" class="img-fluid"></div>
+                        <ul class="popUpBtn list-unstyled">
+                            <li><a href="#">PRODUCT</a></li>
+                            <li><a href="#">TEXTURE</a></li>
+                        </ul>
+                    </div>
+                    <dl class="popTxt">
+                        <dt>1025 독도 토너 200ML</dt>
+                        <dd>소비자가 : <span>20000 원</span></dd>
+                        <dd>판매가 : <strong>16000 원</strong></dd>
+                        <dd>수분을 채우는 동안, 각질도 다독이는 특별한 토너를 소개해요. 민감 피부도 걱정없이, 독도 토너로 매끈한 피부를 만나보세요!</dd>
+                    </dl>
+                    <a href="#" class="closeBtn"><span class="hidden">close</span><i class="bi bi-x-lg"></i></a>
+                </div>
+                <div class="popUpBg"></div>
+            </section>
+            <section id="story" class="story">
+                <div class="storyBg">
+                    <div class="sectionTtl">
+                        <h3>STORY</h3>
+                        <span>STORY OF ROUNDLAB</span>
+                    </div>
+                </div>
+                <ol class="list-unstyled row">
+                    <li class="row">
+                        <div class="image col-md-6"><img src="./images/story1.jpg" alt="" class="img-fluid"></div>
+                        <div class="storyTxt col-md-6">
+                            <dl>
+                                <dt>깨끗한 원료를 선별하다</dt>
+                                <dd>
+                                    <p>사람의 손이 닿지 않는 깊은 바다의 울릉도 해양심층수,
+                                        선선하고 청량한 인제에서 자라난 자작나무 수액,
+                                        새벽이 차갑고 청량한 정선에서 자라난 약콩.
+                                        라운드랩은 자연 그대로의 깨끗한 원료를 사용하여
+                                        피부에 이로운 화장품을 만듭니다.</p>
+                                </dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li class="row">
+                        <div class="image col-md-6"><img src="./images/story2.jpg" alt="" class="img-fluid"></div>
+                        <div class="storyTxt col-md-6">
+                            <dl>
+                                <dt>피부를 고민하다</dt>
+                                <dd>
+                                    <p>" 피부가 원하는 화장품은 따로 있지 않을까? "
+                                        라운드랩은 건강한 원료가 피부에 온전히 닿길 바라는
+                                        마음으로 복잡하고 무거운 성분은 내려놓고
+                                        효과를 오롯이 담을 수 있는 제형과 성분을 고민합니다.</p>
+                                </dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li class="row">
+                        <div class="image col-md-6"><img src="./images/story3.jpg" alt="" class="img-fluid"></div>
+                        <div class="storyTxt col-md-6">
+                            <dl>
+                                <dt>더 나은 가치를 향하다</dt>
+                                <dd>
+                                    <p>재활용이 가능한 종이 포장재 사용
+                                        자연을 생각한 친환경 소이잉크 인쇄
+                                        이웃을 향한 따뜻한 나눔 활동
+                            
+                                        라운드랩은 우리가 살아가는 세상을 더 아름답게 만드는
+                                        가치 있는 발걸음을 내딛고 있습니다.</p>
+                                </dd>
+                            </dl>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section id="product" class="product">
+                <div class="sectionTtl">
+                    <h3>PRODUCT</h3>
+                    <span>INTRODUCE PRODUCT LINE</span>
+                </div>
+                <div class="productBox">
+                    <ul class="list-unstyled row">
+                        <li class="contList row active">
+                            <div class="productCon row">
+                                <div class="image col-md-6"><img src="./images/product1.jpg" alt="" class="img-fluid"></div>
+                                <div class="productTxt col-md-6">
+                                    <dl>
+                                        <dt>1025<br>DOCKDO LINE</dt>
+                                        <dd>우리는 10월 25일, 대한민국의 아름다운 영토 독도의 날을 알리고 우리의 생활 속에서 독도를 기억하기 위하여 1025 독도라인 제품을 만들었습니다.</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="contList row">
+                            <div class="productCon row">
+                                <div class="image col-md-6"><img src="./images/product2.jpg" alt="" class="img-fluid"></div>
+                                <div class="productTxt col-md-6">
+                                    <dl>
+                                        <dt>365<br>SUNCARE LINE</dt>
+                                        <dd>365일, 당신을 생각하는 마음을 담아 365를 새겨 넣었습니다. 365 선크림 라인은 강력한 자외선 차단과 안심 원료를 사용하여 피부를 케어해줍니다.</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="contList row">
+                            <div class="productCon row">
+                                <div class="image col-md-6"><img src="./images/product3.jpg" alt="" class="img-fluid"></div>
+                                <div class="productTxt col-md-6">
+                                    <dl>
+                                        <dt>LOCAL<br>BASIC LINE</dt>
+                                        <dd>건강한 지역 원료를 담은 로컬 라인은 이 땅에서 자라 우리 피부에 잘 맞는 신선한 원료들이 외부환경과 스트레스에 지친 피부를 건강하게 케어해줍니다.</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="tabBtn list-unstyled">
+                    <li class="active"><a href="#">1025 DOCKDO</a></li>
+                    <li><a href="#">365 SUN CARE</a></li>
+                    <li><a href="#">LOCAL BASIC</a></li>
+                </ul>
+                <div class="sectionTtl">
+                    <span>FIND YOUR PRODUCT</span>
+                </div>
+                <div class="row findProduct" data-masonry='{"percentPosition": true }'>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                      <div class="card">
+                        <img src="./images/product_gallery1.jpeg" alt="">
+                        <div class="card-body">
+                          <p class="card-title">라운드랩 독도 시리즈</p>
+                          <p class="card-text">라운드랩에서 인생 스킨 시리즈를 만나다 - 독도 시리즈. 자연이 만든 청정 수분 울릉도 해양심층수를 이용합니다. 햇빛이 닿지 않는 바다 깊은 곳에서 끌어올려 깨끗하고 청정하며 인체와 유사한 미네랄 밸런스로 민감 피부도 안심하고 사용할 수 있어요.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                      <div class="card">
+                        <img src="./images/product_gallery2.jpeg" alt="">
+                        <div class="card-body">
+                            <p class="card-title">소나무 진정 시카 패드</p>
+                            <p class="card-text">소나무 진정 시카 패드에는 해오름의 고장 강원도 양양의 소나무를 베지 않고 떨어진 소나무 잎을 업사이클링해 저온 초음파로 추출한 소나무잎추출물, 식물성 단백질 글라이코프로테인, 다섯가지 시카 성분을 최적의 비율로 배합한 라운드랩의 독자 성분 소나무 시카 액티버™(PINE CICA ACTIVER™)가 51% 함유되었습니다.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                      <div class="card">
+                        <img src="./images/product_gallery3.jpeg" alt="">
+                        <div class="card-body">
+                            <p class="card-title">멀티케어 자작나무 수분 선스틱</p>
+                            <p class="card-text">1등 썬의 장점만 쏙-. 1등 썬의 수분감을 스틱에 담았습니다. 수분을 가득 담아 시원한 사용감과 촉촉한 보습막으로 산뜻 촉촉하게 자외선 차단을 도와줘요.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="./images/product_gallery4.jpeg" alt="">
+                            <div class="card-body">
+                                <p class="card-title">해풍 쑥 진정 세럼</p>
+                                <p class="card-text">거문도 해풍 쑥 추출물과 피부 진정에 효과적인 병풀 추출물의 핵심 4-CICA 성분을 담아 민감해진 피부를 건강하게 케어해주는 세럼이예요.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="./images/product_gallery5.jpeg" alt="">
+                            <div class="card-body">
+                                <p class="card-title">독도 듀얼 에센스</p>
+                                <p class="card-text">거문도 해풍 쑥 추출물과 피부 진정에 효과적인 병풀 추출물의 핵심 4-CICA 성분을 담아 민감해진 피부를 건강하게 케어해주는 세럼이예요.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card roundlab">
+                            <div class="card-body">
+                                <p class="card-title">ROUND<br>LAB</p>
+                                <figcaption class="blockquote-footer mb-0 text-muted">
+                                    매일의 힘을 믿으니까
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="./images/product_gallery6.jpeg" alt="">
+                            <div class="card-body">
+                                <p class="card-title">1025 독도 앰플 4종</p>
+                                <p class="card-text">피부 고민 맞춤 케어
+                                    신제품 독도 앰플 4종에는 나이아신아마이드의 함유로 칙칙해진 피부를 맑게 케어해주는 1025 독도 톤업 앰플과 진정에 강한 판테놀의 함유로 민감해진 피부를 다독여주는 1025 독도 진정 앰플, 아보카도펩타이드 함유로 영양을 공급하고 탄력있는 피부로 가꾸어주는 1025 독도 펩타 앰플, 저분자 히알루론산 함유로 푸석한 피부에 수분을 채워주는 1025 독도 수분 앰플이 준비되어있습니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="./images/product_gallery7.jpeg" alt="">
+                            <div class="card-body">
+                                <div class="card-body">
+                                    <p class="card-title">자작나무 수분 패드</p>
+                                    <p class="card-text">
+                                        라운드랩의 자작나무 수분 패드의 원단은 3중 레이어 시트로 원단 자체 무게의 약 20배의 에센스를 머금고 있는 우수한 보액성을 자랑하며 피부에 빈틈없이 밀착되어 강력한 수분을 공급하는 수분 진정 패드입니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </section>
+        </article>
+        <footer id="footerArea" class="py-3 my-4">
+            <div class="topBtn">
+                <a href="#"><span class="hidden">위로가기</span><i class="bi bi-chevron-up"></i></a>
+            </div>
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="https://pf.kakao.com/_WBgHj" class="nav-link px-2 text-muted">KAKAO</a></li>
+                <li class="nav-item"><a href="https://www.instagram.com/round.lab/" class="nav-link px-2 text-muted">INSTA</a></li>
+                <li class="nav-item"><a href="https://talk.naver.com/ct/wcafdp" class="nav-link px-2 text-muted">NAVER</a></li>
+            </ul>
+            <p class="text-center text-muted">&copy; 2022 ROUNDLAB</p>
+        </footer>
+    </div>
+    <script src="./js/swiper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+    <script src="./js/common.js"></script>
+</body>
+</html>

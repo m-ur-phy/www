@@ -1,0 +1,108 @@
+@charset "utf-8"; 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500;700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap'); 
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+/* CSS Reset */
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; } 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section { display: block; } 
+body { font-family:'Noto Sans KR', sans-serif; font-size: 16px; color: #333 } 
+ol, ul { list-style: none; } 
+table { border-collapse: collapse; border-spacing: 0; } 
+address { font-style: normal } 
+a { color: #333; text-decoration: none } 
+img { border: 0; vertical-align: top } 
+* { box-sizing: border-box; } 
+.hidden { display: block; position: absolute; left: -1000%; width: 1px; height: 1px; overflow: hidden; color: #fff; } 
+
+/* skipNav */
+#skipNav { position: relative; width: 100%; overflow: hidden; z-index: 100; } 
+#skipNav a { display: block; height: 1px; margin-bottom: -1px; font-size: 14px; color: #333; overflow: hidden; text-align: center; text-decoration: none; } 
+#skipNav a:hover, #skipNav a:focus, #skipNav a:active { height: auto; padding: 10px 0; background: #f2f2f2; } 
+
+/* 전체 wrap */
+.wrap { width: 100%; overflow: hidden; } 
+
+/* 헤더 영역 */
+#headerArea { width: 100%; position: fixed; left:0; top:0; background: rgba(255,255,255,0); z-index: 100; transition: background .5s; overflow: hidden; } 
+#headerArea .headerInner { width: 1200px; margin: 0 auto; } 
+#headerArea h1 { float: left; } 
+#headerArea h1 a { display: block; width: 150px; height: 80px; text-indent: -999px; background: url(http://oilpaintingkim.cafe24.com/common/images/logo.png) 0 40% no-repeat; overflow: hidden; } 
+#gnb { float: left; width: 850px; } 
+#gnb::after { content: ''; display: block; clear: both; } 
+#gnb .dropdownmenu { float: left; text-align: center; width: 100%; margin-top: 30px; } 
+#gnb .dropdownmenu>li.menu { position: relative; float: left; width: 16.66%; height: 30px; } 
+#gnb .dropdownmenu>li .depth1 { position: relative; display: block; color: #fff; font-size: 1.3em; font-weight: 400; transition: all .5s; } 
+#gnb .dropdownmenu>li .depth1::before { content: ''; display: block; position: absolute; top: 40px; left: 20px; width: 100px; height: 2px; background: #c01; transform: scaleX(0); transition: all .5s; } 
+#gnb .dropdownmenu>li.menu:hover .depth1::before { transform: scaleX(1); } 
+#gnb .dropdownmenu>li ul { position: absolute; top: 30px; left: 0; width: 141px; height: 220px; padding-top: 20px; } 
+#gnb .dropdownmenu>li ul li a { display: block; padding: 15px 0; transition: background .5s; } 
+#gnb .dropdownmenu>li ul li a:hover { background: rgba(0, 0, 0, .03); } 
+#headerArea .topMenu { width: 200px; height: 20px; float: right; overflow: hidden; margin-top: 35px; } 
+#headerArea .topMenu ul { float: left; } 
+#headerArea .topMenu ul li { float: left; transition: all .5s; } 
+#headerArea .topMenu ul li a { font-size: .8em; padding: 20px 10px; color: #fff; transition: all .5s; } 
+
+/* 푸터 영역 */ 
+#footerArea { background: #333; color: #fff; } 
+#footerArea .footerInner { width: 1200px; height: 300px; margin: 0 auto; overflow: hidden; } 
+#footerArea .footerInner div { margin-top: 50px; margin-right: 150px; } 
+#footerArea .footerInner div:last-child { margin-right: 0; } 
+#footerArea .footerInner .topMove { display: block; position: fixed; bottom: 50px; right: 50px; width: 50px; height: 50px; font-size: 2em; text-align: center; z-index: 100; transition: all .1s; } 
+#footerArea .topMove i { font-size: 1.25em; color: #c01; transition: all .3s; } 
+#footerArea .footerInner .topMove:hover { background: none; } 
+#footerArea .footerInner .topMove:hover i { transform: rotate(-45deg); } 
+#footerArea .footerLeft { float: left; font-family: 'Roboto', sans-serif; } 
+#footerArea .footerLeft p { margin-top: 20px; } 
+#footerArea .footerLeft p:nth-last-child(1) { margin-top: 100px; color: #999; } 
+#footerArea .footerCenter { float: left; color: #999; } 
+#footerArea .footerCenter address { margin-top: 20px; } 
+#footerArea .footerCenter ul { margin-top: 100px; overflow: hidden; } 
+#footerArea .footerCenter li { float: left; padding: 0 10px; } 
+#footerArea .footerCenter li:nth-child(1) { padding-left: 0; } 
+#footerArea .footerCenter li a { color: #999; } 
+#footerArea .footerCenter li:hover a { font-weight: 500; color: #fff; } 
+#footerArea .footerRight { position: relative; float: right; } 
+#footerArea .footerRight ul { margin-top: 20px; overflow: hidden; } 
+#footerArea .footerRight .social li { float: left; margin-right: 25px; } 
+#footerArea .footerRight li a { color: #fff; transition: all .3s ease-out; } 
+#footerArea .footerRight li a i { font-size: 2.1em; } 
+#footerArea .footerRight li:hover a { color: #666; } 
+#footerArea .footerRight li:last-child { margin-right: 0; } 
+
+/* 패밀리 사이트 만들기 */
+#footerArea .footerRight .family { position: relative; margin: 120px 0 0 0; text-align: center; } 
+#footerArea .footerRight .family a.open { background: #ddd; display: block; height: 40px; padding: 8px; } 
+#footerArea .footerRight .family ul { position: absolute; left: 0; bottom: 40px; width: 100%; background: #f0f0f0; font-size: .9rem; display: none; }
+#footerArea .footerRight .family ul li { transition: all .2s; }
+#footerArea .footerRight .family ul li a { display: block; height: 40px; padding: 10px; color: #666; }
+#footerArea .footerRight .family ul li:hover { background: #e5e5e5; }
+
+/* 본문 공통 */
+.contentArea section { position: relative; opacity: 0; } 
+
+/* 공통 애니메이션 */
+.moveToTop { animation: moveToTop 1s forwards; } 
+@keyframes moveToTop { 
+ from { 
+ top: 100px; 
+}
+ to { 
+ top: 0; 
+ opacity: 1; 
+}
+}

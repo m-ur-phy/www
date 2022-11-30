@@ -1,0 +1,25 @@
+.subNav ul { width: 660px; } 
+.subNav li { width: 33.333%; } 
+
+.contentArea section { margin: 150px 0; } 
+.contentArea .greet { position: relative; margin-top: 350px; } 
+.contentArea .greet p { margin: 20px 0; } 
+.contentArea .greetCon { margin: 100px 0; } 
+.greet::before { content: ''; display: block; position: absolute; top: -215px; left: 0; font-size: 12.5em; font-weight: 700; z-index: -10; color: #eee; } 
+.greetInner::after { content: ''; display: block; clear: both; } 
+.greet h3 { float: left; width: 500px; margin-top: 170px; font-size: 5em; font-weight: 500; text-align: center; } 
+.greet img { float: right; } 
+
+.contentArea .timeBox { font-size: 2em; font-weight: 100; border-radius: 42px; background: #ebebeb; box-shadow: inset 10px 10px 14px #d4d4d4,
+ inset -10px -10px 14px #ffffff; padding: 20px 0; } 
+.contentArea .timeBox p { text-align: center; } 
+.contentArea .timeBox span { font-weight: 400; } 
+.contentArea .timeBox p:nth-of-type(2) span { color: #c01; } 
+
+.infoNav { overflow: hidden; } 
+.infoNav li { float: left; } 
+.infoNav li a { margin: 0 20px; font-size: 4em; color: #ccc; transition: all .3s;}
+
+.infoNav .infoCurrent { color: #666; } 
+
+.contlist { display: none; } 

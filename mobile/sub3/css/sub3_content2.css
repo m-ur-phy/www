@@ -1,0 +1,14 @@
+#contentArea .newArtist { display: flex; height: 200px; margin: 20px 0; } 
+#contentArea .newArtist li:first-child { width: 50%; } 
+#contentArea .newArtist li:last-child { width: 50%; } 
+#contentArea .newArtist p { margin: 0 10px; position: relative; top: 50%; transform: translateY(-50%); } 
+#contentArea .newArtist img { margin: 0; height: 100%; object-fit: cover; } 
+
+#contentArea .newSupport4 li { background: #efefef; border-radius: 15px; padding: 10px; margin: 20px 0; } 
+#contentArea .newSupport4 i { display: block; text-align: center; color: #999; } 
+#contentArea .newSupport4 dl { text-align: center; } 
+#contentArea .newSupport4 dt { font-size: 1.2em; margin: 5px 0; font-weight: 500; } 
+
+#contentArea .youngArtist ul:nth-of-type(1) { display: flex; margin-top: 20px; } 
+#contentArea .youngArtist li:nth-of-type(1) { margin-top: 7%; } 
+#contentArea .youngArtist li:nth-of-type(2) { margin-bottom: 7%; } 

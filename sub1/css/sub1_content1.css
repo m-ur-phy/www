@@ -1,0 +1,49 @@
+.contentArea h3 { font-size: 3.125em; color: #c01; margin-bottom: 50px; text-align: center; } 
+
+/* section 1 */
+.intro1 { text-align: center; position: relative; opacity: 0; } 
+.intro1 span { font-size: 50px; color: #c01; } 
+.intro1 span>span { font-size: 30px; color: #666; } 
+.intro1 p { margin: 50px 0; text-align: center; } 
+.intro1 img { border-radius: 10px; } 
+
+/* section 2 */
+.intro2.moveToTop span:nth-of-type(1) { animation: slidein1 2s forwards; } 
+@keyframes slidein1 { 
+ from { opacity: 0; } 
+ to { left: 0; opacity: 1; } 
+ }
+.intro2.moveToTop span:nth-of-type(2) { animation: slidein2 2s forwards; } 
+@keyframes slidein2 { 
+ from { left: 700px; opacity: 0; } 
+ to { left: 300px; opacity: 1; } 
+ }
+.intro2 h4 { font-size: 2.5em; font-weight: 500; margin-bottom: 30px; transition: all .5s; } 
+.intro2>p { position: relative; font-size: 1.875em; color: #666; font-weight: 500; } 
+.intro2 span { position: relative; display: block; font-size: 12.5em; font-family: 'Roboto', sans-serif; font-weight: 700; color: #fff; -webkit-text-stroke: 1px #c01; } 
+.intro2 span:nth-of-type(1) { left: -500px; } 
+.intro2 span:nth-of-type(2) { left: 700px; margin-bottom: 100px; } 
+.intro2 ul li { position: relative; height: 550px; opacity: 0; transform: scale(1); transition: all .5s; } 
+.intro2.moveToTop ul li.moveToTop { animation: moveToTop 1s forwards; } 
+.intro2 ul li:hover { transform: scale(1.02); } 
+.intro2 ul li:hover h4 { color: #c01; } 
+.intro2 ul li::after { content: ''; display: block; clear:both; } 
+.intro2 ul li img { border-radius: 30%; transition: all .5s; } 
+.intro2 li:hover img { border-radius: 5%; } 
+.intro2 ul li div { width: 600px; padding-top: 100px; } 
+.intro2 ul li:first-child { margin-bottom: 100px; } 
+.intro2 li:first-child>img { display: block; float: left; } 
+.intro2 li:first-child>div { float: right; text-align: justify; } 
+.intro2 li:last-child>img { float: right; } 
+.intro2 li:last-child>div { float: left; text-align: justify; } 
+
+/* section 3 */
+.intro3 p { text-align: center; } 
+.intro3 ul::after { content: ''; display: block; clear:both; } 
+.intro3 li { overflow: hidden; position: relative; float: left; margin-right: 70px; border-radius: 10%; box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, .1); } 
+.intro3 li:last-child { margin: 0; } 
+.intro3 li img { transition: all .5s; } 
+.intro3 li:hover img { transform: scale(1.1); filter: grayscale(100); } 
+.intro3 dl { width: 350px; padding: 20px 0 25px 0; position: absolute; left: 0; bottom: 0; background: rgb(255, 255, 255); text-align: center; color: #666; transition: all .5s; } 
+.intro3 li:hover dl { transform: scale(1.1); } 
+.intro3 dt { color: #333; margin-bottom: 10px; font-size: 1.3em; } 

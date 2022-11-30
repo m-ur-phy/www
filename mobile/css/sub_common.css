@@ -1,0 +1,34 @@
+@keyframes subTitleMove { 
+ from { top: 100px; } 
+ to { opacity: 1; } 
+ }
+
+.subLayout .main { position: relative; height: 200px; } 
+.subLayout .main h3 { position: absolute; left: 50%; top: 50%; color: #fff; font-size: 1.9em; transform: translate(-50%, -40%); } 
+.subNav { width: 100%; border-bottom: 1px solid #ddd; } 
+.subNav ul { display: flex; } 
+.subNav ul { margin: 0 auto; } 
+.subNav .current { color: #c01; border-bottom: 2px solid #c01; font-weight: 500; } 
+.subNav li { position: relative; width: 33.333%; font-size: 1.2em; text-align: center; } 
+.subNav a { transition: all .3s; } 
+.subNav a { display: block; padding: 15px; height: 55px; } 
+.subNav li:not(:last-child)::before { content: ''; display: block; position: absolute; top: 20px; right: 0; width: 1px; height: 15px; background: #ccc; } 
+.tabNav { display: flex; } 
+.tabNav { overflow: hidden; margin-bottom: 30px; text-align: center; font-size: 1.125em; } 
+.tabNav li { width: 33.3333%; } 
+.tabNav li a { display: block; height: 40px; padding-top: 8px; border-bottom: 2px solid #c01; } 
+.tabNav .tabCurrent { background: #c01; color: #fff; } 
+.tabSlogan h3, .tabSlogan span { text-align: center; } 
+.tabSlogan h3 { margin-bottom: 10px; color: #c01; } 
+.tabSlogan span { display: block; color: #666; } 
+.contlist { display: none; } 
+#contentArea .titleArea { height: 180px; margin-bottom: 30px; } 
+#contentArea h2 { position: relative; top: 50px; text-align: center; font-size: 2em; font-weight: 700; opacity: 0; animation: subTitleMove .5s .5s forwards; } 
+#contentArea h2::after { content: ''; display: block; width: 1px; height: 50px; background: #c01; position: absolute; left: 50%; top: 70px; } 
+#contentArea h3 { font-weight: 700; font-size: 1.7em; } 
+#contentArea>p { font-size: 1.2em; text-align: center; font-weight: 400; } 
+#contentArea>p:nth-of-type(2) { font-size: 1.5em; color: #c01; margin: 15px 0 30px 0; } 
+#contentArea { margin: 0 15px; } 
+#contentArea section { margin: 70px 0; } 
+#contentArea section p { margin: 30px 0; text-align: justify; } 
+#contentArea section dl { text-align: justify; } 

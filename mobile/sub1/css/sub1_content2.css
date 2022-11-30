@@ -1,0 +1,19 @@
+#contentArea .historyMainSlogan h3 { color: #c01; } 
+#contentArea .historyMainSlogan p { margin: 10px 0 25px 0; font-size: 1.2em; font-weight: 100; } 
+#contentArea .historyContent { margin-left: 20px; } 
+#contentArea .historyContent dl { margin: 15px 0; } 
+#contentArea .historyContent dt { font-size: 1.3em; font-weight: 500; } 
+#contentArea .historyContent dd { margin: 12px 15px; color: #666; text-align: justify; } 
+
+.hisTab li {background: #fff;}
+.hisTab li:first-child { background: #c01; }
+.hisTab li:first-child a { color: #fff;}
+
+.hisNavBox { position: relative; top: 20px; text-align: center; } 
+.hisNavBox span { position: relative; display: block; height: 50px; line-height: 50px; color: #fff; font-size: 1.3em; background: #c01; } 
+.hisNavBox span i { margin-left: 10px; } 
+.hisNavBox ul { display: none; position: absolute; left: 0; top: 50px; width: 100%; padding: 1rem 0; background: #f2f2f2; } 
+.hisNavBox li { font-size: 1.1em; } 
+.hisNavBox li a { display: block; padding: 10px 0; } 
+
+.historyContent img { border-radius: 15px; margin-top: 15px; box-shadow: 5px 5px 10px rgba(0, 0, 0, .15);}

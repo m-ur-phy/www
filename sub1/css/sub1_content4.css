@@ -1,0 +1,14 @@
+.contentArea .mainVideo { text-align: center; border-bottom: 5px solid #c01;}
+.contentArea .videoList { overflow: hidden; text-align: center; margin: 100px 0;}
+.contentArea .videoList li{ float: left; width: 33.333%;}
+.contentArea .mainVideo dl {margin: 40px;}
+.contentArea .mainVideo dt{ font-size: 2.2em; font-weight: 500;}
+.contentArea .mainVideo dd{ font-size: 1.2em; color: #666;}
+.contentArea .videoList li{  padding: 20px 0; transition: all .5s;}
+.contentArea .videoList li:hover { transform: scale(1.1);}
+.contentArea .videoList .image { position: relative; border-radius: 10px; overflow: hidden; width: 250px; margin: 0 auto; }
+.contentArea .videoList .image i { position: absolute; color: rgba(0, 0, 0, .5); font-size: 3em; top: 50%; left: 50%; transform: translateX(-50%)  translateY(-50%); transition: all .5s;}
+.contentArea .videoList li:hover .image i { color: #f00;}
+.contentArea .videoList dl{ margin: 20px 0;}
+.contentArea .videoList dt{ font-size: 1.2em; font-weight: 500;}
+.contentArea .videoList dd{ font-size: 1em;}

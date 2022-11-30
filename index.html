@@ -1,0 +1,417 @@
+<?
+    session_start();
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>금호문화재단</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="./favicon.ico">
+    <link rel="stylesheet" href="./common/css/common.css">
+    <link rel="stylesheet" href="./maincss/main.css">
+
+    <script src="https://kit.fontawesome.com/33cd326170.js" crossorigin="anonymous"></script>
+    <script src="./common/js/prefixfree.min.js"></script>
+    <script src="./mainjs/mainpopup.js"></script>
+</head>
+<body>
+    <? include "./common/main_header.html" ?>
+        <div class="main">
+            <div class="gallery">
+                <ul class="con">
+                    <li class="link1">
+                        <img src="./images/main_01.jpg" alt="">
+                        <dl class="slogan">
+                            <dt>
+                                한국 메세나의 대명사<br>
+                                금호문화재단
+                            </dt>
+                            <dd>KOREA <span>MECENAT</span> KUMHO FOUNDATION</dd>
+                        </dl>
+                    </li>
+                    <li class="link2">
+                        <img src="./images/main_02.jpg" alt="">
+                        <dl class="slogan">
+                            <dt>
+                                예술계의 발전에<br>
+                                함께하겠습니다
+                            </dt>
+                            <dd>WITH <span>KUMHO</span> CULTURAL FOUNDATION</dd>
+                        </dl>
+                    </li>
+                    <li class="link3">
+                        <img src="./images/main_03.jpg" alt="">
+                        <dl class="slogan">
+                            <dt>
+                                음악 그리고 미술<br>
+                                문화예술 육성의 중심
+                            </dt>
+                            <dd>CULTURAL <span>DEVELOPE</span> WITH KUMHO</dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+            <div class="dock">
+                <span class="mbutton  btn1" ></span>
+                <span class="mbutton  btn2" ></span>
+                <span class="mbutton  btn3" ></span>
+                <span class="ps"><span class="hidden">멈추기</span><i class="fa-solid fa-pause"></i></span>
+            </div>
+            <!-- <span class="btn btnLeft"><span class="hidden">이전</span><i class="fa-solid fa-angle-left"></i></span>
+            <span class="btn btnRight"><span class="hidden">다음</span><i class="fa-solid fa-angle-right"></i></span> -->
+        </div>
+        <article id="content">
+            <h2 class="hidden">본문콘텐츠영역</h2>
+            <section class="artculture">
+                <h3>금호 문화예술</h3>
+                <p>금호문화재단은 1977년 11월 29일 출범 이래<br>
+                    ‘영재는 기르고, 문화는 가꾸고’라는 재단 설립 취지에 맞추어 일찍이 문화예술<br> 
+                    그 중에서도 특히 클래식 음악과 미술분야의 영재 발굴과 육성을 위한 다양한 활동을 전개해 왔습니다.
+                </p>
+                <ul>
+                    <li>
+                        <a href="./sub1/sub1_1.html">
+                            <img src="./images/artculture_01.jpg" alt="">
+                            <div class="artcultureStory">
+                                <h4>재단소개</h4>
+                                <p>영재는 기르고 문화는 가꾸고<br>
+                                    우리는 문화예술 발전과 함께합니다
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./sub2/sub2_1.html">
+                            <img src="./images/artculture_02.jpg" alt="">
+                            <div class="artcultureStory">
+                                <h4>음악사업</h4>
+                                <p>세계적인 음악가를 위한 지원과 양성<br>
+                                    금호문화재단이 이뤄내겠습니다
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./sub3/sub3_1.html">
+                            <img src="./images/artculture_03.jpg" alt="">
+                            <div class="artcultureStory">
+                                <h4>미술사업</h4>
+                                <p>무한한 창조의 공간<br>
+                                    금호문화재단이 작가들을 지원합니다
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="support">
+                <div class="supportTop">
+                    <h3>금호 장학 시스템</h3>
+                    <p>1997년 장학재단으로 처음 출범한 금호문화재단은<br>
+                        설립 이후 인재들을 양성하고 지원하는데 지속적으로 힘을 기울이며<br>
+                        콘서트 시리즈 및 장학사업을 진행하고 있습니다.
+                    </p>
+                </div>
+                <ul class="supportConBox">
+                    <li>
+                        <div class="tabBox">
+                            <h4>음악영재발굴 및 지원</h4>
+                            <p>금호문화재단은 클래식 음악계의 미래를위해<br>
+                                어린음악인들을 위한 데뷔 무대를 마련해주고 있습니다
+                            </p>
+                            <a class="more" href="./sub4/sub4_1.html">
+                                <div>더 알아보기
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </div>
+                            </a>
+                            <img src="./images/supportTab_01.png" alt="">
+                        </div>
+                        <div class="imgBox">
+                            <img src="./images/support_01.jpg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tabBox">
+                            <h4>미술작가발굴 및 지원</h4>
+                            <p>금호문화재단은 개관이래<br>
+                                꾸준히 젊고 유망한 작가들을 발굴하고 지원하고 있습니다
+                            </p>
+                            <a class="more" href="./sub4/sub4_2.html">
+                                <div>더 알아보기
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </div>
+                            </a>
+                            <img src="./images/supportTab_02.png" alt="">
+                        </div>
+                        <div class="imgBox">
+                            <img src="./images/support_02.jpg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tabBox">
+                            <h4>장학사업</h4>
+                            <p>금호문화재단은 개관이래<br>
+                                꾸준히 젊고 유망한 작가들을 발굴하고 지원하고 있습니다
+                            </p>
+                            <a class="more" href="./sub4/sub4_3.html">
+                                <div>더 알아보기
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </div>
+                            </a>
+                            <img src="./images/supportTab_03.png" alt="">
+                        </div>
+                        <div class="imgBox">
+                            <img src="./images/support_03.jpg" alt="">
+                        </div>
+                    </li>
+                </ul>
+                <div class="supportBtn">
+                    <a class="prev" href="#"><span class="hidden">이전</span><i class="fa-solid fa-angle-left"></i></a>
+                    <a class="next" href="#"><span class="hidden">다음</span><i class="fa-solid fa-angle-right"></i></a>
+                </div>
+            </section>
+
+            <? include "./lib/func.php"; ?>
+
+            <section class="artist">
+                <h3>ARTIST</h3>
+                <p>클래식 음악계를 이끄는 금호 연주자들을 만나보세요</p>
+                <div class="artistBox">
+                    <div class="artistSlide">
+                        <ul class="artistList">
+                            <? latest_article("archive", 9, 50, 50); ?>
+                            <!-- <li>
+                                <a href="#">
+                                    <img src="./images/artist_1.jpg" alt="">
+                                    <dl>
+                                        <dt>고준성</dt>
+                                        <dd><span>&#35;</span> 피아노</dd>
+                                        <dd><span>&#35;</span> 영재</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/artist_2.jpg" alt="">
+                                    <dl>
+                                        <dt>김가윤</dt>
+                                        <dd><span>&#35;</span> 바이올린</dd>
+                                        <dd><span>&#35;</span> 영재</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/artist_3.jpg" alt="">
+                                    <dl>
+                                        <dt>김명진</dt>
+                                        <dd><span>&#35;</span> 타악기</dd>
+                                        <dd><span>&#35;</span> 영재</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/artist_5.jpg" alt="">
+                                    <dl>
+                                        <dt>김승은</dt>
+                                        <dd><span>&#35;</span> 바이올린</dd>
+                                        <dd><span>&#35;</span> 영아티스트</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/artist_6.jpg" alt="">
+                                    <dl>
+                                        <dt>김재영</dt>
+                                        <dd><span>&#35;</span> 색소폰</dd>
+                                        <dd><span>&#35;</span> 영아티스트</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/artist_7.jpg" alt="">
+                                    <dl>
+                                        <dt>김지영</dt>
+                                        <dd><span>&#35;</span> 바이올린</dd>
+                                        <dd><span>&#35;</span> 영아티스트</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/artist_9.jpg" alt="">
+                                    <dl>
+                                        <dt>박종후</dt>
+                                        <dd><span>&#35;</span> 튜바</dd>
+                                        <dd><span>&#35;</span> 영체임버</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/artist_10.jpg" alt="">
+                                    <dl>
+                                        <dt>서예빈</dt>
+                                        <dd><span>&#35;</span> 클라리넷</dd>
+                                        <dd><span>&#35;</span> 영체임버</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/artist_11.jpg" alt="">
+                                    <dl>
+                                        <dt>소은빈</dt>
+                                        <dd><span>&#35;</span> 트롬본</dd>
+                                        <dd><span>&#35;</span> 영체임버</dd>
+                                    </dl>
+                                </a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="artistBtn">
+                    <a class="prev" href="#"><span class="hidden">이전</span><i class="fa-solid fa-angle-left"></i></a>
+                    <a class="next" href="#"><span class="hidden">다음</span><i class="fa-solid fa-angle-right"></i></a>
+                </div>
+                <a class="artistSearch" href="#">연주자검색하기<i class="fa-solid fa-magnifying-glass"></i></a>
+                <div class="searchPop">
+                    <div class="searchPopTxt">
+                        <p>연주자 이름을 검색해보세요</p>
+                        <form method="post" action="./archive/list.php?mode=search&table=archive">
+                            <label class="hidden" for="find">이름</label>
+                            <input type="hidden" name="find" id="find" value="subject">
+                            <label class="hidden" for="name">검색어입력</label>
+                            <input type="text" name="search" id="search" placeholder="아티스트 이름을 검색해보세요!">
+                            <input type="submit" value="검색">
+                        </form>
+                    </div>
+                    <a class="close" href="#"><span class="hidden">닫기</span><i class="fa-solid fa-xmark"></i></a>
+                </div>
+            </section>
+            <section class="artcenter">
+                <h3>금호아트센터</h3>
+                <ul>
+                    <li>
+                        <img src="./images/artcenter_01.jpg" alt="">
+                        <div class="artcenterEx">
+                            <h4>금호미술관</h4>
+                            <p>금호미술관은 현대미술의 흐름을 조망하는<br>
+                                다양한 기획전을 개최하여 전문가와 일반 관객들에게 미적 영감을 제공하였습니다.
+                            </p>
+                            <p>
+                                2000년대 중반 이후로는 디자인 · 건축 영역으로 전시 주제를 확장하면서<br>
+                                일상 속에 녹아 든 예술의 자취를 확인해보고자 노력하고 있습니다.
+                            </p>
+                            <a class="more" href="./sub5/sub5_1.html">
+                                <div>더 알아보기
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/artcenter_02.jpg" alt="">
+                        <div class="artcenterEx">
+                            <h4>금호아트홀</h4>
+                            <p>금호아트홀 연세는 연세대학교 백양로에 위치한 실내악 전용 공연장으로<br>
+                                국내 최고의 실내악 전용 공연장으로 자리매김하였습니다.
+                            </p>
+                            <p>
+                                문화재단과 아트홀은 한층 업그레이드된 탄탄하고 편리한 기반 시설을 바탕으로<br>
+                                새로운 공간에서도 변함없이 한국 클래식 음악을 보다 풍성하게 하고자 노력합니다.
+                            </p>
+                            <a class="more" href="./sub5/sub5_2.html">
+                                <div>더 알아보기
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/artcenter_03.jpg" alt="">
+                        <div class="artcenterEx">
+                            <h4>금호유스퀘어</h4>
+                            <p>유&middot;스퀘어 문화관은 서울 금호아트홀과 금호미술관의<br>
+                                모든 강점을 가져와 새로운 공간에서의 아름다움을 창출합니다.
+                            </p>
+                            <p>
+                                금호아트홀의 공연 관리 노하우, 금호미술관의 수준높은 작품 전시 등<br>
+                                금호문화재단에서만 확인할 수 있는 강점들을 유&middot;스퀘어에서 확인하실 수 있습니다.
+                            </p>
+                            <a class="more" href="./sub5/sub5_3.html">
+                                <div>더 알아보기
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="notice">
+                <div class="noticeInner">
+                    <h3>NOTICE</h3>
+                    <ul>
+                        <? latest_article("greet", 2, 25, 70); ?>
+                        <!-- <li>
+                            <a href="#">
+                                <dl>
+                                    <dt>[모집공고] 금호 아트홀 연세 2022년 공연장 안내원...</dt>
+                                    <dd>금호문화재단에서 운영하는 실내악 전용 클래식 홀인 금호아트홀 연세 (390석)에서 일할 성실하고 유능한 인재를 찾습니다...
+                                        <span>[2022.08.01]</span>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <dl>
+                                    <dt>[모집공고] 금호 아트홀 연세 2022년 공연장 안내원...</dt>
+                                    <dd>
+                                        금호문화재단에서 운영하는 실내악 전용 클래식 홀인 금호아트홀 연세 (390석)에서 일할 성실하고 유능한 인재를 찾습니다...
+                                        <span>[2022.08.01]</span>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
+                <a class="more" href="./greet/list.php">
+                    <div>더 알아보기
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                </a>
+            </section>
+        </article>
+        <? include "./common/main_footer.html" ?>
+        <script src="./mainjs/move.js"></script>
+        <script src="./mainjs/main.js"></script>
+    <!-- 공지 팝업 -->
+    <div id="showimage" style="z-index:90;position:absolute;width:322px;right:100px;top:300px;">
+        <script>
+            function closeWin(){
+                var chk = document.getElementById('Notice')
+                if ( chk.checked ) {
+                   setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻한다.
+                }
+            }
+            if ( getCookie( "Notice" ) == "done" ) {
+                hidebox();
+            }
+        </script>
+        <div>
+            <img src="./popup/pop.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다.">
+        </div>
+        <div style="font-size:12px;text-align:center;color:#666;">
+            <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은 이창을 열지 않음.</label>
+        <a href="#" onclick="closeWin();hidebox();return false;"> [close] </a>
+        </div>
+    </div>
+    
+</body>
+</html>

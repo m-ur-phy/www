@@ -1,0 +1,177 @@
+<?
+    session_start();
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+<title>금호문화재단</title>
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="./app_icon.png">
+<link rel="apple-touch-startup-image" href="./startup.png">
+<link rel="stylesheet" href="./css/common.css">
+<link rel="stylesheet" href="./css/main.css">
+<link rel="stylesheet" href="./css/swiper.min.css">
+
+<script src="./js/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/33cd326170.js" crossorigin="anonymous"></script>
+
+<script>
+  // <![CDATA[
+try {
+    window.addEventListener('load', function(){
+        setTimeout(scrollTo, 0, 0, 1); 
+    }, false);
+} 
+catch(e) {}
+  // ]]>
+</script>
+
+</head>
+
+<body>
+    <? include "./main_header.html" ?>
+        <div class="main">
+            <div class="gallery">
+                <ul class="con">
+                    <li class="link1">
+                        <img src="./images/main1x2.jpg" alt="">
+                        <dl class="slogan">
+                            <dt>
+                                한국 메세나의 대명사<br>
+                                금호문화재단
+                            </dt>
+                            <dd>KOREA <span>MECENAT</span> KUMHO FOUNDATION</dd>
+                        </dl>
+                    </li>
+                    <li class="link2">
+                        <img src="./images/main2x2.jpg" alt="">
+                        <dl class="slogan">
+                            <dt>
+                                예술계의 발전에<br>
+                                함께하겠습니다
+                            </dt>
+                            <dd>WITH <span>KUMHO</span> CULTURAL FOUNDATION</dd>
+                        </dl>
+                    </li>
+                    <li class="link3">
+                        <img src="./images/main3x2.jpg" alt="">
+                        <dl class="slogan">
+                            <dt>
+                                음악 그리고 미술<br>
+                                문화예술 육성의 중심
+                            </dt>
+                            <dd>CULTURAL <span>DEVELOPE</span> WITH KUMHO</dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <article id="contentArea">
+            <h2 class="hidden">본문콘텐츠영역</h2>    
+            <section class="artCulture">
+                <h3>금호 문화예술</h3>
+                <div class="swiper-container">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="./sub1/sub1_1.html">
+                                <img src="./images/artculture1x2.jpg" alt="">
+                                <dl>
+                                    <dt>재단소개</dt>
+                                    <dd>영재는 기르고, 문화는 가꾸고 라는 재단 설립 취지에 맞추어 일찍이 문화예술계의 영재발굴과 육성을 위해 다양한 활동을 전개해왔습니다</dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="./sub2/sub2_1.html">
+                                <img src="./images/artculture2x2.jpg" alt="">
+                                <dl>
+                                    <dt>음악사업</dt>
+                                    <dd>세계적인 음악가를 위한 지원과 양성에 힘을 쏟는일, 바로 금호문화재단이 가장 먼저 그리고 가장 중요하게 생각하는 일 입니다</dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="./sub2/sub2_2.html">
+                                <img src="./images/artculture3x2.jpg" alt="">
+                                <dl>
+                                    <dt>미술사업</dt>
+                                    <dd>금호문화재단은 미술분야 발전을 위한 다양한 활동을 전개하고 있으며, 무한한 창조의 공간을 위해 끝없이 노력하고 있습니다</dd>
+                                </dl>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </section>
+            <section class="support">
+                <h3>금호 장학 시스템</h3>
+                <ul>
+                    <li>
+                        <div class="supportCon">
+                            <h4>음악장학제도</h4>
+                            <span>&#35; 정통 클래식</span><span>&#35; 음악계 발전</span>
+                            <p>금호문화재단은 음악장학제도를 통해 음악계 발전을 이끌고 있습니다</p>
+                            <a href="./sub3/sub3_1.html">더 알아보기</a>
+                        </div>
+                        <div class="imgBox"><img src="./images/support1x2.jpg" alt=""></div>
+                    </li>
+                    <li>
+                        <div class="supportCon">
+                            <h4>미술장학제도</h4>
+                            <span>&#35; 현대 미술</span><span>&#35; 미술계 발전</span>
+                            <p>금호문화재단은 미술장학제도를 통해 미술계의 주류를 이끌고 있습니다</p>
+                            <a href="./sub3/sub3_2.html">더 알아보기</a>
+                        </div>
+                        <div class="imgBox"><img src="./images/support2x2.jpg" alt=""></div>
+                    </li>
+                    <li>
+                        <div class="supportCon">
+                            <h4>장학사업</h4>
+                            <span>&#35; 모두를 위한</span><span>&#35; 문화 발전</span>
+                            <p>금호문화재단은 장학제도를 통해 모두를 위한 문화예술을 정의합니다</p>
+                            <a href="./sub3/sub3_3.html">더 알아보기</a>
+                        </div>
+                        <div class="imgBox"><img src="./images/support3x2.jpg" alt=""></div>
+                    </li>
+                </ul>
+                <div class="supportBtn">
+                    <a class="prev" href="#"><span class="hidden">prev</span><i class="fa-solid fa-arrow-left"></i></a>
+                    <a class="next" href="#"><span class="hidden">next</span><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </section>
+            <section>
+                <h3>ARTIST</h3>
+                <div class="artistWrap">
+                    <a class="artistBox" href="./sub2/sub2_3.html#artist1"><img src="./images/artist1.jpg" alt=""><span>고준성</span></a>
+                    <a class="artistBox" href="./sub2/sub2_3.html#artist2"><img src="./images/artist2.jpg" alt=""><span>김가윤</span></a>
+                    <a class="artistBox" href="./sub2/sub2_3.html#artist3"><img src="./images/artist3.jpg" alt=""><span>김명진</span></a>
+                    <a class="artistBox" href="./sub2/sub2_3.html#artist4"><img src="./images/artist4.jpg" alt=""><span>김승은</span></a>
+                    <a class="artistBox" href="./sub2/sub2_3.html#artist5"><img src="./images/artist5.jpg" alt=""><span>김재영</span></a>
+                    <a class="artistBox" href="./sub2/sub2_3.html#artist6"><img src="./images/artist6.jpg" alt=""><span>김지영</span></a>
+                    <a class="artistBox" href="./sub2/sub2_3.html#artist7"><img src="./images/artist7.jpg" alt=""><span>박종후</span></a>
+                    <a class="artistBox" href="./sub2/sub2_3.html#artist8"><img src="./images/artist8.jpg" alt=""><span>서예빈</span></a>
+                    <a class="artistBox" href="./sub2/sub2_3.html#artist9"><img src="./images/artist9.jpg" alt=""><span>소은빈</span></a>
+                </div>
+            </section>
+            <section class="community">
+                <h3>COMMUNITY</h3>
+                <ul>
+                    <li><a href="./greet/list.php"><span>공지사항</span><i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a href="./news/list.php"><span>NEWS</span><i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a href="./sub4/sub4_3.html"><span>관람예절</span><i class="fa-solid fa-chevron-right"></i></a></li>
+                </ul>
+            </section>
+        </article>
+        <? include "./main_footer.html" ?>
+    <script src="./js/main.js"></script>
+
+</body>
+</html>

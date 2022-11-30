@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>BlackPinkNew</title>
+<link rel="shortcut icon"  type="image/x-icon"  href="./favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+
+<link rel="stylesheet" href="./css/common.css">
+<link rel="stylesheet" href="./css/sub.css">
+<link rel="stylesheet" href="./css/swiper.min.css">
+
+<script src="https://kit.fontawesome.com/33cd326170.js" crossorigin="anonymous"></script>
+<script src="js/prefixfree.min.js"></script>
+
+<script>
+	// <![CDATA[
+		try {
+			window.addEventListener('load', function(){
+	    	    setTimeout(scrollTo, 0, 0, 1); 
+	    	}, false);
+		} catch(e) {}
+	// ]]>
+</script>
+</head>
+
+<body>
+	<div id="skipNav">
+		<a href="#content">본문바로가기</a>
+		<a href="#gnb">네비게이션바로가기</a>
+	</div>
+
+<div id="wrap">
+	<div class="videoBox">
+			<img src="./images/gallery/back1.jpg" id="imgBG">
+			<a class="down" href="#">SCROLL DOWN</a>
+	</div>
+	
+	<? include "./header.html" ?>
+	
+	<article id="contentArea">
+		<div class="pageTtl"><h2>GALLERY</h2></div>
+		<section class="galleryBox"></section>
+	</article>
+
+	<? include "./footer.html" ?>
+
+</div>
+	
+	<script src="./js/common.js"></script>
+	<script src="./js/swiper.min.js"></script>
+	<script src="./js/sub.js"></script>
+	<script src="./js/gallery.js"></script>
+
+</body>
+</html>

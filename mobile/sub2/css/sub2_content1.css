@@ -1,0 +1,43 @@
+h4 { font-size: 1.425em; font-weight: 700; margin: 20px 0; } 
+.tabNav li { width: 50%; font-weight: 500; } 
+.musicEdu ul { display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 15px; } 
+.musicEdu ul { width: 240px; margin: 0 auto; } 
+.musicEdu ul li { box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, .1); font-size: 1.1em; text-align: center; } 
+.musicEdu ul li:nth-of-type(1),
+.musicEdu ul li:nth-of-type(2) { padding: 50px 5px 40px; } 
+.musicEdu ul li:nth-of-type(3),
+.musicEdu ul li:nth-of-type(4) { padding: 40px 5px 50px; } 
+.musicEdu ul li span { position: relative; } 
+.musicEdu ul li:nth-child(even) span { left: -10px; } 
+.musicEdu ul li:nth-child(odd) span { right: -10px; } 
+.musicEdu ul li:nth-of-type(1) { border-top-left-radius: 500%; background: #c01; color: #fff; } 
+.musicEdu ul li:nth-of-type(2) { border-top-right-radius: 500%; } 
+.musicEdu ul li:nth-of-type(3) { border-bottom-left-radius: 500%; } 
+.musicEdu ul li:nth-of-type(4) { border-bottom-right-radius: 500%; background: #c01; color: #fff; } 
+
+.musicEdu .masterImg { position: relative; } 
+.musicEdu .masterImg span { display: block; position: absolute; top:50%; left:10%; width: 100%; color: #fff; font-weight: 100; font-size: 1.3em; transform: translateY(-40%); } 
+
+.musicSupport section:nth-of-type(1) li { display: flex; } 
+.musicSupport section:nth-of-type(1) li { margin-top: 30px; } 
+.musicSupport section:nth-of-type(1) li span { width: 20%; text-align: center; font-size: 1.7em; color: #c01; } 
+.musicSupport section:nth-of-type(1) li dl { width: 80%; } 
+.musicSupport section:nth-of-type(1) li dt { font-size: 1.2em; } 
+.musicSupport section:nth-of-type(1) li dd { margin-top: 10px; } 
+
+.musicSupport .popMenu { text-align: center; } 
+.musicSupport .popMenu span { font-size: 1.2em; color: #c01; } 
+.musicSupport .popMenu li { margin-top: 10px; border: 1px solid #c01; border-radius: 15px; } 
+.musicSupport .popMenu a { display: block; padding: 15px 0; text-align: center; } 
+.musicSupport .modalBox { display: none; position: fixed; left: 0; top: 0; z-index: 110; width: 100%; height: 100%; background: rgba(0, 0, 0, .7); } 
+.musicSupport .popUp { position: fixed; top: 50%; left: 50%; width: 80%; background: #fff; box-shadow: 0 0 20px rgba(0, 0, 0, .2); z-index: 120; display:none; transform: translateX(-50%) translateY(-50%); } 
+.musicSupport .popUpTxt { margin-top: 30px; } 
+.musicSupport .popUp dl { margin: 10px; text-align: center; } 
+.musicSupport .popUp dt { font-size: 1.3rem; text-align: center; font-weight: 400; color: #c01 } 
+.musicSupport .popUp dd img { display: block; width: 80%; margin: 0 auto; } 
+.musicSupport .popUp dd>span { display: block; margin-top: 10px; font-size: 1.2rem; color: #666; } 
+.musicSupport .popUp dd>span span { color: #c01; } 
+.musicSupport .popUp dd:nth-of-type(1) { margin: 20px 0 0 0; text-align: center; font-size: 1.8rem; color: #333; } 
+.musicSupport .popUp dd:nth-of-type(1) span span { margin-right: 10px; font-weight: 100; } 
+.musicSupport .popUp dd:nth-of-type(2) { text-align: justify; padding: 3%; } 
+.musicSupport .popUp .popUpCloseBtn { position: absolute; top: -15px; right: 10px; display: block; font-size: 1.5em; } 

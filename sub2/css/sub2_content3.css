@@ -1,0 +1,39 @@
+/* music Prize */
+.tabNav li { width: 50%; } 
+
+/* musicPrize */
+#kumhoMusicPrize, #musicCamp { display: none; } 
+#kumhoMusicPrize section>div:nth-of-type(1) { border-radius: 10px; padding: 20px 50px; box-shadow: inset 0 0 20px rgba(0, 0, 0, .1); } 
+#kumhoMusicPrize section>div.swiper-container { overflow: hidden; } 
+#kumhoMusicPrize ul { width: 8800px; overflow: hidden; } 
+#kumhoMusicPrize ul li { position: relative; float: left; margin-right: 100px; border-radius: 20px; overflow: hidden; } 
+#kumhoMusicPrize li img { transition: all .5s ease-out; } 
+#kumhoMusicPrize li:hover img { transform: scale(1.1) rotate(.01deg); filter: grayscale(100); } 
+#kumhoMusicPrize dl { text-align: center; position: absolute; top: 50%; left: 50%; width: 1000px; margin-left: -500px; color: #fff; text-shadow: 5px 5px 5px rgba(0, 0, 0, .3); opacity: 0; transition: all .5s ease-out; } 
+#kumhoMusicPrize li:hover dl { opacity: 1; } 
+#kumhoMusicPrize dt { font-size: 2em; } 
+#kumhoMusicPrize dd { font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 3em; } 
+#kumhoMusicPrize .swiper-pagination { bottom: -30px; } 
+#kumhoMusicPrize .btn { box-shadow: none; position: relative; font-size: 7em; } 
+#kumhoMusicPrize .btn a { position: absolute; top: -350px; color: #fff; text-shadow: 0px 0px 10px rgba(0, 0, 0, .5); transform: scale(2); transition: all .5s; } 
+#kumhoMusicPrize .btn a:hover { text-shadow: 5px 5px 10px rgba(0, 0, 0, 1); } 
+#kumhoMusicPrize .btn a:first-child { left: 20px; } 
+#kumhoMusicPrize .btn a:last-child { right: 20px; } 
+#kumhoMusicPrize .autoBtn { position: absolute; bottom: -12%; left: 46.6%; }
+#kumhoMusicPrize .autoBtn::after { content: ''; display: block; clear: both; } 
+#kumhoMusicPrize .autoBtn a { float: left; display: block; margin: 10px; font-size: 1.5em; transform: scale(1); transition: all .5s; color: #ccc; } 
+#kumhoMusicPrize .autoBtn a:hover { transform: scale(1.1); color: #666; } 
+
+/* musicCamp */
+#musicCamp ul::after { content: ''; display: block; clear: both; } 
+#musicCamp li { float: left; width: 580px; height: 300px; } 
+#musicCamp li:last-child { float: right; margin-top: 50px; padding-left: 20px; box-shadow: 10px 10px 15px rgba(0, 0, 0, .1); } 
+#musicCamp div>ul { width: 810px; margin: 0 auto; } 
+#musicCamp div>ul li { width: 270px; height: 270px; border-radius: 50%; box-shadow: 10px 10px 15px rgba(0, 0, 0, .1); text-align: center; padding-top: 100px; font-size: 1.5em; } 
+#musicCamp div>ul li:nth-of-type(2) { box-shadow: none; font-size: 4em; } 
+#musicCamp div>ul li i { color: #fff; -webkit-text-stroke: 1px #c01; transition: all .5s; } 
+#musicCamp div>ul:hover i { transform: rotate(180deg); color: #c01; } 
+#musicCamp div>ul li:last-child { float: left; margin-top: 0; } 
+#musicCamp div>ul li span { display: block; font-size: 1.2em; color: #c01; } 
+#musicCamp div>p { width: 800px; margin: 100px auto; padding: 25px 0; font-size: 2em; text-align: center; border: 1px solid #c01; border-radius: 50px; color: #c01; transition: all .5s; } 
+#musicCamp div>p:hover { width: 100%; background: #c01; color: #fff; } 

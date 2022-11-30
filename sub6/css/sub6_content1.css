@@ -1,0 +1,13 @@
+/* etiquette */
+.tabNav li { width: 50%; } 
+.contlist { display: none; } 
+
+.contentArea section p { margin: 20px 0; } 
+.contentArea .contlist>div:nth-child(2) { overflow: hidden; margin: 50px; } 
+.contentArea .all { display: block; float: right; width: 200px; padding: 20px; text-align: center; font-size: 1.4em; font-weight: 500; } 
+.contentArea .article { border-radius: 16px; margin: 50px; padding: 10px 50px; background: #f9f9f9; } 
+.contentArea .article .q { font-size: 1.5em; text-align: justify; } 
+.contentArea .article i { margin: 20px; font-size: 1.25em; color: #aaa } 
+.contentArea .article a { display: block; } 
+.contentArea .article .a { display: none; position: relative; font-size: 1em; color: #666; margin-left: 80px; } 
+.contentArea .article .a::after { content: ''; display: block; position: absolute; top: 11px; left: -2%; width: 5px; height: 10px; background: #c01; } 

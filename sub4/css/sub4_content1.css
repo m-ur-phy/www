@@ -1,0 +1,18 @@
+/* music scholar */
+.contentArea span { display: block; position: relative; font-weight: 500; margin-bottom: 10px; } 
+.contentArea span::after { content: ''; display: block; position: absolute; top: 11px; left: 25px; width: 400px; height: 2px; background: #c01; } 
+.contentArea section::after { content: ''; display: block; clear: both; } 
+.contentArea h3 { font-size: 2.5em; font-weight: 500; } 
+.contentArea section>div { position: relative; width: 450px; float: left; } 
+.contentArea section>div::after { content: ''; display: block; position: absolute; top: -50px; left: 700px; z-index: -10; width: 750px; height: 600px; background: #eee; } 
+.contentArea img { display: block; float: right; border-radius: 30px; } 
+.contentArea section:nth-of-type(2)>div { float: right; } 
+.contentArea section:nth-of-type(2)>div::after { left: -1000px; } 
+.contentArea section:nth-of-type(2) img { float: left; } 
+.contentArea section:nth-of-type(2) ul { overflow: hidden; } 
+.contentArea section:nth-of-type(2) li { float: left; width: 33.333%; text-align: center; } 
+.contentArea dt { font-size: 1.875em; color: #c01; } 
+.contentArea dd { font-size: 6em; font-weight: 500; line-height: 1.2em; } 
+.contentArea section:nth-of-type(3) ul { text-align: justify; box-shadow: 0 0 20px rgba(0, 0, 0, .1); padding: 20px; } 
+.contentArea section:nth-of-type(3) li { margin: 20px 0; } 
+.contentArea i { margin-right: 5px; } 

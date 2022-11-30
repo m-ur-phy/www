@@ -1,0 +1,85 @@
+{ 
+    "artistData":[
+        {
+            "grade":"영재",
+            "artistPic":"./images/content3/artist_1.jpg",
+            "artistName":"고준성",
+            "instrument":"피아노",
+            "school":"예원학교 1학년",
+            "achieve2021":"한국쇼팽콩쿠르1위 및 동아주니어 음악콩쿠르 1위, 사단법인 서울오케스트라 콩쿠르 1위 및 특별상",
+            "achieve2022":"제 38회 젊은이의 음악제 연주, 사단법인 서울오케스트라 협연, 한국리스트협회 주체 '뇌전증, 우울증 극복을 위한 힐링음악회' 연주"
+        },
+        {
+            "grade":"영재",
+            "artistPic":"./images/content3/artist_2.jpg",
+            "artistName":"김가윤",
+            "instrument":"피아노",
+            "school":"예원학교 3학년",
+            "achieve2021":"평창대관령음악제 강원의 사계 가을 영 아티스트 콘서트, 강원 인재 육성 평생교육진흥원 미래인재 선발",
+            "achieve2022":"성정 음악 콩쿠르 2위, 스트라드 콩쿠르 2위, 예원학교 실기 우수상"
+        },
+        {
+            "grade":"영재",
+            "artistPic":"./images/content3/artist_3.jpg",
+            "artistName":"김명진",
+            "instrument":"타악기",
+            "school":"한국예술영재교육원",
+            "achieve2021":"경남 예술 고등학교 전국 초등중학생 음악 경연대회 전체 대상, 개천 예술제 전국 음악 경연대회 금상",
+            "achieve2022":"음악 교육 신문사 콩쿠르 3위, 연세 윈드 콩쿠르 3위"
+        },
+        {
+            "grade":"영아티스트",
+            "artistPic":"./images/content3/artist_5.jpg",
+            "artistName":"김승은",
+            "instrument":"바이올린",
+            "school":"서울예술고등학교 3학년",
+            "achieve2021":"국민일보 한세대학교 음악콩쿠르 3위, 서울 챔버 오케스트라 콩쿠르 2위",
+            "achieve2022":"연예술 전국음악 콩쿠르 최우수상 및 세라믹 팔레스홀 음악콩쿠르 1위, 음악교육 신문사 콩쿠르 2위"
+        },
+        {
+            "grade":"영아티스트",
+            "artistPic":"./images/content3/artist_6.jpg",
+            "artistName":"김재영",
+            "instrument":"색소폰",
+            "school":"서울대학교 2학년",
+            "achieve2021":"음악교육 신문사 콩쿠르1위 및 동아주니어 음악콩쿠르 1위, 음악저널 콩쿠르 1위 및 특별상",
+            "achieve2022":"제 38회 젊은이의 음악제 연주, 서울오케스트라 협연, 협회 주체 '뇌전증, 우울증 극복을 위한 음악회' 연주"
+        },
+        {
+            "grade":"영아티스트",
+            "artistPic":"./images/content3/artist_7.jpg",
+            "artistName":"김지영",
+            "instrument":"바이올린",
+            "school":"연세대학교 졸업",
+            "achieve2021":"TIMF 앙코르 체임버 뮤직 아카데미 참가 및 실내악 연주, 예진 음악 콩쿠르 대상",
+            "achieve2022":"중앙음악 콩쿠르 1위, 연세대학교 협주곡의 밤 정기 연주회 협연, 한경 필하모닉 청소년 음악회 협연"
+        },
+        {
+            "grade":"영체임버",
+            "artistPic":"./images/content3/artist_9.jpg",
+            "artistName":"박종후",
+            "instrument":"튜바",
+            "school":"한국예술종합학교 2학년",
+            "achieve2021":"서울대학교 관악 동문회 주최 관악실기 경연대회 1위, 관악협회 주최 전국 관악 콩쿠르 1위",
+            "achieve2022":"연세대학교 관악콩쿠르 2위, 음악 저널 콩쿠르 1위 없는 2위 및 전국 관악인 협회 관악 콩쿠르 1위"
+        },
+        {
+            "grade":"영체임버",
+            "artistPic":"./images/content3/artist_10.jpg",
+            "artistName":"서예빈",
+            "instrument":"클라리넷",
+            "school":"한국예술종합학교 2학년",
+            "achieve2021":"음악교육 신문사 콩쿠르1위 및 동아주니어 음악콩쿠르 1위, 음악저널 콩쿠르 1위 및 특별상",
+            "achieve2022":"영창음악콩쿠르 대상, 음연콩쿠르 1위, 성정음악콩쿠르 은상, 금호 영체임버 젊은이의 음악제 독주회"
+        },
+        {
+            "grade":"영체임버",
+            "artistPic":"./images/content3/artist_11.jpg",
+            "artistName":"소은빈",
+            "instrument":"트롬본",
+            "school":"서울대학교 2학년",
+            "achieve2021":"서울대학교 관악 동문회 주체 관악실기 경연대회 1위, 한양 음악 콩쿠르 1위",
+            "achieve2022":"금호 콘서트 독주회 및 서울예술고등학교 정기 연주회 협연, 동아음악콩쿠르 1위 없는 2위"
+        }
+    ]
+}

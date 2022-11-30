@@ -1,0 +1,136 @@
+.listWrap input,
+.listWrap textarea,
+.listWrap button,
+.listWrap select { margin: 0; padding: 0; font-size: 1.125rem; color:#333; outline: 0; } 
+.listWrap input,
+.listWrap textarea,
+.listWrap select { border:1px solid #ccc; } 
+.listWrap input,
+.listWrap select { height: 40px; padding-left:10px; } 
+.listWrap textarea { padding:10px; } 
+.listWrap button { border:0 none; padding:0; margin: 0; cursor: pointer; } 
+.listWrap input::placeholder,
+.listWrap textarea::placeholder { color:rgba(0,0,0,0.4); } 
+.listWrap { margin: 200px 0; } 
+.listWrap .listSort { overflow: hidden; padding: 20px 0; } 
+.listWrap .listSort .listInfo { float: left; } 
+.listWrap .listSort .scale { float:right; width:120px; } 
+.listWrap .listSort .listStyle { float:right; margin-right:5px; } 
+.listWrap .listSort .listStyle::after { content:''; display: block; clear: both; } 
+.listWrap .listSort .listStyle li { float:left; overflow: hidden; text-align: center; transition:all .3s; } 
+.listWrap .listSort .listStyle li:hover { background:#f2f2f2; } 
+.listWrap .listSort .listStyle li + li { border-left:1px solid #eee; } 
+.listWrap .listSort .listStyle li a { display:block; width:40px; height: 40px; opacity: .3; line-height: 40px; } 
+.listWrap .listSort .listStyle li.active a { opacity:1; color: #c01; } 
+
+/* list body */
+.listWrap .listBody .listContent { position: relative; overflow: hidden; } 
+.listWrap .listBody .listContent li::before { position: absolute; top: 40px; right: 60px; content: ''; display: block; background: #c01; width: 0; height: 13px; transition: all .5s; border-radius: 20px; transform: rotate(-20deg); transform-origin: right; z-index: 10; } 
+.listWrap .listBody .listContent li::after { position: absolute; top: 40px; right: 64px; content: ''; display: block; background: #c01; width: 0; height: 13px; transition: all .5s; border-radius: 20px; transform: rotate(-65deg); transform-origin: right; z-index: 10; } 
+.listWrap .listBody .listContent li:hover::before { width: 60px; } 
+.listWrap .listBody .listContent li:hover::after { width: 60px; } 
+.listWrap .listBody .listContent li { position: relative; padding: 30px; border-bottom: 1px solid #ddd; overflow: hidden; transition: all .5s; } 
+.listWrap .listBody .listContent li:hover { background: #fafafa; } 
+.listWrap .listBody .listContent li a { display: block; overflow: hidden; } 
+.listWrap .listBody .listContent .image { float: left; overflow: hidden; border-radius: 30px; width: 400px; height: 300px; } 
+.listWrap .listBody .listContent .image img { width: 100%; transition: all .5s; } 
+.listWrap .listBody .listContent li:hover .image img { transform: scale(1.1); } 
+.listWrap .listBody .listContent .listTxt { margin-left: 450px; transition: all .5s; } 
+.listWrap .listBody .listContent li:hover .listTxt { position: relative; transform: scale(1.01); } 
+.listWrap .listBody .listContent .listTxt strong { display: block; font-size: 1.8em; margin: 50px 0; position: relative; } 
+.listWrap .listBody .listContent .listTxt span { margin-right: 15px; color: #999; transition: all .5s; } 
+.listWrap .listBody .listContent .listTxt p { color: #777; margin: 0 0 30px 0; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; transition: all .5s; } 
+.listWrap .listBody .listContent li:hover .listTxt p { color: #333; } 
+
+/* list box */
+.listWrap .listBody.box .listTitle { display: none; } 
+.listWrap .listBody.box .listContent::after { content:''; display: block; clear: both; } 
+.listWrap .listBody.box .listContent li { float:left; width:33.33%; padding:30px; border-bottom: 0; } 
+.listWrap .listBody.box .listContent li:hover { background:#fff; } 
+.listWrap .listBody.box .listContent li:hover::before { width: 0; } 
+.listWrap .listBody.box .listContent li:hover::after { width: 0; } 
+.listWrap .listBody.box .listContent li a { text-align: center; padding: 20px; border-radius: 15px; border: 1px solid #eee; overflow: hidden; transition: all .5s; } 
+.listWrap .listBody.box .listContent li:hover a { box-shadow: 0px 0px 20px rgba(0,0,0,0.1); } 
+.listWrap .listBody.box .listContent .image { float: none; width: 230px; height: 150px; margin: 0 auto; } 
+.listWrap .listBody.box .listContent .listTxt { margin: 10px 0; } 
+.listWrap .listBody.box .listContent .listTxt strong { white-space: nowrap; text-overflow: ellipsis; overflow: hidden; margin: 30px 0; } 
+
+.listWrap .pageBtn { text-align: center; margin: 30px 0 0; } 
+.listWrap .pageBtn .prev,
+.listWrap .pageBtn .next { color: #ccc; margin: 0 10px; } 
+.listWrap .pageBtn span a { display: inline-block; width: 35px; height: 35px; line-height: 35px; color: #999; text-align: center; } 
+.listWrap .pageBtn span.active { display: inline-block; width: 35px; height: 35px; line-height: 35px; background: #c01; color: #fff; } 
+.listWrap .searchWrap { text-align: center; } 
+
+.listSearch { background: #fefefe; padding: 20px 0; } 
+.listSearch select { width: 100px; height: 40px; font-size: 1.1em; margin: 0 10px; padding: 0 10px; border: 1px solid #ddd; } 
+.listSearch input { width: 300px; height: 40px; font-size: 1.1em; margin: 0 10px; transform: translateY(-1px); padding: 0 10px; border: 1px solid #ddd; } 
+.listSearch button { width: 100px; height: 40px; font-size: 1.1em; margin: 0 10px; background: #c01; color: #fff; cursor: pointer; } 
+.listWrap .moBtn { text-align:right; margin: 10px 0; height: 40px; } 
+.listWrap .moBtn a,
+.listWrap .moBtn button { display: inline-block; height:40px; line-height:40px; margin: 0 2px; padding:0 25px; color:#888; border:1px solid #ddd; cursor:pointer; transition:all .3s; font-size:1rem; background: transparent; } 
+.listWrap .moBtn a:hover { border-color:#333; color:#333; } 
+.listWrap .moBtn button { position: relative; top: -2px; } 
+.listWrap .moBtn .active { border-color:#c01; color:#c01; } 
+.listWrap .moBtn .active:hover { border-color: #c01; background:#c01; color:#fff; } 
+
+/* view */
+.listWrap .listViewTitle li { border-bottom:1px solid #ddd; padding:20px; } 
+.listWrap .listViewTitle li:first-child { background:#f2f2f2; text-align: center; font-size: 2em; font-weight: 700; } 
+.listWrap .listViewTitle li span { display:inline-block; color:#888; } 
+.listWrap .listViewTitle li span + span::before { content:'/'; display:inline-block; padding:0 10px; color:#ddd; } 
+.listWrap .listViewTitle li span i { font-size:.75rem; padding-right:2px; } 
+.listWrap .listViewTitle li strong { margin-left: 20px; font-size: 2em; display: block; margin: 10px 0; } 
+.listWrap .listViewCont { font-size: 1.1em; padding:20px; overflow: hidden; text-align: center; } 
+.listWrap .listViewCont .image { margin: 100px 0; padding: 20px; } 
+.listWrap .listViewCont::after { content:''; display: block; clear: both; } 
+.listWrap .listViewCont + .btn_wrap { border-top:1px solid #ddd; padding:20px 0 0; } 
+
+/* write */
+.listWrap .writeTop { border-top:1px solid #999; } 
+.listWrap .writeTop li { border-bottom:1px solid #ddd; } 
+.listWrap .writeTop li dl { background:#f2f2f2; } 
+.listWrap .writeTop li dl::after { content:''; display: block; clear: both; } 
+.listWrap .writeTop li dl dt,
+.listWrap .writeTop li dl dd { padding:20px; } 
+.listWrap .writeTop li dl dt { float:left; } 
+.listWrap .writeTop li dl dt label { line-height:44px; } 
+.listWrap .writeTop li dl dd { margin-left:15%; background:#fff; } 
+.listWrap .writeTop #subject { width:100%; } 
+.listWrap .writeTop textarea { width: 100%; height: 300px; font-family: 'Noto Sans KR', sans-serif; } 
+.listWrap .writeTop #content { width:100%; } 
+.listWrap .writeTop + .btn_wrap { padding: 20px 0 0; } 
+
+/* checkbox */
+.listWrap .writeTop .check { position:relative; line-height:25px; margin:0 0 10px; } 
+.listWrap .writeTop .check input[type=checkbox] + label::before { display: inline-block; width: 18px; height: 18px; background-color: transparent; border: 2px solid #ccc; border-radius: 50%; content: ''; margin: 5px 5px -2px 0; } 
+.listWrap .writeTop .check input[type=checkbox] { display: none; } 
+.listWrap .writeTop .check input[type=checkbox] + label { cursor: pointer; line-height:25px; } 
+.listWrap .writeTop .check input[type=checkbox]:checked + label::before { background:url(../images/checked_bg.png) center center no-repeat #fff; border: 2px solid #c01; } 
+
+/* ripple */
+.listWrap .rippleBox { margin:30px 0 0; } 
+.listWrap .rippleBox .rippleList li { position:relative; padding:25px; transition:all .3s; overflow: hidden; border-bottom: 1px solid #ddd; } 
+.listWrap .rippleBox .rippleList li:first-child { border-top:1px solid #ddd; } 
+.listWrap .rippleBox .rippleList li:last-child { margin-bottom:30px; border-bottom: 1px solid #ddd; } 
+.listWrap .rippleBox .rippleList li:hover { background:#f5f5f5; } 
+.listWrap .rippleBox .rippleList li dl dt { color:#333; } 
+.listWrap .rippleBox .rippleList li dl dt small { display:inline-block; font-weight:normal; padding-left:10px; font-size:.85rem; color:#999; } 
+.listWrap .rippleBox .rippleList li dl dd { margin:.75rem 0 0; color:#666; } 
+.listWrap .rippleBox .rippleList li .func { position:absolute; right: 15px; top: 20px; } 
+.listWrap .rippleBox .rippleList li .func a { display:inline-block; width:30px; height:30px; line-height:30px; text-align:center; color:#999; transition:all .3s; } 
+.listWrap .rippleBox .rippleList li .func a:hover { color:#c01; } 
+.listWrap .rippleBox .rippleList li .func i i { font-size:0; text-indent:-9999%; } 
+.listWrap .rippleInput { padding:30px; overflow:hidden; margin:0 0 30px; } 
+.listWrap .rippleInput li { float:left; } 
+.listWrap .rippleInput li:nth-child(1) { width:calc(100% - 100px); } 
+.listWrap .rippleInput li:nth-child(2) { width:100px; } 
+.listWrap .rippleInput li textarea { width:100%; height:100px; border-color:#ddd; resize:none; font-family: 'Noto Sans KR', sans-serif; } 
+.listWrap .rippleInput li a { display:block; height:100px; line-height:100px; text-align:center; background: #c01; font-size:1.2em; color: #fff; } 
+
+/* modify */
+.listWrap .rippleMo { overflow:hidden; display: none; } 
+.listWrap .rippleMo textarea { float:left; width:calc(100% - 70px); height:70px; resize:none; font-family: 'Noto Sans KR', sans-serif; } 
+.listWrap .rippleMo a { float:left; width:70px; height:70px; line-height:70px; background:#c01; color:#fff; text-align:center; } 
+
+

@@ -1,0 +1,120 @@
+<?
+    session_start();
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>장학사업-장학신청</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="../favicon.ico">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="../common/css/sub_common.css">
+    <link rel="stylesheet" href="./common/css/sub4common.css">
+    <link rel="stylesheet" href="./css/sub4_content4.css">
+
+    <script src="https://kit.fontawesome.com/33cd326170.js" crossorigin="anonymous"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <div class="main">
+            <img src="./common/images/visual_04.jpg" alt="">
+            <h3>장학사업</h3>
+        </div>
+        <div class="subNav">
+            <ul>
+                <li>
+                    <a href="./sub4_1.html">음악장학제도</a>
+                </li>
+                <li>
+                    <a href="./sub4_2.html">미술장학제도</a>
+                </li>
+                <li>
+                    <a href="./sub4_3.html">장학사업</a>
+                </li>
+                <li>
+                    <a class="current" href="./sub4_4.html">장학신청</a>
+                </li>
+            </ul>
+        </div>
+        <article id="content">
+            <div class="titleArea">
+                <div class="lineMap">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <span class="hidden">HOME</span>
+                    &gt;<span> 장학사업 </span>&gt; 
+                    <strong>장학신청</strong>
+                </div>
+                <h2>장학신청</h2>
+            </div>
+            <div class="contentArea">
+                <p>당신의 이야기를 들려주세요</p>
+                <p>금호문화재단 장학신청을 보내주세요</p>
+                <div class="application">
+                    <form name="mail_form" action="mail.php" method="post">
+                        <ul>
+                            <li>
+                                <dl>
+                                    <dt><label for="name">이름</label></dt>
+                                    <dd>
+                                        <input type="text" name="name" id="name" required> 
+                                        <span id="nametext"></span>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl class="email">
+                                <dt>이메일</dt>
+                                <dd>
+                                <label class="hidden" for="email1">이메일아이디</label>
+                                    <input type="text" id="email1" name="email1"  required> 
+                                    <span>@</span> 
+                                    <label class="hidden" for="email2">이메일주소</label>
+                                    <input type="text" name="email2" id="email2"  required>
+                                    <span id="emailtext"></span>
+                                </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl class="hp">
+                                    <dt>휴대폰</dt>
+                                    <dd>
+                                        <label class="hidden" for="hp1">전화번호앞3자리</label>
+                                        <select class="hp" name="hp1" id="hp1"> 
+                                            <option value='010'>010</option>
+                                            <option value='011'>011</option>
+                                            <option value='016'>016</option>
+                                            <option value='017'>017</option>
+                                            <option value='018'>018</option>
+                                            <option value='019'>019</option>
+                                        </select>
+                                        <span>-</span> 
+                                        <label class="hidden" for="hp2">전화번호중간4자리</label><input type="text" class="hp" name="hp2" id="hp2" maxlength="4" required><span>-</span><label class="hidden" for="hp3">전화번호끝4자리</label><input type="text" class="hp" name="hp3" id="hp3" maxlength="4" required>
+                                        <span id="hptext"></span>	
+                                    </dd>
+			                    </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>신청내용</dt>
+                                    <dd>
+                                        <textarea name="message" id="message"></textarea>
+                                        <span id="messagetext"></span>
+                                    </dd>
+                                </dl>
+                            </li>
+                        </ul>
+                        <div class='button'>
+                            <a href="#" onclick="check_input()">신청하기</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+        <script src="./js/mail_form_check.js"></script>
+        <script src="./js/mail_form.js"></script>
+</body>
+</html>

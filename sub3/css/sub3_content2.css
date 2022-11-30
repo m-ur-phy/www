@@ -1,0 +1,13 @@
+/* create support */
+.contentArea section { margin: 300px 0; } 
+.contentArea div { margin-bottom: 200px; } 
+.contentArea div video { width: 900px; margin-left: 150px; } 
+.contentArea section h3 { font-size: 2.5em; font-weight: 400; } 
+.contentArea section p { width: 500px; } 
+.contentArea section:last-of-type { padding-left: 700px; } 
+.contentArea a { position: relative; top: -150px; left: 350px; display: block; width: 500px; padding: 20px; font-size: 1.5em; text-align: center; color: #c01; border: 1px solid #c01; border-radius: 50px; transition: all .5s; } 
+.contentArea a:hover { background:#c01; color: #fff; } 
+
+/* path */
+.artpath { fill: none; stroke: #c01; stroke-width: 2px; } 
+.createContent { position: absolute; top: 2100px; } 

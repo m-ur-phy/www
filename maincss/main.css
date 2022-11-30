@@ -1,0 +1,163 @@
+/* 메인 비주얼 */
+.main .con img { transform: scale(1.1); animation: main_vis 3s 0.5s forwards; } 
+@keyframes main_vis { 
+ from { transform: scale(1.1); } 
+ to { transform: scale(1); } 
+ }
+.main { overflow: hidden; width: 2000px; height: 960px; position: relative; top: 0; left: 50%; margin-left: -1000px; z-index: 50; background: #000; } 
+.main ul { overflow: hidden; } 
+.main .slogan { position: absolute; left: 50%; margin-left: -600px; color: #fff; opacity: 0; } 
+.main .slogan dt { display: block; font-size: 3.750em; line-height: 1.5em; font-weight: 700; } 
+.main .slogan dd { font-family: 'Roboto', sans-serif; font-size: 3.125em; margin-top: 20px; } 
+.main .slogan dd>span { color: #c01; font-weight: 500; } 
+.main .dock { width: 370px; position: absolute; left: 400px; top: 70%; } 
+.main .dock .mbutton { position: relative; margin-right: 15px; cursor: pointer; display: block; float: left; width: 100px; height: 6px; border-radius: 1px; background: rgba(255, 255, 255, .5); transition: all .5s } 
+.main .dock .mbutton::after { content: ''; position: absolute; left: 0; top: 0; width: 0px; height: 100%; background: #c01; } 
+.main .dock .mbutton.on::after { width: 50px; transition: all 3s; } 
+.dock .ps { display: block; float: left; margin-right: 15px; margin-top: -16px; cursor: pointer; color: rgba(255, 255, 255, .6); width:25px; height:25px; font-size: 1.5em; transition: all .5s; } 
+.dock .ps:hover { color: rgba(255, 255, 255, 1); } 
+.main .btn { position: absolute; top: 45%; display: block; color: rgba(0, 0, 0, .01); -webkit-text-stroke: 1px rgba(255, 255, 255, .8); font-size: 5em; text-align: center; cursor: pointer; transition: all .5s; } 
+.main .btn:hover { color: rgba(255, 255, 255, .8); } 
+.main .btnLeft { left: 14%; transition: all .5s; } 
+.main .btnLeft:hover { left: 13.5%; } 
+.main .btnRight { left:78%; transition: all .5s; } 
+.main .btnRight:hover { left:78.5%; } 
+
+/* 콘텐츠 공통 */
+#content { width: 1200px; margin: 0 auto; } 
+#content section { margin-top: 100px; margin-bottom: 100px; } 
+#content h3 { font-size: 3.13em; font-weight: 700; } 
+#content h4 { font-size: 1.875em; font-weight: 500; } 
+#content p { color: #666; } 
+#content .more { display: block; width: 180px; height: 50px; border: 1px solid #333; transition: all .3s ease-out; } 
+#content .more:hover { border-color: #c01; background: #c01; color: #fff; } 
+#content .more div { text-align: center; padding-top: 13px; } 
+#content .more i { margin-left: 10px; transition: all .3s ease-out; } 
+#content .more:hover i { margin-left: 20px; transform: rotateX(180deg) } 
+
+/* 금호 문화 예술 */
+#content .artculture { position: relative; opacity: 0; } 
+#content .artculture h3 { margin-top: 40px; } 
+#content .artculture h3::before { content: 'ART & CULTURE DEVELOPE'; display: block; font-size: 18px; font-family: 'Roboto', sans-serif; color: #c01; } 
+#content .artculture h3+p { text-align: right; margin: 25px 0 55px 0; } 
+#content .artculture ul::after { content: ''; display: block; clear:both; } 
+#content .artculture li { position: relative; opacity: 0; } 
+#content .artculture.moveToTop li { animation: moveToTop 1s forwards; } 
+#content .artculture.moveToTop li:nth-child(1) { animation-delay: .2s; } 
+#content .artculture.moveToTop li:nth-child(2) { animation-delay: .5s; } 
+#content .artculture.moveToTop li:nth-child(3) { animation-delay: .8s; } 
+#content .artculture a { overflow: hidden; float: left; display: block; margin-right: 75px; position: relative; border-radius: 30px; box-shadow: 10px 10px 15px rgba(0, 0, 0, .1); transition: all .5s ease-out; } 
+#content .artculture li:hover a { box-shadow: 10px 10px 20px rgba(0, 0, 0, .2); } 
+#content .artculture li:nth-last-child(1) a { margin-right: 0; } 
+#content .artculture img { filter: brightness(100%); transform: scale(1); transition: all .5s ease-out; } 
+#content .artculture li:hover img { filter: brightness(60%); transform: scale(1.1) rotate(.001deg); } 
+#content .artculture h4 { font-size: 1.563em; margin-bottom: 20px; } 
+#content .artculture p { margin-bottom: 20px; } 
+#content .artcultureStory { width: 290px; height: 155px; background: url(../images/arrow.png) right bottom no-repeat; position: absolute; left: 0; bottom: -100px; margin-left: 30px; color: #fff; transition: all .5s ease-out; } 
+#content .artculture li:hover .artcultureStory { bottom: 30px; } 
+#content .artcultureStory p { color: #fff; font-size: 1.125em; } 
+
+/* 금호 장학 시스템 */
+#content .support.moveToTop .imgBox { animation: supportImgMove 1.5s forwards; } 
+@keyframes supportImgMove { 
+ from { height: 10px; opacity: 0; } 
+ to { height: 860px; opacity: 1; } 
+ }
+
+#content .support { height: 700px; margin-top: 300px; position: relative; opacity: 0; } 
+#content .support h3 { margin-top: 40px; } 
+#content .support h3::before { content: 'KUMHO SUPPORTS YOUNG'; display: block; font-size: 18px; font-family: 'Roboto', sans-serif; color: #c01; } 
+#content .support h3+p { margin: 50px 0; } 
+#content .support .supportBtn { position: absolute; top: 270px; left: 0; } 
+#content .support .supportBtn a { width: 60px; height: 60px; float: left; background: #ccc; color: #fff; opacity: .5; font-size: 2.5em; padding-left: 20px; transition: opacity .5s; } 
+#content .support .supportBtn a:hover { opacity: 1; } 
+#content .support li { height: 325px; box-sizing: border-box; } 
+#content .support .imgBox { position: absolute; top: -150px; right: 0; overflow: hidden; z-index: -10; opacity: 0; } 
+#content .support .tabBox { position: absolute; top: 380px; left: 0; height: 300px; width: 800px; padding: 50px; border-radius: 10px; box-sizing: border-box; box-shadow: 10px 10px 15px rgba(0, 0, 0, .1); background: #fff url(); transition: all .5s ease-out; } 
+#content .support .tabBox:hover { color: #c01; box-shadow: 10px 10px 15px rgba(0, 0, 0, .2); } 
+#content .support .tabBox img { position: absolute; right: 100px; top: 50px; } 
+#content .support h4 { margin-bottom: 20px; } 
+#content .support p { margin-bottom: 30px; } 
+
+/* 아티스트 */
+#content .artist.moveToTop .artistList { animation: artistListMove 2s forwards; } 
+@keyframes artistListMove { 
+ from { left: -1000px; opacity: 0; } 
+ to { left: 0; opacity: 1; } 
+ }
+
+#content .artist { position: relative; width: 1200px; opacity: 0; } 
+#content .artist h3 { text-align: center; font-family: 'Roboto', sans-serif;; } 
+#content .artist p { text-align: center; } 
+#content .artist .artistBox { position: relative; width: 5940px; left: -1050px; } 
+#content .artist .artistSlide { position: relative; width: 5940px; margin: 100px auto; } 
+#content .artist .artistSlide::after { content: ''; display: block; clear: both; } 
+#content .artist .artistList { position: relative; float: left; width: 2970px; } 
+#content .artist .artistSlide::after { content: ''; display: block; clear: both; } 
+#content .artist li { float: left; margin: 0 50px; } 
+#content .artist img { border-radius: 50%; transform: scale(1); filter: grayscale(.4); transition: all .5s ease-out; } 
+#content .artist li:hover img { transform: scale(1.1); filter: grayscale(0); } 
+#content .artist dl { margin-top: 30px; text-align: center; } 
+#content .artist dt { font-size: 1.563em; margin-bottom: 20px; font-weight: 400; transition: all .5s ease-out; } 
+#content .artist li:hover dt { font-weight: 500; } 
+#content .artist dd>span { margin-right: 10px; transition: all .3s ease-out; } 
+#content .artist li:hover dd>span { margin-right: 2px; color: #c01; font-weight: 700; } 
+#content .artist>a { position: absolute; top: 10px; right: 0; font-size: 1.250em; color: #666; } 
+#content .artist>a i { margin-left: 10px; color: #c01; transform: rotate(0); transition: all .3s ease-out; } 
+#content .artist>a:hover i { transform: rotate(90deg); } 
+#content .artist .artistBtn a { font-size: 4em; color: #fff; text-shadow: 0 0 10px rgba(0, 0, 0, .2); transition: all .5s; } 
+#content .artist .artistBtn a:hover { text-shadow: 2px 2px 10px rgba(0, 0, 0, .3); } 
+#content .artist .artistBtn .prev { position: absolute; top: 250px; left: 0; } 
+#content .artist .artistBtn .next { position: absolute; top: 250px; right: 0; } 
+#content .artist .searchPop { width: 800px; height: 350px; background: #fff url(../images/search.jpg) center no-repeat; background-size: 100%; position: absolute; top: 25%; left: 50%; margin-left: -400px; box-shadow: 0px 0px 20px rgba(0, 0, 0, .3); border-radius: 20px; display: none; } 
+#content .artist .searchPop p { font-size: 2em; color: #333; font-weight: 500; margin: 80px 0; } 
+#content .artist .searchPop form { display: block; border-bottom: 5px solid #c01; overflow: hidden; margin: 60px 60px 30px 60px; } 
+#content .artist .searchPop form input[type="text"] { float: left; width: 600px; height: 50px; line-height: 50px; border: 0 none; font-size: 1.375rem; font-weight: 700; outline: none; background: 0; } 
+#content .artist .searchPop form input[type="submit"] { float: right; width: 50px; height: 50px; border: 0 none; background: url(../images/find.png) 50% 50% no-repeat; background-size: 30px auto; text-indent: -9999px; overflow: hidden; cursor: pointer; } 
+#content .artist .searchPopBg { width: 100%; height: 100%; position: fixed; background: rgba(0, 0, 0, .3); } 
+#content .artist .searchPop .close { position: absolute; top: 10px; right: 20px; font-size: 2em; } 
+
+/* 금호 아트센터 */
+#content .artcenter.moveToTop ul { animation: artCenterMove 1s forwards; } 
+@keyframes artCenterMove { 
+ from { transform: scale(.5); opacity: 0; } 
+ to { transform: scale(1); opacity: 1; } 
+ }
+
+#content .artcenter { position: relative; opacity: 0; } 
+#content .artcenter h3 { text-align: center; margin-bottom: 50px; } 
+#content .artcenter p { color: #fff; } 
+#content .artcenter ul { overflow: hidden; border-radius: 30px; box-shadow: 10px 10px 15px rgba(0, 0, 0, .1); } 
+#content .artcenter li { float:left; width: 33.3333%; position: relative; transition: all .4s; } 
+#content .artcenter ul:hover li { width: 25% } 
+#content .artcenter ul li:hover { width: 50%; } 
+#content .artcenter .artcenterEx { position: absolute; top: 35%; left: 5%; color: #fff; } 
+#content .artcenter .artcenterEx>p { margin: 30px 0; opacity: 0; transition: all .5s; } 
+#content .artcenter ul li:hover .artcenterEx>p { opacity: 1; } 
+#content .artcenter img { transition: all .5s; } 
+#content .artcenter li:hover img { filter: brightness(60%); } 
+#content .artcenter ul li .more { display: block; width: 180px; height: 50px; border: 1px solid #fff; color: #fff; opacity: 0; transition: all .3s ease-out; } 
+#content .artcenter ul li:hover .more { opacity:1; } 
+#content .artcenter .more:hover { border: 1px solid #c01; } 
+
+/* 공지사항 */
+#content .notice.moveToTop ul { animation: noticeListMove 1s forwards; } 
+@keyframes noticeListMove { 
+ from { transform: scaleY(0); opacity: 0; } 
+ to { transform: scaleY(1); opacity: 1; } 
+ }
+
+#content .notice { width: 2000px; height: 611px; background: url(../images/notice.jpg); position: relative; top: 0; left: 50%; margin-left: -1000px; margin-bottom: 0; opacity: 0; } 
+#content .notice h3 { margin-top: 100px; } 
+#content .notice ul { margin: 50px 0; } 
+#content .notice .noticeInner { width: 1200px; margin: 0 auto; overflow: hidden; } 
+#content .notice ul::after { content: ''; display: block; clear:both; } 
+#content .notice li>a { width: 550px; height: 270px; margin: 0 25px; box-sizing: border-box; float: left; border-radius: 30px; background: #fff; box-shadow: 10px 10px 15px rgba(0, 0, 0, .1); transition: all .5s ease-out; overflow: hidden; } 
+#content .notice li>a:hover { box-shadow: 10px 10px 15px rgba(0, 0, 0, .3); } 
+#content .notice dl { margin: 50px; } 
+#content .notice dt { margin-bottom: 20px; font-size: 20px; font-weight: 500; } 
+#content .notice dt::after { content: ''; display: block; width: 450px; height: 10px; position: relative; top:-10px; background: rgba(0, 0, 0, .02); transform-origin: top left; transform: scaleX(0); transition: all .5s ease-out; } 
+#content .notice li:hover dt::after { transform: scaleX(1); background: rgba(0, 0, 0, .1); } 
+#content .notice dd { color: #666; } 
+#content .notice span { display: block; margin-top: 40px; } 
+#content .notice .more { position: absolute; top: 125px; right: 400px; } 

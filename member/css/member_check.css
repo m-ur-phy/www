@@ -1,0 +1,17 @@
+.member_tab { padding: 30px 0; border-top: 1px solid #333; } 
+.member_tab a { font-size: 24px; padding: 10px; margin: 0 10px; color: #aaa; } 
+.member_tab a.on { color: #fff; border-bottom: 2px solid #333; font-weight: bold } 
+.member_tab span { font-size: 24px; padding: 10px; margin: 0 10px; color: #fff; font-weight: bold } 
+.join { text-align: left; position: relative; } 
+.join .policy { padding: 10px; overflow-y: scroll; height: 80px; margin: 20px 0; border: 1px solid #ddd; background: #fff; font-size: 14px; line-height: 1.5em; } 
+.join .check { margin: 20px 0 60px; } 
+.join .button { text-align: center; margin-top: 30px } 
+.button a, .button button { display: inline-block; width: 150px; line-height: 24px; padding: 8px 0; border: none; background: #c01; color: #fff; font-size: 14px; cursor: pointer; margin: 0 5px; } 
+.join .allcheck { border: 1px solid #c01; } 
+.join .button .ok { background: #fff; color: #c01; border: 1px solid #c01; transition: all .5s; } 
+.join .button .ok:hover { background: #c01; color: #fff; } 
+.join .button .cancel { display: inline-block; width: 200px; line-height: 24px; padding: 8px 0; border: none; background: #999; color: #fff; font-size: 14px; cursor: pointer } 
+input[type=checkbox] + label::before { display: inline-block; width: 18px; height: 18px; background-color: transparent; border: 2px solid #ccc; border-radius: 50%; content: ''; margin: 0px 15px -6px 0px; } 
+input[type=checkbox] { display: none; } 
+input[type=checkbox] + label { cursor: pointer; } 
+input[type=checkbox]:checked + label::before { background: #fff url(../images/checked_bg.png) center center no-repeat; border: 2px solid #c01; } 

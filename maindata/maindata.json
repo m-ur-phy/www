@@ -1,0 +1,22 @@
+{
+    "supports":[
+        {
+            "supportTitle": "음악영재발굴 및 지원",
+            "supportCon": "금호문화재단은 클래식 음악계의 미래를 위해 <br> 어린음악인들을 위한 데뷔 무대를 마련해주고 있습니다",
+            "artPic1":"./images/supportTab_01.png",
+            "artPic2":"./images/support_01.jpg"
+        },
+        {
+            "supportTitle": "미술작가발굴 및 지원",
+            "supportCon": "금호문화재단은 개관이래 <br> 꾸준히 젊고 유망한 작가들을 발굴하고 지원하고 있습니다",
+            "artPic1":"./images/supportTab_02.png",
+            "artPic2":"./images/support_01.jpg"
+        },
+        {
+            "supportTitle": "장학사업",
+            "supportCon": "금호문화재단은 우리나라의 모든 학생들을 위해 <br> 다양한 장학사업을 진행하고 있습니다",
+            "artPic1":"./images/supportTab_03.png",
+            "artPic2":"./images/support_01.jpg"
+        }
+    ]
+}

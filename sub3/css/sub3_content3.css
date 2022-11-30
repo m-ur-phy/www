@@ -1,0 +1,22 @@
+/* artAcademy */
+.kumhoArtAcademy ul { width: 1000px; margin: 0 auto; } 
+.kumhoArtAcademy ul::after { content: ''; display: block; clear: both; } 
+.kumhoArtAcademy li { position: relative; float: left; width: 250px; height: 330px; margin: 70px 30px; border-radius: 50px; background: linear-gradient(145deg, #e1e1e1, #ffffff); box-shadow: 20px 20px 60px #d5d5d5, -20px -20px 60px #ffffff; } 
+.kumhoArtAcademy img { position: relative; display: block; width: 130px; margin: 50px auto 0; z-index: 10; transition: all .5s; } 
+.kumhoArtAcademy li:hover img { transform: scale(.9); } 
+.kumhoArtAcademy li span { position: relative; display: block; text-align: center; margin-top: 50px; font-size: 1.7em; font-weight: 400; color: #c01; z-index: 10; transition: all .3s; } 
+.kumhoArtAcademy li:hover span { transform: scale(1.1); } 
+.kumhoArtAcademy li::after { content: ''; display: block; position: absolute; top: 0; left: 0; width: 250px; height: 330px; border-radius: 50px; background: linear-gradient(145deg, #ffffff, #e1e1e1); z-index:1; opacity: 1; transition: all .3s; } 
+.kumhoArtAcademy li:hover::after { opacity: 0; } 
+
+/* kidsPopcorn */
+.kidsPopcorn { position: relative; } 
+.kidsPopcorn::after { content: ''; display: block; position: absolute; top: -100px; left: 50%; width: 2000px; height: 700px; margin-left: -1000px; background: #eee; z-index: -10; } 
+.kidsPopcorn>span { display: block; width: 320px; height: 320px; margin: 0 auto; padding-top: 140px; font-size: 1.6em; text-align: center; font-weight: 100; border-radius: 50%; background: #eee; box-shadow: 20px 20px 40px #cacaca, -20px -20px 40px #ffffff; transition: all .5s; } 
+.kidsPopcorn>span:hover { box-shadow: -20px 20px 40px #cacaca, 20px -20px 40px #ffffff; transform: scale(1.05); } 
+.kidsPopcorn ol { margin-top: 200px; } 
+.kidsPopcorn ol li { border-bottom: 1px solid #ccc; padding: 40px; } 
+.kidsPopcorn dl { overflow: hidden; } 
+.kidsPopcorn dt { overflow: hidden; float: left; width: 30%; font-size: 1.7em; font-weight: 500; } 
+.kidsPopcorn dt span { float: left; width: 20%; color: #c01; } 
+.kidsPopcorn dd { float: right; width: 70%; text-align: justify; } 

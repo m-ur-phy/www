@@ -1,0 +1,76 @@
+dl { margin-bottom: 30px;}
+dt { font-size: 1.2em; margin-bottom: 10px;}
+input { border: 1px solid rgb(224, 224, 224);
+    border-radius: 15px;
+    height: 60px;
+    background-color: #fcfcfc;
+    width: 100%;
+    padding: 0 20px;
+    font-size: 1.2em;
+}
+
+#content span[id$=text] { display: block; float: none; width: auto; }
+#content span[id$=text] > span { float: none; width: auto; text-align: right; }
+
+input:focus{ outline: none; }
+
+dl.hp dd {
+    overflow: hidden;
+}
+
+dl.hp select.hp {
+    width: 29%;
+    height: 60px;
+    border: 1px solid #ddd;
+    background: #fff;
+    padding-left: 10px;
+    font-size: 1.2em;
+}
+dl.hp select.hp:focus{
+    outline: none;
+}
+
+dl .hp {
+    float: left;
+    width: 30%;
+}
+
+dl span {
+    float: left;
+    width: 5%;
+    line-height: 60px;
+    text-align: center;
+}
+
+dl.email dd { overflow: hidden;}
+
+dl.email input[type="text"] {
+    float: left;
+    width: 50%;
+}
+
+dl.email span {
+    float: left;
+    width: 10%;
+}
+dl.email input[type="text"]:nth-of-type(2) {
+    width: 40%;
+}
+.button { text-align: center; margin-top: 20px;}
+.button a {display: inline-block; width: 150px;line-height: 24px;padding: 8px 0;border: 1px solid #c01; background: #fff;color: #c01;font-size: 14px;cursor: pointer;
+    margin: 0 5px; transition: all .5s;}
+.button a:first-child:hover{ background: #c01; color: #fff;}
+.button a:last-child { border: 1px solid #ccc; color: #999;}
+.button a:last-child:hover{ border: 1px solid #ccc; background: #ccc; color: #fff;}
+
+
+/* fail sucess */
+#content dl.fail input { border: 1px solid rgb(163, 0, 0);
+    background: #faf2f2;
+}
+#content dl.success input{ border: 1px solid rgb(0, 119, 0);
+    background: rgb(235, 245, 237);
+}
+
+#content span.fail { color: rgb(163, 0, 0);}
+#content span.success { color: rgb(0, 119, 0);}

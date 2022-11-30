@@ -1,0 +1,43 @@
+.main { overflow: hidden; position: relative; top: 0; left: 50%; width: 2000px; height: 500px; margin-left: -1000px; z-index: 50; } 
+.main img { transform: scale(1.1); animation: main_vis 2s forwards; } 
+@keyframes main_vis { 
+ from { transform: scale(1.1); } 
+ to { transform: scale(1); } 
+ }
+.main h3 { position: absolute; top: 50%; left: 50%; margin-left: -80px; color: #fff; font-size: 2.813em; font-weight: 400; opacity: 0; animation: subTitleMove .5s .2s forwards; } 
+@keyframes subTitleMove { 
+ from { top: 60%; } 
+ to { opacity: 1; } 
+ }
+.subNav { width: 100%; border-bottom: 1px solid #ddd; } 
+.subNav ul { overflow: hidden; width: 880px; margin: 0 auto; } 
+.subNav .current { color: #c01; border-bottom: 2px solid #c01; font-weight: 500; } 
+.subNav li { position: relative; width: 25%; float: left; font-size: 1.250em; text-align: center; } 
+.subNav a { transition: all .3s; } 
+.subNav li:hover a { color: #c01; } 
+.subNav a { display: block; padding-top: 20px; height: 70px; } 
+.subNav li:not(:last-child)::before { content: ''; display: block; position: absolute; top: 26px; right: 0; width: 1px; height: 15px; background: #ccc; } 
+.subNav li::after { content: ''; display: block; position: absolute; bottom: 0; left: 0; width: 220px; height: 2px; background: #c01; transform-origin: bottom; transform: scaleY(0); transition: all .3s; } 
+.subNav li:hover::after { transform: scaleY(1); } 
+#content { width: 1200px; margin: 0 auto; } 
+#content .titleArea { height: 455px; margin-top: 100px; } 
+#content .titleArea .lineMap { color: #999; } 
+#content h2 { position: relative; top: 0; margin-top: 100px; text-align: center; font-size: 3.438em; opacity: 0; animation: subTitleMove .5s .5s forwards; } 
+#content h2::after { content: ''; display: block; width: 2px; height: 100px; background: #c01; position: absolute; left: 50%; top: 120px; } 
+.tabNav { overflow: hidden; width: 1200px; margin-bottom: 100px; text-align: center; font-size: 1.625em; } 
+.tabNav li { float: left; width: 33.3333%; } 
+.tabNav li a { display: block; height: 80px; padding-top: 20px; border-bottom: 5px solid #c01; transition: all .3s; } 
+.tabNav .tabCurrent { background: #c01; color: #fff; } 
+.tabNav li a:hover { background: #c01; color: #fff; } 
+.tabSlogan h3, .tabSlogan span { text-align: center; } 
+.tabSlogan h3 { margin-bottom: 50px; font-size: 3.125em; color: #c01; } 
+.tabSlogan span { display: block; font-size: 1.875em; color: #666; } 
+.contentArea section { margin: 200px 0; } 
+.contentArea p { font-size: 1.25em; line-height: 2em; text-align: justify; } 
+.contentArea section p { margin: 50px 0; } 
+.contentArea dd { font-size: 1.25em; line-height: 2em; } 
+.contentArea>p { font-size: 1.875em; text-align: center; font-weight: 400; opacity: 0; animation: subTitleMove .5s .7s forwards; } 
+.contentArea>p:nth-child(2) { font-size: 2.5em; color: #c01; margin-bottom: 200px; opacity: 0; animation: subTitleMove .5s 1s forwards; } 
+.contentTitle { font-size: 2.5em; font-weight: 500; position: relative; margin-bottom: 50px; } 
+.contentTitle::after { content: ''; display: block; position: absolute; top: 11px; left: -20px; width: 7px; height: 36px; background: #c01; transform-origin: top; transform: scaleY(0); transition: all 2s ease-out; } 
+.contentArea section.moveToTop .contentTitle::after { transform: scaleY(1); } 
