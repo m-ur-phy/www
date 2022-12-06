@@ -9,7 +9,7 @@
                                         // $table 테이블에서 num필드를 기준으로 $loop 개수 만큼만  내림차순 정렬 
 		$result = mysql_query($sql, $connect); // 검색 쿼리 적용
 
-		while ($row = mysql_fetch_array($result))   //읽어드린 레코드 만큼..
+		while ($row = mysql_fetch_array($result))   //읽어들인 레코드 만큼..
 		{
 			$num = $row[num];    // 번호를 저장 ******
 			$len_subject = strlen($row[subject]);  // 제목의 길이를 구한다.
@@ -49,11 +49,11 @@
 					";
 				if($file_copied_0){
 					echo "
-						<img class='cimg' src='./$table/data/$file_copied_0'>
+						<img class='cimg' src='./$table/data/$file_copied_0' alt=''>
 					";
 				}else{
 					echo "
-						<img class='cimg' src='./$table/data/default.jpg'>
+						<img class='cimg' src='./$table/data/default.jpg' alt=''>
 					";
 				}
 				echo "	<dl>
