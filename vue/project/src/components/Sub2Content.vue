@@ -1,6 +1,7 @@
 <!-- 서브 페이지 마크업 -->
 <template lang="html">
     <div class="box3">
+      <SubVisual />
       <h2>서브 페이지2 입니다.</h2>
       <div v-for="(x) in oneromms" :key="x.id">
         <img :src="x.image" alt="" class="rimg">
@@ -12,7 +13,8 @@
   </template>
   
   <script>
-    import jdata from '../oneroom.json';
+  import SubVisual from './SubVisual.vue'
+  import jdata from '../oneroom.json';
   export default {
     data() {
       return {

@@ -1,0 +1,1943 @@
+[
+ {
+  "ID": 0,
+  "SIGUN_NM": "가평군",
+  "FACLT_NM": "조종생활체육공원 축구장",
+  "COMPLTN_YY": "2009",
+  "POSESN_INST_NM": "가평군",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "토사"
+ },
+ {
+  "ID": 1,
+  "SIGUN_NM": "가평군",
+  "FACLT_NM": "축구전용구장",
+  "COMPLTN_YY": "2011",
+  "POSESN_INST_NM": "가평군",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 2,
+  "SIGUN_NM": "가평군",
+  "FACLT_NM": "상면다목적 체육공원",
+  "COMPLTN_YY": "2012",
+  "POSESN_INST_NM": "가평군",
+  "MANAGE_MAINBD_NM": "가평군",
+  "BOTM_MATRL_NM": "토사"
+ },
+ {
+  "ID": 3,
+  "SIGUN_NM": "가평군",
+  "FACLT_NM": "설악생활체육공원",
+  "COMPLTN_YY": "2013",
+  "POSESN_INST_NM": "가평군",
+  "MANAGE_MAINBD_NM": "설악면사무소",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 4,
+  "SIGUN_NM": "고양시",
+  "FACLT_NM": "대화레포츠공원 축구장",
+  "COMPLTN_YY": "2002",
+  "POSESN_INST_NM": "고양시",
+  "MANAGE_MAINBD_NM": "고양도시관리공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 5,
+  "SIGUN_NM": "고양시",
+  "FACLT_NM": "충장체육시설 축구장",
+  "COMPLTN_YY": "2002",
+  "POSESN_INST_NM": "한국철도 시설공단",
+  "MANAGE_MAINBD_NM": "고양도시관리공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 6,
+  "SIGUN_NM": "고양시",
+  "FACLT_NM": "지영동생활체육시설 축구장",
+  "COMPLTN_YY": "2010",
+  "POSESN_INST_NM": "고양시",
+  "MANAGE_MAINBD_NM": "고양도시관리공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 7,
+  "SIGUN_NM": "고양시",
+  "FACLT_NM": "원능하수처리장축구장",
+  "COMPLTN_YY": "2012",
+  "POSESN_INST_NM": "고양시",
+  "MANAGE_MAINBD_NM": "고양시 하수행정과",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 8,
+  "SIGUN_NM": "고양시",
+  "FACLT_NM": "고양종합운동장 축구장",
+  "COMPLTN_YY": "2003",
+  "POSESN_INST_NM": "고양시",
+  "MANAGE_MAINBD_NM": "고양도시관리공사",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 9,
+  "SIGUN_NM": "고양시",
+  "FACLT_NM": "고양종합운동 보조구장",
+  "COMPLTN_YY": "2003",
+  "POSESN_INST_NM": "고양시",
+  "MANAGE_MAINBD_NM": "고양도시관리공사",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 10,
+  "SIGUN_NM": "고양시",
+  "FACLT_NM": "동산(창릉동)축구장",
+  "COMPLTN_YY": "1986",
+  "POSESN_INST_NM": "고양시",
+  "MANAGE_MAINBD_NM": "고양시 (덕양구)",
+  "BOTM_MATRL_NM": "토사구장"
+ },
+ {
+  "ID": 11,
+  "SIGUN_NM": "고양시",
+  "FACLT_NM": "정발산공원축구장",
+  "COMPLTN_YY": "1996",
+  "POSESN_INST_NM": "고양시",
+  "MANAGE_MAINBD_NM": "고양시 (체육진흥과)",
+  "BOTM_MATRL_NM": "토사구장"
+ },
+ {
+  "ID": 12,
+  "SIGUN_NM": "고양시",
+  "FACLT_NM": "강촌공원축구장",
+  "COMPLTN_YY": "1996",
+  "POSESN_INST_NM": "고양시",
+  "MANAGE_MAINBD_NM": "고양시 (체육진흥과)",
+  "BOTM_MATRL_NM": "토사구장"
+ },
+ {
+  "ID": 13,
+  "SIGUN_NM": "고양시",
+  "FACLT_NM": "지도공원축구장",
+  "COMPLTN_YY": "1996",
+  "POSESN_INST_NM": "고양시",
+  "MANAGE_MAINBD_NM": "고양시 (체육진흥과)",
+  "BOTM_MATRL_NM": "토사구장"
+ },
+ {
+  "ID": 14,
+  "SIGUN_NM": "고양시",
+  "FACLT_NM": "고양동운동장 축구장",
+  "COMPLTN_YY": "2001",
+  "POSESN_INST_NM": "고양시",
+  "MANAGE_MAINBD_NM": "고양시 (덕양구)",
+  "BOTM_MATRL_NM": "토사"
+ },
+ {
+  "ID": 15,
+  "SIGUN_NM": "고양시",
+  "FACLT_NM": "중산2호 근린공원 축구장",
+  "COMPLTN_YY": "1996",
+  "POSESN_INST_NM": "고양시",
+  "MANAGE_MAINBD_NM": "고양도시관리공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 16,
+  "SIGUN_NM": "고양시",
+  "FACLT_NM": "백석공원 근린공원 축구장",
+  "COMPLTN_YY": "1994",
+  "POSESN_INST_NM": "고양시",
+  "MANAGE_MAINBD_NM": "고양도시관리공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 17,
+  "SIGUN_NM": "고양시",
+  "FACLT_NM": "신원축구장",
+  "COMPLTN_YY": "2012",
+  "POSESN_INST_NM": "고양시",
+  "MANAGE_MAINBD_NM": "고양도시관리공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 18,
+  "SIGUN_NM": "고양시",
+  "FACLT_NM": "어울림축구장",
+  "COMPLTN_YY": "2004",
+  "POSESN_INST_NM": "고양시",
+  "MANAGE_MAINBD_NM": "고양도시관리공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 19,
+  "SIGUN_NM": "과천시",
+  "FACLT_NM": "문원체육공원 축구장",
+  "COMPLTN_YY": "2005",
+  "POSESN_INST_NM": "과천시",
+  "MANAGE_MAINBD_NM": "과천시 시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 20,
+  "SIGUN_NM": "광명시",
+  "FACLT_NM": "노온정수장 다목적운동장",
+  "COMPLTN_YY": "2010",
+  "POSESN_INST_NM": "광명시",
+  "MANAGE_MAINBD_NM": "광명도시공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 21,
+  "SIGUN_NM": "광명시",
+  "FACLT_NM": "시민운동장",
+  "COMPLTN_YY": "1986",
+  "POSESN_INST_NM": "광명시",
+  "MANAGE_MAINBD_NM": "광명문화재단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 22,
+  "SIGUN_NM": "광주시",
+  "FACLT_NM": "공설운동장 축구장",
+  "COMPLTN_YY": "1987",
+  "POSESN_INST_NM": "광주시",
+  "MANAGE_MAINBD_NM": "광주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 23,
+  "SIGUN_NM": "광주시",
+  "FACLT_NM": "도척그린공원 축구장",
+  "COMPLTN_YY": "2013",
+  "POSESN_INST_NM": "광주시",
+  "MANAGE_MAINBD_NM": "광주시 (도척면사무소)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 24,
+  "SIGUN_NM": "광주시",
+  "FACLT_NM": "광남생활체육공원 축구장",
+  "COMPLTN_YY": "2011",
+  "POSESN_INST_NM": "광주시",
+  "MANAGE_MAINBD_NM": "광주시 (광남동사무소)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 25,
+  "SIGUN_NM": "광주시",
+  "FACLT_NM": "곤지암생활체육공원  축구장",
+  "COMPLTN_YY": "2016",
+  "POSESN_INST_NM": "광주시",
+  "MANAGE_MAINBD_NM": "광주시 (곤지암읍사무소)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 26,
+  "SIGUN_NM": "광주시",
+  "FACLT_NM": "초월생활체육공원 축구장",
+  "COMPLTN_YY": "2016",
+  "POSESN_INST_NM": "광주시",
+  "MANAGE_MAINBD_NM": "광주시 (초월읍사무소)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 27,
+  "SIGUN_NM": "구리시",
+  "FACLT_NM": "주민편익시설 축구장",
+  "COMPLTN_YY": "2002",
+  "POSESN_INST_NM": "구리시",
+  "MANAGE_MAINBD_NM": "위탁 (구리시체육회)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 28,
+  "SIGUN_NM": "구리시",
+  "FACLT_NM": "구리왕숙체육공원",
+  "COMPLTN_YY": "2009",
+  "POSESN_INST_NM": "구리시",
+  "MANAGE_MAINBD_NM": "위탁 (구리도시공사)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 29,
+  "SIGUN_NM": "김포시",
+  "FACLT_NM": "솔터축구장",
+  "COMPLTN_YY": "2014",
+  "POSESN_INST_NM": "김포시",
+  "MANAGE_MAINBD_NM": "위탁 (김포시시설관리공단)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 30,
+  "SIGUN_NM": "김포시",
+  "FACLT_NM": "걸포다목적구장",
+  "COMPLTN_YY": "2007",
+  "POSESN_INST_NM": "김포시",
+  "MANAGE_MAINBD_NM": "위탁 (김포시시설관리공단)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 31,
+  "SIGUN_NM": "남양주시",
+  "FACLT_NM": "먹골저수지 체육시설",
+  "COMPLTN_YY": "2015",
+  "POSESN_INST_NM": "남양주시",
+  "MANAGE_MAINBD_NM": "남양주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 32,
+  "SIGUN_NM": "남양주시",
+  "FACLT_NM": "별내동 축구장",
+  "COMPLTN_YY": "2015",
+  "POSESN_INST_NM": "남양주시",
+  "MANAGE_MAINBD_NM": "남양주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 33,
+  "SIGUN_NM": "남양주시",
+  "FACLT_NM": "금남리 생활체육시설",
+  "COMPLTN_YY": "2013",
+  "POSESN_INST_NM": "남양주시",
+  "MANAGE_MAINBD_NM": "남양주시",
+  "BOTM_MATRL_NM": "마사토"
+ },
+ {
+  "ID": 34,
+  "SIGUN_NM": "남양주시",
+  "FACLT_NM": "차산리 생활체육시설",
+  "COMPLTN_YY": "2004",
+  "POSESN_INST_NM": "남양주시",
+  "MANAGE_MAINBD_NM": "남양주시",
+  "BOTM_MATRL_NM": "마사토"
+ },
+ {
+  "ID": 35,
+  "SIGUN_NM": "남양주시",
+  "FACLT_NM": "진접읍 운동장",
+  "COMPLTN_YY": "2016",
+  "POSESN_INST_NM": "남양주시",
+  "MANAGE_MAINBD_NM": "남양주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 36,
+  "SIGUN_NM": "남양주시",
+  "FACLT_NM": "와부읍 운동장",
+  "COMPLTN_YY": "2017",
+  "POSESN_INST_NM": "남양주시",
+  "MANAGE_MAINBD_NM": "남양주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 37,
+  "SIGUN_NM": "남양주시",
+  "FACLT_NM": "약대울 체육시설 축구장",
+  "COMPLTN_YY": "2016",
+  "POSESN_INST_NM": "남양주시",
+  "MANAGE_MAINBD_NM": "남양주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 38,
+  "SIGUN_NM": "남양주시",
+  "FACLT_NM": "종합운동장 인조잔디구장",
+  "COMPLTN_YY": "2007",
+  "POSESN_INST_NM": "남양주시",
+  "MANAGE_MAINBD_NM": "남양주도시공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 39,
+  "SIGUN_NM": "남양주시",
+  "FACLT_NM": "수동면 축구장",
+  "COMPLTN_YY": "2008",
+  "POSESN_INST_NM": "남양주시",
+  "MANAGE_MAINBD_NM": "남양주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 40,
+  "SIGUN_NM": "남양주시",
+  "FACLT_NM": "부평리 인조잔디구장",
+  "COMPLTN_YY": "2010",
+  "POSESN_INST_NM": "남양주시",
+  "MANAGE_MAINBD_NM": "남양주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 41,
+  "SIGUN_NM": "남양주시",
+  "FACLT_NM": "내곡리 생활체육공원 인조잔디구장",
+  "COMPLTN_YY": "2011",
+  "POSESN_INST_NM": "남양주시",
+  "MANAGE_MAINBD_NM": "남양주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 42,
+  "SIGUN_NM": "남양주시",
+  "FACLT_NM": "진건하수처리장 인조잔디구장",
+  "COMPLTN_YY": "2010",
+  "POSESN_INST_NM": "남양주시",
+  "MANAGE_MAINBD_NM": "남양주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 43,
+  "SIGUN_NM": "남양주시",
+  "FACLT_NM": "에코랜드 인조잔디구장",
+  "COMPLTN_YY": "2011",
+  "POSESN_INST_NM": "남양주시",
+  "MANAGE_MAINBD_NM": "위탁 (남양주도시공사)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 44,
+  "SIGUN_NM": "남양주시",
+  "FACLT_NM": "오남체육공원 축구장",
+  "COMPLTN_YY": "2012",
+  "POSESN_INST_NM": "남양주시",
+  "MANAGE_MAINBD_NM": "위탁 (남양주도시공사)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 45,
+  "SIGUN_NM": "남양주시",
+  "FACLT_NM": "진접 장현생활체육시설 인조잔디축구장",
+  "COMPLTN_YY": "2012",
+  "POSESN_INST_NM": "남양주시",
+  "MANAGE_MAINBD_NM": "남양주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 46,
+  "SIGUN_NM": "남양주시",
+  "FACLT_NM": "북한강 체육공원 축구장",
+  "COMPLTN_YY": "2013",
+  "POSESN_INST_NM": "남양주시",
+  "MANAGE_MAINBD_NM": "남양주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 47,
+  "SIGUN_NM": "남양주시",
+  "FACLT_NM": "용정리 생활체육시설",
+  "COMPLTN_YY": "2005",
+  "POSESN_INST_NM": "남양주시",
+  "MANAGE_MAINBD_NM": "남양주시",
+  "BOTM_MATRL_NM": "마사토"
+ },
+ {
+  "ID": 48,
+  "SIGUN_NM": "동두천시",
+  "FACLT_NM": "종합운동장 보조구장",
+  "COMPLTN_YY": "2001",
+  "POSESN_INST_NM": "동두천시",
+  "MANAGE_MAINBD_NM": "동두천시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 49,
+  "SIGUN_NM": "동두천시",
+  "FACLT_NM": "소요생활체육공원 축구장",
+  "COMPLTN_YY": "2008",
+  "POSESN_INST_NM": "동두천시",
+  "MANAGE_MAINBD_NM": "동두천시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 50,
+  "SIGUN_NM": "부천시",
+  "FACLT_NM": "옥길지구 근린공원2호  인조잔디구장",
+  "COMPLTN_YY": "2016",
+  "POSESN_INST_NM": "부천시",
+  "MANAGE_MAINBD_NM": "부천도시공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 51,
+  "SIGUN_NM": "부천시",
+  "FACLT_NM": "부천체육관 인조잔디구장",
+  "COMPLTN_YY": "2007",
+  "POSESN_INST_NM": "부천시",
+  "MANAGE_MAINBD_NM": "부천도시공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 52,
+  "SIGUN_NM": "부천시",
+  "FACLT_NM": "종합운동장 보조구장",
+  "COMPLTN_YY": "2001",
+  "POSESN_INST_NM": "부천시",
+  "MANAGE_MAINBD_NM": "부천도시공사",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 53,
+  "SIGUN_NM": "부천시",
+  "FACLT_NM": "오정대공원 인조잔디구장",
+  "COMPLTN_YY": "2009",
+  "POSESN_INST_NM": "부천시",
+  "MANAGE_MAINBD_NM": "부천도시공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 54,
+  "SIGUN_NM": "부천시",
+  "FACLT_NM": "북부수자원생태공원내 인조잔디구장",
+  "COMPLTN_YY": "2005",
+  "POSESN_INST_NM": "부천시",
+  "MANAGE_MAINBD_NM": "위탁 (㈜하이엔텍)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 55,
+  "SIGUN_NM": "부천시",
+  "FACLT_NM": "소사2배수지 축구장",
+  "COMPLTN_YY": "1992",
+  "POSESN_INST_NM": "부천시",
+  "MANAGE_MAINBD_NM": "부천도시공사",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 56,
+  "SIGUN_NM": "부천시",
+  "FACLT_NM": "역곡공원 인조잔디구장",
+  "COMPLTN_YY": "2017",
+  "POSESN_INST_NM": "부천시",
+  "MANAGE_MAINBD_NM": "부천시체육회",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 57,
+  "SIGUN_NM": "성남시",
+  "FACLT_NM": "상대원 유소년 축구장",
+  "COMPLTN_YY": "2018",
+  "POSESN_INST_NM": "성남시",
+  "MANAGE_MAINBD_NM": "성남도시개발공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 58,
+  "SIGUN_NM": "성남시",
+  "FACLT_NM": "성남종합운동장 보조경기장 인조잔디구장",
+  "COMPLTN_YY": "2008",
+  "POSESN_INST_NM": "성남시",
+  "MANAGE_MAINBD_NM": "성남도시개발공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 59,
+  "SIGUN_NM": "성남시",
+  "FACLT_NM": "황송공원 인조잔디구장",
+  "COMPLTN_YY": "2008",
+  "POSESN_INST_NM": "성남시",
+  "MANAGE_MAINBD_NM": "성남도시개발공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 60,
+  "SIGUN_NM": "성남시",
+  "FACLT_NM": "탄천변 제1체육공원 인조잔디 축구장",
+  "COMPLTN_YY": "2011",
+  "POSESN_INST_NM": "성남시",
+  "MANAGE_MAINBD_NM": "성남도시개발공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 61,
+  "SIGUN_NM": "수원시",
+  "FACLT_NM": "수원월드컵경기장 주경기장",
+  "COMPLTN_YY": "2002",
+  "POSESN_INST_NM": "수원시",
+  "MANAGE_MAINBD_NM": "월드컵경기장 관리재단",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 62,
+  "SIGUN_NM": "수원시",
+  "FACLT_NM": "매탄 인조잔디구장",
+  "COMPLTN_YY": "2010",
+  "POSESN_INST_NM": "수원시",
+  "MANAGE_MAINBD_NM": "위 탁 (수원시체육회)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 63,
+  "SIGUN_NM": "수원시",
+  "FACLT_NM": "화산체육공원 축구장",
+  "COMPLTN_YY": "2005",
+  "POSESN_INST_NM": "수원시",
+  "MANAGE_MAINBD_NM": "위탁 (수원도시공사)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 64,
+  "SIGUN_NM": "수원시",
+  "FACLT_NM": "영흥 인조잔디구장",
+  "COMPLTN_YY": "2006",
+  "POSESN_INST_NM": "수원시",
+  "MANAGE_MAINBD_NM": "위 탁 (수원시체육회)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 65,
+  "SIGUN_NM": "수원시",
+  "FACLT_NM": "지방산업단지 인조잔디구장",
+  "COMPLTN_YY": "2005",
+  "POSESN_INST_NM": "수원시",
+  "MANAGE_MAINBD_NM": "위 탁 (수원산업단지 관리공단)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 66,
+  "SIGUN_NM": "수원시",
+  "FACLT_NM": "여기산 인조잔디구장",
+  "COMPLTN_YY": "2004",
+  "POSESN_INST_NM": "수원시",
+  "MANAGE_MAINBD_NM": "위 탁 (수원시체육회)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 67,
+  "SIGUN_NM": "수원시",
+  "FACLT_NM": "만석 인조잔디구장",
+  "COMPLTN_YY": "2004",
+  "POSESN_INST_NM": "수원시",
+  "MANAGE_MAINBD_NM": "위 탁 (수원시체육회)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 68,
+  "SIGUN_NM": "수원시",
+  "FACLT_NM": "수원종합운동장 보조구장",
+  "COMPLTN_YY": "2000",
+  "POSESN_INST_NM": "수원시",
+  "MANAGE_MAINBD_NM": "위탁 (수원도시공사)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 69,
+  "SIGUN_NM": "수원시",
+  "FACLT_NM": "수원월드컵경기장 인조2경기장",
+  "COMPLTN_YY": "2004",
+  "POSESN_INST_NM": "수원시",
+  "MANAGE_MAINBD_NM": "월드컵경기장 관리재단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 70,
+  "SIGUN_NM": "수원시",
+  "FACLT_NM": "수원월드컵경기장 인조1경기장",
+  "COMPLTN_YY": "2003",
+  "POSESN_INST_NM": "수원시",
+  "MANAGE_MAINBD_NM": "월드컵경기장 관리재단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 71,
+  "SIGUN_NM": "수원시",
+  "FACLT_NM": "수원월드컵경기장 연습경기장(한국잔디)",
+  "COMPLTN_YY": "2002",
+  "POSESN_INST_NM": "수원시",
+  "MANAGE_MAINBD_NM": "월드컵경기장 관리재단",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 72,
+  "SIGUN_NM": "수원시",
+  "FACLT_NM": "수원월드컵경기장 보조경기장(천연잔디)",
+  "COMPLTN_YY": "2002",
+  "POSESN_INST_NM": "수원시",
+  "MANAGE_MAINBD_NM": "월드컵경기장 관리재단",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 73,
+  "SIGUN_NM": "시흥시",
+  "FACLT_NM": "정왕동 체육공원",
+  "COMPLTN_YY": "2007",
+  "POSESN_INST_NM": "시흥시",
+  "MANAGE_MAINBD_NM": "시흥시 시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 74,
+  "SIGUN_NM": "시흥시",
+  "FACLT_NM": "포동생활체육공원 시민운동장",
+  "COMPLTN_YY": "2004",
+  "POSESN_INST_NM": "시흥시",
+  "MANAGE_MAINBD_NM": "시흥시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 75,
+  "SIGUN_NM": "시흥시",
+  "FACLT_NM": "옥구공원 인조잔디구장",
+  "COMPLTN_YY": "2004",
+  "POSESN_INST_NM": "시흥시",
+  "MANAGE_MAINBD_NM": "시흥시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 76,
+  "SIGUN_NM": "시흥시",
+  "FACLT_NM": "희망공원 인조잔디 및 클레이구장",
+  "COMPLTN_YY": "2010",
+  "POSESN_INST_NM": "시흥시",
+  "MANAGE_MAINBD_NM": "시흥시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 77,
+  "SIGUN_NM": "시흥시",
+  "FACLT_NM": "시화mtv체육공원(48호) 인조잔디구장",
+  "COMPLTN_YY": "2017",
+  "POSESN_INST_NM": "시흥시",
+  "MANAGE_MAINBD_NM": "시흥시시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 78,
+  "SIGUN_NM": "시흥시",
+  "FACLT_NM": "신천동 축구장",
+  "COMPLTN_YY": "2014",
+  "POSESN_INST_NM": "시흥시",
+  "MANAGE_MAINBD_NM": "시흥시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 79,
+  "SIGUN_NM": "안산시",
+  "FACLT_NM": "원시운동장",
+  "COMPLTN_YY": "1987",
+  "POSESN_INST_NM": "안산시",
+  "MANAGE_MAINBD_NM": "위탁 (안산도시공사)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 80,
+  "SIGUN_NM": "안산시",
+  "FACLT_NM": "와동축구장",
+  "COMPLTN_YY": "2004",
+  "POSESN_INST_NM": "안산시",
+  "MANAGE_MAINBD_NM": "위탁 (안산도시공사)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 81,
+  "SIGUN_NM": "안산시",
+  "FACLT_NM": "풍경운동장",
+  "COMPLTN_YY": "2004",
+  "POSESN_INST_NM": "안산시",
+  "MANAGE_MAINBD_NM": "위탁 (안산도시공사)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 82,
+  "SIGUN_NM": "안산시",
+  "FACLT_NM": "시낭운동장",
+  "COMPLTN_YY": "1989",
+  "POSESN_INST_NM": "안산시",
+  "MANAGE_MAINBD_NM": "위탁 (안산도시공사)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 83,
+  "SIGUN_NM": "안산시",
+  "FACLT_NM": "성호운동장",
+  "COMPLTN_YY": "2008",
+  "POSESN_INST_NM": "안산시",
+  "MANAGE_MAINBD_NM": "위탁 (안산도시공사)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 84,
+  "SIGUN_NM": "안산시",
+  "FACLT_NM": "호수공원 축구장",
+  "COMPLTN_YY": "2005",
+  "POSESN_INST_NM": "안산시",
+  "MANAGE_MAINBD_NM": "위탁 (안산도시공사)",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 85,
+  "SIGUN_NM": "안산시",
+  "FACLT_NM": "해양축구장",
+  "COMPLTN_YY": "2014",
+  "POSESN_INST_NM": "안산시",
+  "MANAGE_MAINBD_NM": "위탁 (안산도시공사)",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 86,
+  "SIGUN_NM": "안산시",
+  "FACLT_NM": "와 스타디움 보조구장",
+  "COMPLTN_YY": "2006",
+  "POSESN_INST_NM": "안산시",
+  "MANAGE_MAINBD_NM": "위탁 (안산도시공사)",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 87,
+  "SIGUN_NM": "안산시",
+  "FACLT_NM": "능길운동장",
+  "COMPLTN_YY": "1995",
+  "POSESN_INST_NM": "안산시",
+  "MANAGE_MAINBD_NM": "위탁 (안산도시공사)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 88,
+  "SIGUN_NM": "안산시",
+  "FACLT_NM": "석수운동장",
+  "COMPLTN_YY": "1991",
+  "POSESN_INST_NM": "안산시",
+  "MANAGE_MAINBD_NM": "위탁 (안산도시공사)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 89,
+  "SIGUN_NM": "안산시",
+  "FACLT_NM": "수암꿈나무축구장",
+  "COMPLTN_YY": "2017",
+  "POSESN_INST_NM": "안산시",
+  "MANAGE_MAINBD_NM": "위탁 (안산도시공사)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 90,
+  "SIGUN_NM": "안산시",
+  "FACLT_NM": "장화운동장",
+  "POSESN_INST_NM": "안산시",
+  "MANAGE_MAINBD_NM": "위탁 (안산도시공사)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 91,
+  "SIGUN_NM": "안산시",
+  "FACLT_NM": "유소년 축구장",
+  "COMPLTN_YY": "2016",
+  "POSESN_INST_NM": "안산시",
+  "MANAGE_MAINBD_NM": "위탁 (안산도시공사)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 92,
+  "SIGUN_NM": "안성시",
+  "FACLT_NM": "안성맞춤A구장",
+  "COMPLTN_YY": "2005",
+  "POSESN_INST_NM": "안성시",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 93,
+  "SIGUN_NM": "안성시",
+  "FACLT_NM": "대림동산 축구장",
+  "COMPLTN_YY": "2003",
+  "POSESN_INST_NM": "안성시",
+  "MANAGE_MAINBD_NM": "위탁 (공도읍체육회)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 94,
+  "SIGUN_NM": "안성시",
+  "FACLT_NM": "안성맞춤B구장",
+  "COMPLTN_YY": "2014",
+  "POSESN_INST_NM": "안성시",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 95,
+  "SIGUN_NM": "안성시",
+  "FACLT_NM": "죽산 하수처리시설 내  축구장",
+  "COMPLTN_YY": "2012",
+  "POSESN_INST_NM": "안성시",
+  "MANAGE_MAINBD_NM": "위탁 (죽산면체육회)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 96,
+  "SIGUN_NM": "안성시",
+  "FACLT_NM": "일죽 하수처리시설 내  축구장",
+  "COMPLTN_YY": "2012",
+  "POSESN_INST_NM": "안성시",
+  "MANAGE_MAINBD_NM": "위탁 (일죽면체육회)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 97,
+  "SIGUN_NM": "안성시",
+  "FACLT_NM": "동부지역 축구장",
+  "COMPLTN_YY": "2009",
+  "POSESN_INST_NM": "안성시",
+  "MANAGE_MAINBD_NM": "위탁 (삼죽면체육회)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 98,
+  "SIGUN_NM": "안양시",
+  "FACLT_NM": "비산체육공원 축구장",
+  "COMPLTN_YY": "2017",
+  "POSESN_INST_NM": "안양시",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 99,
+  "SIGUN_NM": "안양시",
+  "FACLT_NM": "자유공원 축구장",
+  "COMPLTN_YY": "2006",
+  "POSESN_INST_NM": "안양시",
+  "MANAGE_MAINBD_NM": "안양시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 100,
+  "SIGUN_NM": "안양시",
+  "FACLT_NM": "석수체육공원 축구장",
+  "COMPLTN_YY": "2006",
+  "POSESN_INST_NM": "안양시",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 101,
+  "SIGUN_NM": "안양시",
+  "FACLT_NM": "종합운동장 축구장",
+  "COMPLTN_YY": "1986",
+  "POSESN_INST_NM": "안양시",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 102,
+  "SIGUN_NM": "양주시",
+  "FACLT_NM": "고덕생활체육공원",
+  "COMPLTN_YY": "2004",
+  "POSESN_INST_NM": "양주시",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 103,
+  "SIGUN_NM": "양주시",
+  "FACLT_NM": "신천하수처리장 축구장",
+  "COMPLTN_YY": "2006",
+  "POSESN_INST_NM": "양주시",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 104,
+  "SIGUN_NM": "양주시",
+  "FACLT_NM": "장흥하수처리장 축구장",
+  "COMPLTN_YY": "2008",
+  "POSESN_INST_NM": "양주시",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 105,
+  "SIGUN_NM": "양주시",
+  "FACLT_NM": "고읍축구장",
+  "COMPLTN_YY": "2009",
+  "POSESN_INST_NM": "양주시",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 106,
+  "SIGUN_NM": "양주시",
+  "FACLT_NM": "광적축구장",
+  "COMPLTN_YY": "2011",
+  "POSESN_INST_NM": "양주시",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 107,
+  "SIGUN_NM": "양주시",
+  "FACLT_NM": "에코스포츠 센터 축구장",
+  "COMPLTN_YY": "2010",
+  "POSESN_INST_NM": "양주시",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 108,
+  "SIGUN_NM": "양주시",
+  "FACLT_NM": "청소년 수련관 축구장",
+  "COMPLTN_YY": "2004",
+  "POSESN_INST_NM": "양주시",
+  "MANAGE_MAINBD_NM": "양주시",
+  "BOTM_MATRL_NM": "토사"
+ },
+ {
+  "ID": 109,
+  "SIGUN_NM": "양평군",
+  "FACLT_NM": "용문생활체육공원 축구장",
+  "COMPLTN_YY": "2009",
+  "POSESN_INST_NM": "양평군",
+  "MANAGE_MAINBD_NM": "양평군",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 110,
+  "SIGUN_NM": "양평군",
+  "FACLT_NM": "지평레포츠공원 축구장",
+  "COMPLTN_YY": "2013",
+  "POSESN_INST_NM": "양평군",
+  "MANAGE_MAINBD_NM": "양평군",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 111,
+  "SIGUN_NM": "양평군",
+  "FACLT_NM": "양동레포츠공원 축구장",
+  "COMPLTN_YY": "1996",
+  "POSESN_INST_NM": "양평군",
+  "MANAGE_MAINBD_NM": "양평군",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 112,
+  "SIGUN_NM": "양평군",
+  "FACLT_NM": "청운레포츠공원 축구장",
+  "COMPLTN_YY": "1998",
+  "POSESN_INST_NM": "양평군",
+  "MANAGE_MAINBD_NM": "양평군",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 113,
+  "SIGUN_NM": "양평군",
+  "FACLT_NM": "단월레포츠공원 축구장",
+  "COMPLTN_YY": "2004",
+  "POSESN_INST_NM": "양평군",
+  "MANAGE_MAINBD_NM": "양평군",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 114,
+  "SIGUN_NM": "양평군",
+  "FACLT_NM": "서종체육공원 축구장",
+  "COMPLTN_YY": "2001",
+  "POSESN_INST_NM": "양평군",
+  "MANAGE_MAINBD_NM": "양평군",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 115,
+  "SIGUN_NM": "양평군",
+  "FACLT_NM": "양평 안보테마공원 축구장",
+  "COMPLTN_YY": "2012",
+  "POSESN_INST_NM": "양평군",
+  "MANAGE_MAINBD_NM": "양평군",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 116,
+  "SIGUN_NM": "양평군",
+  "FACLT_NM": "강하생활체육공원 축구장",
+  "COMPLTN_YY": "2011",
+  "POSESN_INST_NM": "양평군",
+  "MANAGE_MAINBD_NM": "양평군",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 117,
+  "SIGUN_NM": "양평군",
+  "FACLT_NM": "강하체육공원 축구장",
+  "COMPLTN_YY": "1998",
+  "POSESN_INST_NM": "양평군",
+  "MANAGE_MAINBD_NM": "양평군",
+  "BOTM_MATRL_NM": "토사"
+ },
+ {
+  "ID": 118,
+  "SIGUN_NM": "양평군",
+  "FACLT_NM": "강상체육공원 축구장",
+  "COMPLTN_YY": "2009",
+  "POSESN_INST_NM": "양평군",
+  "MANAGE_MAINBD_NM": "양평군",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 119,
+  "SIGUN_NM": "양평군",
+  "FACLT_NM": "양평생활체육공원 축구장",
+  "COMPLTN_YY": "2009",
+  "POSESN_INST_NM": "양평군",
+  "MANAGE_MAINBD_NM": "양평군",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 120,
+  "SIGUN_NM": "양평군",
+  "FACLT_NM": "개군레포츠공원 축구장",
+  "COMPLTN_YY": "1998",
+  "POSESN_INST_NM": "양평군",
+  "MANAGE_MAINBD_NM": "양평군",
+  "BOTM_MATRL_NM": "토사"
+ },
+ {
+  "ID": 121,
+  "SIGUN_NM": "양평군",
+  "FACLT_NM": "옥천레포츠공원 축구장",
+  "COMPLTN_YY": "1999",
+  "POSESN_INST_NM": "양평군",
+  "MANAGE_MAINBD_NM": "양평군",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 122,
+  "SIGUN_NM": "양평군",
+  "FACLT_NM": "양서레포츠공원 축구장",
+  "COMPLTN_YY": "2001",
+  "POSESN_INST_NM": "양평군",
+  "MANAGE_MAINBD_NM": "양평군",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 123,
+  "SIGUN_NM": "여주시",
+  "FACLT_NM": "산북체육공원 축구장",
+  "COMPLTN_YY": "2011",
+  "POSESN_INST_NM": "여주시",
+  "MANAGE_MAINBD_NM": "여주시",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 124,
+  "SIGUN_NM": "여주시",
+  "FACLT_NM": "오학체육공원 축구장",
+  "COMPLTN_YY": "2011",
+  "POSESN_INST_NM": "여주시",
+  "MANAGE_MAINBD_NM": "여주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 125,
+  "SIGUN_NM": "여주시",
+  "FACLT_NM": "대신체육공원 축구장",
+  "COMPLTN_YY": "2010",
+  "POSESN_INST_NM": "여주시",
+  "MANAGE_MAINBD_NM": "여주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 126,
+  "SIGUN_NM": "여주시",
+  "FACLT_NM": "점동테마공원 축구장",
+  "COMPLTN_YY": "2009",
+  "POSESN_INST_NM": "여주시",
+  "MANAGE_MAINBD_NM": "여주시",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 127,
+  "SIGUN_NM": "여주시",
+  "FACLT_NM": "강천체육공원 축구장",
+  "COMPLTN_YY": "2008",
+  "POSESN_INST_NM": "여주시",
+  "MANAGE_MAINBD_NM": "여주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 128,
+  "SIGUN_NM": "여주시",
+  "FACLT_NM": "북내체육공원 축구장",
+  "COMPLTN_YY": "2007",
+  "POSESN_INST_NM": "여주시",
+  "MANAGE_MAINBD_NM": "여주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 129,
+  "SIGUN_NM": "여주시",
+  "FACLT_NM": "가남체육공원 축구장",
+  "COMPLTN_YY": "2003",
+  "POSESN_INST_NM": "여주시",
+  "MANAGE_MAINBD_NM": "여주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 130,
+  "SIGUN_NM": "여주시",
+  "FACLT_NM": "흥천체육공원 축구장",
+  "COMPLTN_YY": "2006",
+  "POSESN_INST_NM": "여주시",
+  "MANAGE_MAINBD_NM": "여주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 131,
+  "SIGUN_NM": "여주시",
+  "FACLT_NM": "금사체육공원 축구장",
+  "COMPLTN_YY": "2005",
+  "POSESN_INST_NM": "여주시",
+  "MANAGE_MAINBD_NM": "여주시",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 132,
+  "SIGUN_NM": "여주시",
+  "FACLT_NM": "능서레포츠공원 축구장",
+  "COMPLTN_YY": "2005",
+  "POSESN_INST_NM": "여주시",
+  "MANAGE_MAINBD_NM": "여주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 133,
+  "SIGUN_NM": "여주시",
+  "FACLT_NM": "여주종합운동장",
+  "COMPLTN_YY": "1990",
+  "POSESN_INST_NM": "여주시",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 134,
+  "SIGUN_NM": "연천군",
+  "FACLT_NM": "한탄강 생활체육공원 축구장",
+  "COMPLTN_YY": "2007",
+  "POSESN_INST_NM": "연천군",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 135,
+  "SIGUN_NM": "연천군",
+  "FACLT_NM": "연천 공설운동장 보조경기장",
+  "POSESN_INST_NM": "연천군",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 136,
+  "SIGUN_NM": "오산시",
+  "FACLT_NM": "오산스포츠센터 보조축구장",
+  "COMPLTN_YY": "2010",
+  "POSESN_INST_NM": "오산시",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 137,
+  "SIGUN_NM": "오산시",
+  "FACLT_NM": "오산죽미체육공원  다목적구장",
+  "COMPLTN_YY": "2011",
+  "POSESN_INST_NM": "오산시",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 138,
+  "SIGUN_NM": "용인시",
+  "FACLT_NM": "상현레스피아 축구장",
+  "COMPLTN_YY": "2014",
+  "POSESN_INST_NM": "용인시",
+  "MANAGE_MAINBD_NM": "용인시체육회",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 139,
+  "SIGUN_NM": "용인시",
+  "FACLT_NM": "용인시축구센터",
+  "COMPLTN_YY": "2004",
+  "POSESN_INST_NM": "용인시",
+  "MANAGE_MAINBD_NM": "(재)용인시 축구센터",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 140,
+  "SIGUN_NM": "용인시",
+  "FACLT_NM": "수지레스피아 축구장",
+  "COMPLTN_YY": "2009",
+  "POSESN_INST_NM": "용인시",
+  "MANAGE_MAINBD_NM": "용인도시공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 141,
+  "SIGUN_NM": "용인시",
+  "FACLT_NM": "모현레스피아 축구장",
+  "COMPLTN_YY": "2010",
+  "POSESN_INST_NM": "용인시",
+  "MANAGE_MAINBD_NM": "용인시체육회",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 142,
+  "SIGUN_NM": "용인시",
+  "FACLT_NM": "수지체육공원 축구장",
+  "COMPLTN_YY": "2006",
+  "POSESN_INST_NM": "경기도",
+  "MANAGE_MAINBD_NM": "용인시체육회",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 143,
+  "SIGUN_NM": "용인시",
+  "FACLT_NM": "기흥레스피아 축구장",
+  "COMPLTN_YY": "2012",
+  "POSESN_INST_NM": "용인시",
+  "MANAGE_MAINBD_NM": "용인시체육회",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 144,
+  "SIGUN_NM": "의왕시",
+  "FACLT_NM": "내손체육공원 축구장",
+  "COMPLTN_YY": "1986",
+  "POSESN_INST_NM": "의왕시",
+  "MANAGE_MAINBD_NM": "의왕도시공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 145,
+  "SIGUN_NM": "의왕시",
+  "FACLT_NM": "고천체육공원 축구장",
+  "COMPLTN_YY": "1993",
+  "POSESN_INST_NM": "의왕시",
+  "MANAGE_MAINBD_NM": "의왕도시공사",
+  "BOTM_MATRL_NM": "토사"
+ },
+ {
+  "ID": 146,
+  "SIGUN_NM": "의왕시",
+  "FACLT_NM": "부곡체육공원 축구장",
+  "COMPLTN_YY": "2003",
+  "POSESN_INST_NM": "의왕시",
+  "MANAGE_MAINBD_NM": "의왕도시공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 147,
+  "SIGUN_NM": "의정부시",
+  "FACLT_NM": "직동축구장",
+  "COMPLTN_YY": "2008",
+  "POSESN_INST_NM": "의정부시",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 148,
+  "SIGUN_NM": "의정부시",
+  "FACLT_NM": "곤제축구장",
+  "COMPLTN_YY": "2006",
+  "POSESN_INST_NM": "의정부시",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 149,
+  "SIGUN_NM": "의정부시",
+  "FACLT_NM": "활기축구장",
+  "COMPLTN_YY": "2016",
+  "POSESN_INST_NM": "의정부시",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 150,
+  "SIGUN_NM": "이천시",
+  "FACLT_NM": "설성면 체육공원 축구장",
+  "COMPLTN_YY": "2011",
+  "POSESN_INST_NM": "이천시",
+  "MANAGE_MAINBD_NM": "이천시",
+  "BOTM_MATRL_NM": "토사"
+ },
+ {
+  "ID": 151,
+  "SIGUN_NM": "이천시",
+  "FACLT_NM": "신둔면 체육공원 축구장",
+  "COMPLTN_YY": "2011",
+  "POSESN_INST_NM": "이천시",
+  "MANAGE_MAINBD_NM": "이천시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 152,
+  "SIGUN_NM": "이천시",
+  "FACLT_NM": "대월면 체육공원 축구장",
+  "COMPLTN_YY": "2012",
+  "POSESN_INST_NM": "이천시",
+  "MANAGE_MAINBD_NM": "이천시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 153,
+  "SIGUN_NM": "이천시",
+  "FACLT_NM": "모가면 체육공원 축구장",
+  "COMPLTN_YY": "2010",
+  "POSESN_INST_NM": "이천시",
+  "MANAGE_MAINBD_NM": "이천시",
+  "BOTM_MATRL_NM": "토사"
+ },
+ {
+  "ID": 154,
+  "SIGUN_NM": "이천시",
+  "FACLT_NM": "호법면 체육공원 축구장",
+  "COMPLTN_YY": "2004",
+  "POSESN_INST_NM": "이천시",
+  "MANAGE_MAINBD_NM": "이천시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 155,
+  "SIGUN_NM": "이천시",
+  "FACLT_NM": "율면 체육공원 축구장",
+  "COMPLTN_YY": "2009",
+  "POSESN_INST_NM": "이천시",
+  "MANAGE_MAINBD_NM": "이천시",
+  "BOTM_MATRL_NM": "토사"
+ },
+ {
+  "ID": 156,
+  "SIGUN_NM": "이천시",
+  "FACLT_NM": "마장면 체육공원 축구장",
+  "COMPLTN_YY": "2013",
+  "POSESN_INST_NM": "이천시",
+  "MANAGE_MAINBD_NM": "이천시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 157,
+  "SIGUN_NM": "이천시",
+  "FACLT_NM": "백사면 체육공원 축구장",
+  "COMPLTN_YY": "2007",
+  "POSESN_INST_NM": "이천시",
+  "MANAGE_MAINBD_NM": "이천시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 158,
+  "SIGUN_NM": "이천시",
+  "FACLT_NM": "이천훈련원 대운동장",
+  "POSESN_INST_NM": "대한장애인 체육회",
+  "MANAGE_MAINBD_NM": "대한장애인체육회",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 159,
+  "SIGUN_NM": "이천시",
+  "FACLT_NM": "이천훈련원 뇌성축구장",
+  "COMPLTN_YY": "2015",
+  "POSESN_INST_NM": "대한장애인 체육회",
+  "MANAGE_MAINBD_NM": "대한장애인체육회",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 160,
+  "SIGUN_NM": "이천시",
+  "FACLT_NM": "이천훈련원 시각축구장",
+  "COMPLTN_YY": "2015",
+  "POSESN_INST_NM": "대한장애인 체육회",
+  "MANAGE_MAINBD_NM": "대한장애인체육회",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 161,
+  "SIGUN_NM": "이천시",
+  "FACLT_NM": "복하천 체육공원 축구장",
+  "COMPLTN_YY": "2015",
+  "POSESN_INST_NM": "이천시",
+  "MANAGE_MAINBD_NM": "이천시",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 162,
+  "SIGUN_NM": "이천시",
+  "FACLT_NM": "부발읍 체육공원 축구장",
+  "COMPLTN_YY": "2016",
+  "POSESN_INST_NM": "이천시",
+  "MANAGE_MAINBD_NM": "이천시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 163,
+  "SIGUN_NM": "이천시",
+  "FACLT_NM": "장호원읍 체육공원 축구장",
+  "COMPLTN_YY": "2006",
+  "POSESN_INST_NM": "이천시",
+  "MANAGE_MAINBD_NM": "이천시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 164,
+  "SIGUN_NM": "이천시",
+  "FACLT_NM": "이천스포츠센터 축구장",
+  "COMPLTN_YY": "2008",
+  "POSESN_INST_NM": "이천시",
+  "MANAGE_MAINBD_NM": "위탁 (코오롱스포렉스)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 165,
+  "SIGUN_NM": "이천시",
+  "FACLT_NM": "이천 종합운동장 보조구장",
+  "COMPLTN_YY": "2008",
+  "POSESN_INST_NM": "이천시",
+  "MANAGE_MAINBD_NM": "이천시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 166,
+  "SIGUN_NM": "이천시",
+  "FACLT_NM": "공설운동장",
+  "COMPLTN_YY": "2002",
+  "POSESN_INST_NM": "이천시",
+  "MANAGE_MAINBD_NM": "이천시",
+  "BOTM_MATRL_NM": "토사"
+ },
+ {
+  "ID": 167,
+  "SIGUN_NM": "파주시",
+  "FACLT_NM": "조리체육공원 축구장",
+  "COMPLTN_YY": "2017",
+  "POSESN_INST_NM": "파주시",
+  "MANAGE_MAINBD_NM": "파주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 168,
+  "SIGUN_NM": "파주시",
+  "FACLT_NM": "적성체육공원 축구장",
+  "COMPLTN_YY": "1995",
+  "POSESN_INST_NM": "파주시",
+  "MANAGE_MAINBD_NM": "파주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 169,
+  "SIGUN_NM": "파주시",
+  "FACLT_NM": "운정건강공원(가온) 축구장",
+  "COMPLTN_YY": "2014",
+  "POSESN_INST_NM": "파주시",
+  "MANAGE_MAINBD_NM": "파주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 170,
+  "SIGUN_NM": "파주시",
+  "FACLT_NM": "운정체육공원 축구장(1,2구장)",
+  "COMPLTN_YY": "2009",
+  "POSESN_INST_NM": "파주시",
+  "MANAGE_MAINBD_NM": "파주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 171,
+  "SIGUN_NM": "파주시",
+  "FACLT_NM": "축구국가대표 트레이닝센터",
+  "COMPLTN_YY": "2003",
+  "POSESN_INST_NM": "파주시",
+  "MANAGE_MAINBD_NM": "대한축구협회",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 172,
+  "SIGUN_NM": "파주시",
+  "FACLT_NM": "교하체육공원 축구장(1,2구장)",
+  "COMPLTN_YY": "2009",
+  "POSESN_INST_NM": "파주시",
+  "MANAGE_MAINBD_NM": "파주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 173,
+  "SIGUN_NM": "파주시",
+  "FACLT_NM": "향양리체육공원 축구장",
+  "COMPLTN_YY": "2008",
+  "POSESN_INST_NM": "파주시",
+  "MANAGE_MAINBD_NM": "파주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 174,
+  "SIGUN_NM": "파주시",
+  "FACLT_NM": "월롱체육공원 축구장",
+  "COMPLTN_YY": "1997",
+  "POSESN_INST_NM": "파주시",
+  "MANAGE_MAINBD_NM": "파주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 175,
+  "SIGUN_NM": "파주시",
+  "FACLT_NM": "파주스타디움 보조구장",
+  "COMPLTN_YY": "2006",
+  "POSESN_INST_NM": "파주시",
+  "MANAGE_MAINBD_NM": "파주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 176,
+  "SIGUN_NM": "파주시",
+  "FACLT_NM": "문산체육공원 축구장",
+  "COMPLTN_YY": "2006",
+  "POSESN_INST_NM": "파주시",
+  "MANAGE_MAINBD_NM": "파주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 177,
+  "SIGUN_NM": "파주시",
+  "FACLT_NM": "파평체육공원 축구장",
+  "COMPLTN_YY": "2005",
+  "POSESN_INST_NM": "파주시",
+  "MANAGE_MAINBD_NM": "파주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 178,
+  "SIGUN_NM": "파주시",
+  "FACLT_NM": "광탄체육공원 축구장",
+  "COMPLTN_YY": "1997",
+  "POSESN_INST_NM": "파주시",
+  "MANAGE_MAINBD_NM": "파주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 179,
+  "SIGUN_NM": "파주시",
+  "FACLT_NM": "법원체육공원 축구장",
+  "COMPLTN_YY": "2015",
+  "POSESN_INST_NM": "파주시",
+  "MANAGE_MAINBD_NM": "파주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 180,
+  "SIGUN_NM": "파주시",
+  "FACLT_NM": "금촌체육공원 축구장",
+  "COMPLTN_YY": "1997",
+  "POSESN_INST_NM": "파주시",
+  "MANAGE_MAINBD_NM": "파주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 181,
+  "SIGUN_NM": "파주시",
+  "FACLT_NM": "내포리체육공원 축구장",
+  "COMPLTN_YY": "2003",
+  "POSESN_INST_NM": "파주시",
+  "MANAGE_MAINBD_NM": "파주시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 182,
+  "SIGUN_NM": "평택시",
+  "FACLT_NM": "이충레포츠공원 축구장",
+  "COMPLTN_YY": "2015",
+  "POSESN_INST_NM": "평택시",
+  "MANAGE_MAINBD_NM": "평택시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 183,
+  "SIGUN_NM": "평택시",
+  "FACLT_NM": "이충레포츠공원 축구장",
+  "COMPLTN_YY": "2001",
+  "POSESN_INST_NM": "평택시",
+  "MANAGE_MAINBD_NM": "평택시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 184,
+  "SIGUN_NM": "평택시",
+  "FACLT_NM": "안성천축구장",
+  "COMPLTN_YY": "2013",
+  "POSESN_INST_NM": "평택시",
+  "MANAGE_MAINBD_NM": "평택시",
+  "BOTM_MATRL_NM": "토사"
+ },
+ {
+  "ID": 185,
+  "SIGUN_NM": "평택시",
+  "FACLT_NM": "서탄 진위천 체육시설 축구장",
+  "COMPLTN_YY": "2008",
+  "POSESN_INST_NM": "평택시",
+  "MANAGE_MAINBD_NM": "평택시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 186,
+  "SIGUN_NM": "평택시",
+  "FACLT_NM": "소사벌레포츠타운 축구장",
+  "COMPLTN_YY": "2004",
+  "POSESN_INST_NM": "평택시",
+  "MANAGE_MAINBD_NM": "평택시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 187,
+  "SIGUN_NM": "평택시",
+  "FACLT_NM": "여술근린공원 축구장",
+  "COMPLTN_YY": "1998",
+  "POSESN_INST_NM": "평택시",
+  "MANAGE_MAINBD_NM": "평택시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 188,
+  "SIGUN_NM": "평택시",
+  "FACLT_NM": "안중레포츠공원 축구장",
+  "COMPLTN_YY": "2015",
+  "POSESN_INST_NM": "평택시",
+  "MANAGE_MAINBD_NM": "평택시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 189,
+  "SIGUN_NM": "평택시",
+  "FACLT_NM": "팽성레포츠공원 축구장",
+  "COMPLTN_YY": "2005",
+  "POSESN_INST_NM": "평택시",
+  "MANAGE_MAINBD_NM": "평택시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 190,
+  "SIGUN_NM": "평택시",
+  "FACLT_NM": "신대레포츠공원 축구장",
+  "COMPLTN_YY": "2002",
+  "POSESN_INST_NM": "평택시",
+  "MANAGE_MAINBD_NM": "평택시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 191,
+  "SIGUN_NM": "평택시",
+  "FACLT_NM": "진위공공하수처리장 축구장",
+  "COMPLTN_YY": "2016",
+  "POSESN_INST_NM": "평택시",
+  "MANAGE_MAINBD_NM": "평택시",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 192,
+  "SIGUN_NM": "포천시",
+  "FACLT_NM": "포천시 자원회수시설 내 축구장",
+  "COMPLTN_YY": "2009",
+  "POSESN_INST_NM": "포천시",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 193,
+  "SIGUN_NM": "포천시",
+  "FACLT_NM": "일동 하수처리시설 내  축구장",
+  "COMPLTN_YY": "2010",
+  "POSESN_INST_NM": "포천시",
+  "MANAGE_MAINBD_NM": "포천시  (상하수과)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 194,
+  "SIGUN_NM": "포천시",
+  "FACLT_NM": "화현면 축구장",
+  "COMPLTN_YY": "2003",
+  "POSESN_INST_NM": "포천시",
+  "MANAGE_MAINBD_NM": "화현면",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 195,
+  "SIGUN_NM": "포천시",
+  "FACLT_NM": "포천종합운동장 보조구장",
+  "COMPLTN_YY": "2015",
+  "POSESN_INST_NM": "포천시",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 196,
+  "SIGUN_NM": "포천시",
+  "FACLT_NM": "포천축구공원",
+  "COMPLTN_YY": "2015",
+  "POSESN_INST_NM": "포천시",
+  "MANAGE_MAINBD_NM": "포천시  (문화체육과)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 197,
+  "SIGUN_NM": "포천시",
+  "FACLT_NM": "설운체육공원 내 축구장",
+  "COMPLTN_YY": "2004",
+  "POSESN_INST_NM": "포천시",
+  "MANAGE_MAINBD_NM": "포천시  (환경관리과)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 198,
+  "SIGUN_NM": "포천시",
+  "FACLT_NM": "소흘읍 생활체육공원 축구장",
+  "COMPLTN_YY": "2009",
+  "POSESN_INST_NM": "포천시",
+  "MANAGE_MAINBD_NM": "시설관리공단",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 199,
+  "SIGUN_NM": "포천시",
+  "FACLT_NM": "관인 하수처리시설 내 축구장",
+  "COMPLTN_YY": "2011",
+  "POSESN_INST_NM": "포천시",
+  "MANAGE_MAINBD_NM": "포천시  (상하수과)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 200,
+  "SIGUN_NM": "포천시",
+  "FACLT_NM": "영북 하수처리시설 내  축구장",
+  "COMPLTN_YY": "2004",
+  "POSESN_INST_NM": "포천시",
+  "MANAGE_MAINBD_NM": "포천시  (상하수과)",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 201,
+  "SIGUN_NM": "하남시",
+  "FACLT_NM": "종합운동장 보조경기장",
+  "COMPLTN_YY": "2011",
+  "POSESN_INST_NM": "하남시",
+  "MANAGE_MAINBD_NM": "하남도시공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 202,
+  "SIGUN_NM": "하남시",
+  "FACLT_NM": "선동둔치 체육시설",
+  "COMPLTN_YY": "2011",
+  "POSESN_INST_NM": "하남시",
+  "MANAGE_MAINBD_NM": "하남도시공사",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 203,
+  "SIGUN_NM": "하남시",
+  "FACLT_NM": "미사리근린공원 (조정경기장내)",
+  "COMPLTN_YY": "2009",
+  "POSESN_INST_NM": "국민체육 진흥공단",
+  "MANAGE_MAINBD_NM": "위탁 (한국체육산업개발)",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 204,
+  "SIGUN_NM": "화성시",
+  "FACLT_NM": "화성시 가축분뇨공공처리시설 축구장",
+  "COMPLTN_YY": "2012",
+  "POSESN_INST_NM": "화성시",
+  "MANAGE_MAINBD_NM": "화성도시공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 205,
+  "SIGUN_NM": "화성시",
+  "FACLT_NM": "매송안보테마공원 축구장",
+  "COMPLTN_YY": "2013",
+  "POSESN_INST_NM": "화성시",
+  "MANAGE_MAINBD_NM": "화성도시공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 206,
+  "SIGUN_NM": "화성시",
+  "FACLT_NM": "향남2 화합공원 축구장",
+  "COMPLTN_YY": "2017",
+  "POSESN_INST_NM": "화성시",
+  "MANAGE_MAINBD_NM": "화성도시공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 207,
+  "SIGUN_NM": "화성시",
+  "FACLT_NM": "돌모루공원 축구장",
+  "COMPLTN_YY": "2014",
+  "POSESN_INST_NM": "화성시",
+  "MANAGE_MAINBD_NM": "화성도시공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 208,
+  "SIGUN_NM": "화성시",
+  "FACLT_NM": "동학산공원 축구장",
+  "COMPLTN_YY": "2014",
+  "POSESN_INST_NM": "화성시",
+  "MANAGE_MAINBD_NM": "화성도시공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 209,
+  "SIGUN_NM": "화성시",
+  "FACLT_NM": "정남 용수교 둔치 축구장",
+  "COMPLTN_YY": "2014",
+  "POSESN_INST_NM": "화성시",
+  "MANAGE_MAINBD_NM": "화성도시공사",
+  "BOTM_MATRL_NM": "천연잔디"
+ },
+ {
+  "ID": 210,
+  "SIGUN_NM": "화성시",
+  "FACLT_NM": "동탄2 수질복원센터 상부 인조잔디구장",
+  "COMPLTN_YY": "2015",
+  "POSESN_INST_NM": "화성시",
+  "MANAGE_MAINBD_NM": "화성도시공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 211,
+  "SIGUN_NM": "화성시",
+  "FACLT_NM": "쌍봉산근린공원 인조잔디구장",
+  "COMPLTN_YY": "2007",
+  "POSESN_INST_NM": "화성시",
+  "MANAGE_MAINBD_NM": "화성도시공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 212,
+  "SIGUN_NM": "화성시",
+  "FACLT_NM": "비봉인조잔디축구장",
+  "COMPLTN_YY": "2006",
+  "POSESN_INST_NM": "화성시",
+  "MANAGE_MAINBD_NM": "화성도시공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 213,
+  "SIGUN_NM": "화성시",
+  "FACLT_NM": "송산체육시설 축구장",
+  "COMPLTN_YY": "2017",
+  "POSESN_INST_NM": "화성시",
+  "MANAGE_MAINBD_NM": "화성도시공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ },
+ {
+  "ID": 214,
+  "SIGUN_NM": "화성시",
+  "FACLT_NM": "전곡해양일반산업(1호공원) 축구장",
+  "COMPLTN_YY": "2015",
+  "POSESN_INST_NM": "화성시",
+  "MANAGE_MAINBD_NM": "화성도시공사",
+  "BOTM_MATRL_NM": "토사"
+ },
+ {
+  "ID": 215,
+  "SIGUN_NM": "화성시",
+  "FACLT_NM": "동탄1호체육공원 축구장",
+  "COMPLTN_YY": "2016",
+  "POSESN_INST_NM": "화성시",
+  "MANAGE_MAINBD_NM": "화성도시공사",
+  "BOTM_MATRL_NM": "인조잔디"
+ }
+]
