@@ -1,13 +1,19 @@
 <!-- 서브 페이지 마크업 -->
 <template lang="html">
-    <div class="box2">
+
+    <div>
+      <SubVisual />
       <h2>서브 페이지1 입니다.</h2>
       
     </div>
   </template>
   
   <script>
+  import SubVisual from './SubVisual.vue'
   export default {
+    components:{
+      SubVisual
+  }
    
   }
   </script>
