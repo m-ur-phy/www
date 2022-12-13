@@ -32,11 +32,11 @@
   </template>
   
   <style>
-      img{width:100%}
-      dl{position: absolute; left: 50%; top:50%; transform: translateX(-50%) translateY(-50%);}
+      .swiper dl{position: absolute; left: 50%; top:50%; transform: translateX(-50%) translateY(-50%);}
       .mainttl dt{font-size: 6vw; text-align: center; font-weight: 900; line-height: 1.2em;}
       .mainttl dd{font-size: 3vw; text-align: center; font-weight: 500; margin-top: 10px;}
-      .swiper-pagination, .swiper-button-next, .swiper-button-prev { color: #4CA91A !important;}
+      .swiper-button-next, .swiper-button-prev { color: #4CA91A !important;}
+      .swiper .swiper-pagination-bullet-active { background: #4CA91A !important;}
   </style>
   
   <script>
@@ -50,6 +50,7 @@
   data(){
     return{
        swiperOption: {
+          effect : 'fade',
           slidesPerView: 1,
           spaceBetween: 30,
           loop: true,
@@ -60,7 +61,10 @@
           navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev'
-          }
+          },
+          autoplay: {
+        delay:3000,
+      }
         }
     }
   },
