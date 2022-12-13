@@ -78,12 +78,15 @@
     .func ul { padding: 0; display: grid; grid-template-columns: calc(50% - 2.5%) calc(50% - 2.5%);  grid-column-gap: 5%; grid-row-gap: 7%;}
     .func li { padding: 40px 5%; border-radius: 20px; border: 5px solid #4CA91A;}
     .func li .image { width: 50%; margin: 0 auto;}
+    .func li img { transition: all .5s;}
+    .func li:hover img{ transform: scale(1.2);}
     .func dl { text-align: center; margin: 20px 0; }
     .func dt { font-size: 1.5em; margin: 20px 0; font-weight: 500;}
     .func dd { color: #666;}
 
     .infor { margin-top: 200px;}
     .infor ul li{ display: flex; align-items: center; border-radius: 20px; overflow: hidden; margin: 50px 0; box-shadow: 0 0 15px rgba(0, 0, 0, .2);}
+    .infor ul li:nth-of-type(2) { flex-direction:row-reverse; }
     .infor .image { width: 50%; overflow: hidden; }
     .infor .image img { transition: all .5s;}
     .infor li:hover img{ transform: scale(1.1);}

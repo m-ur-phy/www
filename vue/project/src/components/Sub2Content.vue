@@ -22,18 +22,20 @@
             <button @click="search()">검색</button>
           </div>
 
-          <div v-show="message"><i class="fa-solid fa-magnifying-glass-location"></i>{{msgtext}}</div>
+          <div class="msg" v-show="message"><i class="fa-solid fa-magnifying-glass-location"></i> {{msgtext}}</div>
           
           <ul class="listBox">
             <li v-for="(x, i) in football" :key="x.ID">
               <p>{{ i+1 }}</p>
-              <dl>
-                <dt>{{x.FACLT_NM}}</dt>
-                <dd><span><span class="hidden">지역</span>🛣</span> {{ x.SIGUN_NM }}</dd>
-                <dd><span><span class="hidden">잔디</span>🌱</span> {{ x.BOTM_MATRL_NM }}</dd>
-                <dd><span><span class="hidden">완공일</span>🛠</span> {{ x.COMPLTN_YY }}</dd>
-              </dl>
-              <button @click="[open = true, modalno = x.ID]">더보기</button>
+              <div class="listCon">
+                <dl>
+                  <dt>{{x.FACLT_NM}}</dt>
+                  <dd><span><span class="hidden">지역</span>🛣</span> {{ x.SIGUN_NM }}</dd>
+                  <dd><span><span class="hidden">잔디</span>🌱</span> {{ x.BOTM_MATRL_NM }}</dd>
+                  <dd><span><span class="hidden">완공일</span>🛠</span> {{ x.COMPLTN_YY }}</dd>
+                </dl>
+                <button class="more" @click="[open = true, modalno = x.ID]">MoreView</button>
+              </div>
               
                 <!-- <div class="modalBg" v-if="open == true" @click="open = false">
                 <div class="modal">
@@ -52,9 +54,10 @@
             <div class="modal">
               <dl>
                 <dt>{{football[modalno].FACLT_NM}}</dt>
-                <dd><span><span class="hidden">지역</span>🛣</span> {{ football[modalno].SIGUN_NM }}</dd>
-                <dd><span><span class="hidden">잔디</span>🌱</span> {{ football[modalno].BOTM_MATRL_NM }}</dd>
-                <dd><span><span class="hidden">완공일</span>🛠</span> {{ football[modalno].COMPLTN_YY }}</dd>
+                <dd><span>지역 : </span> {{ football[modalno].SIGUN_NM }}</dd>
+                <dd><span>잔디 : </span> {{ football[modalno].BOTM_MATRL_NM }}</dd>
+                <dd><span>완공일 : </span> {{ football[modalno].COMPLTN_YY }}</dd>
+                <dd><span>관리 : </span> {{ football[modalno].MANAGE_MAINBD_NM }}</dd>
               </dl>
               <span class="close" @click="open = false"><span class="hidden">닫기</span><i class="fa-solid fa-xmark"></i></span>
             </div>
@@ -125,11 +128,16 @@
     .searchBox select{ background: rgba(255, 255, 255, .7); text-align: center;}
     .searchBox button { background: rgba(109, 169, 26, .5);}
     .modalBg { top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, .5); position: fixed; padding: 20px;}
-    .modal { top: 50%; left: 50%; width: 90%; position: fixed; background: #fff; border-radius: 8px; padding: 20px; z-index: 10; transform: translate(-50%);}
+    .modal { top: 50%; left: 50%; width: 90%; position: fixed; background: #fff; border-radius: 50px; padding: 50px; z-index: 10; transform: translateX(-50%) translateY(-50%); text-align: center;}
+    .modal dt { font-size: 1.5em; font-weight: 700; color: #347512; border-bottom: 1px solid #347512; padding-bottom: 20px; margin-bottom: 20px;}
+    .modal dd { }
+    .close { position: absolute; top: 30px; right: 30px; font-size: 1.2em; }
+    .msg { font-size: 1.2em; margin: 50px 0; font-weight: 500; color: #666;}
+    .more { margin: 20px 0 0 0; }
     .listBox {}
     .listBox li{ display: flex; align-items: center; padding: 30px 0; border-bottom: 1px dashed #4CA91A;}
     .listBox li p { font-size: 3em; width: 10%; text-align: center; color:  #347512;}
-    .listBox li dl { padding-left: 60px; width: 90%;}
+    .listBox li .listCon { padding-left: 60px; width: 90%;}
     .listBox li dt { font-size: 1.5em; font-weight: 500; margin: 0 0 20px 0;}
     .listBox li dd { color: #666; display: inline; margin: 0 1.5%;}
     .listBox li dd span { font-size: 1.5em;}

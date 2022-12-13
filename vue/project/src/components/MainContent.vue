@@ -30,7 +30,7 @@
           <div class="fbStoryCon">
             <h3>축구 ⚽️</h3>
             <p>주로 발로 공을 차서 상대편의 골에 공을 많이 넣는 것으로 승부를 겨루는 경기. 11명이 팀을 이루며, 골키퍼 이외에는 손을 쓰면 안 되고 주로 머리와 발을 사용한다.</p>
-            <button><router-link to="/sub3" class="more">MoreView</router-link></button>
+            <button><router-link to="/vue/sub3" class="more">MoreView</router-link></button>
           </div>
         </div>
       </section>
@@ -38,7 +38,7 @@
         <div class="fbFindTxt">
           <h3>축구장 검색하기</h3>
           <p>경축에서 축구장을 검색해보세요. 지역, 이름, 잔디 까지 어떠한 조건이든 당신을 위한 맞춤으로 제공해드립니다!</p>
-          <button><router-link to="/sub2" class="more">MoreView</router-link></button>
+          <button><router-link to="/vue/sub2" class="more">MoreView</router-link></button>
         </div>
       </section>
       <section class="fbPic">
