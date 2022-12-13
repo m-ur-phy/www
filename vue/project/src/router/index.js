@@ -19,3 +19,4 @@ export default new Router({
     { path: '/sub3', component: Sub3Content}
   ]
 })
+
