@@ -34,7 +34,7 @@
                   <dd><span><span class="hidden">잔디</span>🌱</span> {{ x.BOTM_MATRL_NM }}</dd>
                   <dd><span><span class="hidden">완공일</span>🛠</span> {{ x.COMPLTN_YY }}</dd>
                 </dl>
-                <button class="more" @click="[open = true, modalno = x.ID]">MoreView</button>
+                <button class="more" @click="[open = true, modalno = i]">MoreView</button>
               </div>
               
                 <!-- <div class="modalBg" v-if="open == true" @click="open = false">
