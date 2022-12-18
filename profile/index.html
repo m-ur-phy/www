@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김유화 프로필</title>
+    <link rel="stylesheet" href="css/fullpage.min.css" >
+    <link rel="stylesheet" href="./examples.css" >
+    <link rel="stylesheet" href="./css/style.css" >
+    <!--[if IE]>
+        <script type="text/javascript">
+            var console = { log: function() {} };
+        </script>
+    <![endif]-->
+</head>
+<body>
+    <ul id="menu">
+        <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First slide</a></li>
+        <li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
+        <li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
+        <li data-menuanchor="4thpage"><a href="#4thpage">Third slide</a></li>
+    </ul>
+    <div id="fullpage">
+        <div class="section " id="section0">
+            도전을 두려워 하지 않는 개발자
+            김유화입니다
+        </div>
+    
+        <div class="section" id="section1">
+            김유화
+        </div>
+        <div class="section" id="section2">
+            dfgdfgdfgdfgdfg
+        </div>
+        <div class="section" id="section3">
+            dfgdfgdfgdfgdfg
+        </div>
+    </div>
+    <script src="./js/fullpage.min.js"></script>
+<script  src="./examples.js"></script>
+<script>
+    var myFullpage = new fullpage('#fullpage', {
+        sectionsColor: ['#f00', '#0f0', '#7BAABE', 'whitesmoke', '#ccddff'],
+        anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+        menu: '#menu',
+        lazyLoad: true,
+        navigation:true
+    });
+</script>
+</body>
+</html>
