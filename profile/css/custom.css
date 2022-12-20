@@ -1,0 +1,153 @@
+@charset "utf-8"; 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500;700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap'); 
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+/* CSS Reset */
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; } 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section { display: block; } 
+body { font-family:'Noto Sans KR', sans-serif; font-size: 16px; color: #333 } 
+ol, ul { list-style: none; } 
+table { border-collapse: collapse; border-spacing: 0; } 
+address { font-style: normal } 
+a { color: #333; text-decoration: none } 
+img { border: 0; vertical-align: top; width: 100%; } 
+* { box-sizing: border-box; } 
+.hidden { display: block; position: absolute; left: -1000%; width: 1px; height: 1px; overflow: hidden; color: #fff; } 
+
+
+/* 사용자정의 CSS */
+.videoBox { width:100%; height:100%; overflow:hidden; position:absolute } 
+#videoBG { 
+ position:fixed; /* 고정 => fixed / 스크롤처리 => absolute */
+ left:50%; 
+ top:50%; /* 오른쪽, 아래에 여백을 두지않고 꽉차게 표시 */
+ width:auto; 
+ min-width:100%; /* 동영상 너비를 꽉차게 */
+ height:auto; 
+ min-height:100%; /* 동영상 높이를 꽉차게 */
+ transform:translateX(-50%) translateY(-50%); 
+ z-index:-100; /* 다른요소보다 아래에 위치 */
+}
+#imgBG { 
+position:fixed; /* 고정=>fixed/ 스크롤처리=>absolute */
+ left:50%; 
+ top:50%; /* 오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+ width:auto; 
+ min-width:100%; /* 동영상 너비를 꽉차게 */
+ height:auto; 
+ min-height:100%; /* 동영상 높이를 꽉차게 */
+ transform:translateX(-50%) translateY(-50%); 
+ z-index:-100; 
+ display:none; 
+}
+/* .videoBox .down { position: absolute; left: 50%; bottom: 60px; transform: translateX(-50%); display: block; width: 100px; height: 60px; font-size: 18px; border: 2px solid #f7a7bb; color: #f7a7bb; text-align: center; padding: 10px 0; z-index: 2; } 
+.videoBox .down::after { content: ''; position: absolute; left: 0; bottom: -24px; display: block; width: 100%; height: 12px; background: url(../images/scrolldown.png) 50% 0 no-repeat; background-size: 18px auto; animation: scrolldown 1s infinite; }
+@keyframes scrolldown { 
+ from { transform:translateY(0); opacity:1; } 
+ to { transform: translateY(25px); opacity:0; } 
+} */
+
+/* logo */
+h1 {
+	width: 292px;
+	height: 52px;
+	position: fixed;
+	top: 30px;
+	left: 30px;
+	z-index: 10;
+}
+
+h1 img { 
+	width: 292px;
+	height: 52px;
+}
+
+/* menu */
+#menu {
+	position: fixed;
+	top: 50%;
+	/* left: 5%; */
+	z-index: 70;
+	padding: 0;
+	margin:0;
+	overflow: hidden;
+    transform: translateY(-50%);
+}
+
+#menu li { 
+	color: #000;
+	position: relative;
+}
+
+#menu li.active {
+	background: #666;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+}
+
+#menu li:hover {
+	background: rgba(255,255,255, 0.8);
+}
+
+#menu li a {
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25rem;
+	text-decoration:none;
+	color: #000;
+	padding: 9px 18px;	
+}
+
+#menu li.active a:hover {
+	color: #000;
+}
+
+#menu li.active a {
+	color: #fff;
+}
+
+/* article */
+#contentArea { padding: 0 5%;}
+#contentArea .home .home_ttl {
+    text-align: center;
+    position: absolute;
+    top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%);
+    font-size: 2.5em;
+    font-weight: 500;
+}
+#contentArea .profile_wrap { overflow: hidden;}
+#contentArea .profile .profile_main {
+    position: absolute;
+    top: 50%; transform: translateY(-50%);
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+#contentArea .profile .profile_main .image {
+    width: 50%; margin: 0 auto;
+}
+#contentArea .profile .profile_main p { font-size: 2em; }
+#contentArea .profile .profile_sub { float: right; width: 50%; }
+#contentArea .profile .profile_sub ul { position: absolute; top: 50%; transform: translateY(-50%); padding-right: 20px;}
+#contentArea .profile .profile_sub li { display: flex; justify-content: space-between;}
+
+#contentArea .prj_pic { float: left; width: 50%;}
+#contentArea .prj_info { float: right; width: 50%; position: relative; top: 50%; transform: translateY(-50%); padding-right: 20px; }
+
+/* section */
+#section3, #section4, #section5, #section6 { background: #fff;}
