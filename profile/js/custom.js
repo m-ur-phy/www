@@ -2,7 +2,7 @@ $(document).ready(function() {
 	// fullpage js
 	$('#contentArea').fullpage({
 		menu: '#menu',
-		anchors: ['home', 'story', 'profile', 'pc',  'mobile', 'responsive', 'bootstrap', 'vue', 'react', 'toy'],
+		anchors: ['home', 'story', 'profile', 'pc',  'mobile', 'responsive', 'bootstrap', 'vue'],
 		
 		scrollOverflow:true,
 		slidesNavigation: true,
@@ -10,7 +10,7 @@ $(document).ready(function() {
 		
 		navigation: true,
 		navigationPosition: 'right',
-		// navigationTooltips: ['HOME', 'STORY', 'PROFILE', 'PC',  'MOBILE', 'RESPONSIVE', 'BOOTSTRAP', 'VUE', 'REACT', 'TOY'],
+		// navigationTooltips: ['HOME', 'STORY', 'PROFILE', 'PC',  'MOBILE', 'RESPONSIVE', 'BOOTSTRAP', 'VUE'],
 
 		fadingEffect: true,
 		fadingEffectKey: 'YWx2YXJvdHJpZ28uY29tXzAzN1ptRmthVzVuUldabVpXTjBiNXo=',
@@ -29,8 +29,6 @@ $(document).ready(function() {
 		
 		//verticalCentered: true,
 		verticalCentered: false,
-
-		//to avoid problems with css3 transforms and fixed elements in Chrome, as detailed here: https://github.com/alvarotrigo/fullPage.js/issues/208
 		css3: false,
 
 		// easing: 'easeOutBounce'

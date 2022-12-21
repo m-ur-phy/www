@@ -6,13 +6,16 @@
 
 <link rel="stylesheet" href="css/jquery.fullPage.css">
 <link rel="stylesheet" href="css/custom.css">
+
 <script src="js/jquery-1.12.4.min.js"></script>
 <script src="js/jquery-migrate-1.4.1.min.js"></script>
-<script src="js/jquery.easings.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
 <script src="js/jquery.fullPage.min.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/profile.js"></script>
+<script src="./js/prefixfree.min.js"></script>
+
+<script src="https://kit.fontawesome.com/33cd326170.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -20,12 +23,14 @@
 	<div id="wrap">
 		<div class="videoBox">
 		    <video autoplay loop muted id="videoBG" src="./images/intro1.mp4"></video>
-			<img src="images/back.jpg" id="imgBG" alt="">
 		</div>
-		<header>
+		<header id="headerArea">
 			<h1>김유화포트폴리오</h1>
 			<nav>
 				<h2 class="hidden">글로벌 네비게이션 영역</h2>
+				<a class="menu_open" href="#">
+					<span>menu open</span>
+				</a>
 				<ul id="menu">
 					<li data-menuanchor="home"><h3><a href="#home">HOME</a></h3></li>
 					<li data-menuanchor="story"><h3><a href="#story">STORY</a></h3></li>
@@ -35,8 +40,8 @@
 					<li data-menuanchor="responsive"><h3><a href="#responsive">RESPONSIVE</a></h3></li>
 					<li data-menuanchor="bootstrap"><h3><a href="#bootstrap">BOOTSTRAP</a></h3></li>
 					<li data-menuanchor="vue"><h3><a href="#vue">VUE</a></h3></li>
-					<li data-menuanchor="react"><h3><a href="#react">REACT</a></h3></li>
-					<li data-menuanchor="toy"><h3><a href="#toy">TOY</a></h3></li>
+					<!-- <li data-menuanchor="react"><h3><a href="#react">REACT</a></h3></li>
+					<li data-menuanchor="toy"><h3><a href="#toy">TOY</a></h3></li> -->
 				</ul>
 			</nav>
 		</header>
@@ -45,14 +50,18 @@
 				<section class="home section" id="section1">
 					<h3 class="hidden">HOME</h3>	
 					<div class="home_ttl">
+						<img src="./images/eye.gif" alt="">
 						<p>도전과 배움을 즐기는 개발자</p>	
 						<p><strong>김유화</strong> 입니다</p>	
 					</div>
 				</section>
 				<section class="story section" id="section2">
 					<h3 class="hidden">STORY</h3>	
-					안녕하세요, 프론트엔드 개발자 김유화 입니다. 
-					저는 도전을 두려워 하지 않고 배움을 즐기는 성격이 강점입니다.
+					<div class="story_bg"></div>
+					<p>안녕하세요, 방문해주셔서 감사합니다.</p>
+					<p>프론트엔드 개발자 김유화 입니다. 
+						저는 도전을 두려워 하지 않고 배움을 즐기는 성격이 강점입니다.</p>
+					
 				</section>
 				<section class="profile section" id="section3">
 					<h3 class="hidden">PROFILE</h3>
@@ -64,9 +73,10 @@
 							<p>김유화</p>
 							<span>Web Publisher & Front-end Developer</span>
 							<ul>
-								<li><a href="#">ONLINE RESUME</a></li>
+								<li><a href="#">RESUME</a></li>
 								<li><a href="#">STORYBOARD</a></li>
-								<li><a href="https://github.com/m-ur-phy">GITHUB</a></li>
+								<li><a href="https://github.com/m-ur-phy" target="_blank" title="새창으로 열림">GITHUB</a></li>
+								<li><a href="https://m-ur-phy.tistory.com/" target="_blank" title="새창으로 열림">BLOG</a></li>
 							</ul>
 						</div>
 						<div class="profile_sub">
@@ -74,7 +84,7 @@
 								<li>
 									<dl>
 										<dt>이름</dt>
-										<dd>김유화</dd>
+										<dd>김유화 (Kim yoo hwa)</dd>
 									</dl>
 								</li>
 								<li>
@@ -100,7 +110,29 @@
 								<li>
 									<dl>
 										<dt>보유스킬</dt>
-										<dd>HTML5, CSS3, JavaScript, jQuery, JSON(비동기처리), AJAX(비동기처리), Vue, React, Bootstrap(Framework), WordPress(CMS), PHP, MySQL, Git, GitHub, Adobe Photoshop</dd>
+										<dd>
+											<!-- HTML5, CSS3, JavaScript, jQuery, JSON(비동기처리), AJAX(비동기처리), Vue, React, Bootstrap(Framework), WordPress(CMS), PHP, MySQL, Git, GitHub, Adobe Photoshop -->
+											<ul>
+												<li><div class="i_html5"><img src="./images/icon/html.png" alt="html5"></div><span>HTML5</span></li>
+												<li><div class="i_css3"><img src="./images/icon/css-3.png" alt="css3"></div><span>CSS3</span></li>
+												<li><div class="i_javascript"><img src="./images/icon/java-script.png" alt="javascript"></div><span>JAVA<br>SCRIPT</span></li>
+												<li><div class="i_typescript"><img src="./images/icon/typescript.png" alt="typescript"></div><span>TYPE<br>SCRIPT</span></li>
+												<li><div class="i_jquery"><img src="./images/icon/jquery.png" alt="jquery"></div><span>JQUERY</span></li>
+												<li><div class="i_sass"><img src="./images/icon/sass.png" alt="sass"></div><span>SASS</span></li>
+												<li><div class="i_tail"><img src="./images/icon/tailwind.png" alt="tailwind"></div><span>TAILWIND<br>CSS</span></li>
+												<li><div class="i_json"><img src="./images/icon/code.png" alt="json"></div><span>JSON</span></li>
+												<li><div class="i_ajax"><img src="./images/icon/ajax.png" alt="ajax"></div><span>AJAX</span></li>
+												<li><div class="i_vue"><img src="./images/icon/vue.png" alt="vue"></div><span>VUE</span></li>
+												<li><div class="i_react"><img src="./images/icon/react.png" alt="react"></div><span>REACT</span></li>
+												<li><div class="i_bootstrap"><img src="./images/icon/bootstrap.png" alt="bootstrap"></div><span>BOOT<br>STRAP</span></li>
+												<li><div class="i_wordpress"><img src="./images/icon/wordpress-logo.png" alt="wordpress"></div><span>WORD<br>PRESS</span></li>
+												<li><div class="i_php"><img src="./images/icon/php.png" alt="php"></div><span>PHP</span></li>
+												<li><div class="i_mysql"><img src="./images/icon/mysql.png" alt="mysql"></div><span>MYSQL</span></li>
+												<li><div class="i_git"><img src="./images/icon/git.png" alt="git"></div><span>GIT</span></li>
+												<li><div class="i_github"><img src="./images/icon/github.png" alt="github"></div><span>GITHUB</span></li>
+												<li><div class="i_photoshop"><img src="./images/icon/photoshop.png" alt="photoshop"></div><span>PHOTO<br>SHOP</span></li>
+											</ul>
+										</dd>
 									</dl>
 								</li>
 							</ul>
@@ -109,21 +141,19 @@
 				</section>
 				<section class="pc section" id="section4">
 					<h3 class="hidden">PC</h3>
-					<div class="prj_pic">	
-						<!-- <img src="./images/monitor.png" alt="monitor_bg"> -->
-						<!-- <video autoplay muted playsinline loop>
-                            <source src="./images/video_posco_pc.mp4" type="video/mp4">
-                            <p>Your browser is old. <a href="https://aluvy.github.io/www/profile/images/video_posco_pc.mp4">Download this video instead.</a></p>
-                        </video> -->
+					<div class="prj_pic">
+						<div class="monitor"><img src="./images/imac.png" alt=""></div>
+						<div class="monitor_pic"><img src="./images/pc.gif" alt=""></div>
 					</div>
 					<div class="prj_info">
-						<div class="ttl">금호문화재단<span>기업형 PC</span></div>
+						<div class="image"><img src="./images/kumho.png" alt=""></div>
+						<div class="ttl"><strong>금호문화재단</strong><span>기업형 PC</span></div>
 						<ul>
 							<li>웹 접근성과 웹 표준을 준수한 사이트로 제작</li>
 							<li>트렌드 및 웹 접근성에 맞는 UI 디자인으로 리뉴얼</li>
 							<li>HTML 부터 DB까지 전부 사용한 풀스택 웹사이트</li>
 						</ul>
-						<a href="http://oilpaintingkim.cafe24.com/" class="visit" target="_blank" title="새창으로 열림">VISIT SITE<i class="fa-solid fa-arrow-right"></i></a>
+						<a href="http://oilpaintingkim.cafe24.com/" class="visit" target="_blank" title="새창으로 열림">VISIT SITE<i class="fa-solid fa-link"></i></a>
 						<dl>
 							<dt>제작기간</dt>
 							<dd>약 1개월</dd>
@@ -149,23 +179,21 @@
 				<section class="mobile section" id="section5">
 					<h3 class="hidden">MOBILE</h3>
 					<div class="prj_pic">	
-						<!-- <img src="./images/monitor.png" alt="monitor_bg"> -->
-						<!-- <video autoplay muted playsinline loop>
-                            <source src="./images/video_posco_pc.mp4" type="video/mp4">
-                            <p>Your browser is old. <a href="https://aluvy.github.io/www/profile/images/video_posco_pc.mp4">Download this video instead.</a></p>
-                        </video> -->
+						<div class="phone"><img src="./images/iphone.png" alt=""></div>
+						<div class="phone_pic"><img src="./images/mobile.gif" alt=""></div>
 					</div>
 					<div class="prj_info">
-						<div class="ttl">금호문화재단<span>모바일</span></div>
+						<div class="image"><img src="./images/kumho.png" alt=""></div>
+						<div class="ttl"><strong>금호문화재단</strong><span>모바일</span></div>
 						<ul>
 							<li>기존 PC 웹 형태를 모바일 기기에 맞게 제작</li>
 							<li>flex, grid 활용 및 사용자 터치 이벤트 중점으로 제작</li>
 							<li>HTML 부터 DB까지 전부 사용한 풀스택 웹사이트</li>
 						</ul>
-						<a href="http://oilpaintingkim.cafe24.com/mobile/" class="visit" target="_blank" title="새창으로 열림">VISIT SITE<i class="fa-solid fa-arrow-right"></i></a>
+						<a href="http://oilpaintingkim.cafe24.com/mobile/" class="visit" target="_blank" title="새창으로 열림">VISIT SITE<i class="fa-solid fa-link"></i></a>
 						<dl>
 							<dt>제작기간</dt>
-							<dd>약 1개월</dd>
+							<dd>약 1주일</dd>
 						</dl>
 						<dl>
 							<dt>제작스킬</dt>
@@ -188,23 +216,20 @@
 				<section class="responsive section" id="section6">
 					<h3 class="hidden">RESPONSIVE</h3>
 					<div class="prj_pic">	
-						<!-- <img src="./images/monitor.png" alt="monitor_bg"> -->
-						<!-- <video autoplay muted playsinline loop>
-                            <source src="./images/video_posco_pc.mp4" type="video/mp4">
-                            <p>Your browser is old. <a href="https://aluvy.github.io/www/profile/images/video_posco_pc.mp4">Download this video instead.</a></p>
-                        </video> -->
+						<div class="monitor"><img src="./images/imac.png" alt=""></div>
+						<div class="monitor_pic"><img src="./images/responsive.gif" alt=""></div>
 					</div>
 					<div class="prj_info">
-						<div class="ttl">BLACKPINK<span>반응형 웹</span></div>
+						<div class="ttl"><strong>BLACKPINK</strong><span>반응형 웹</span></div>
 						<ul>
-							<li>다양한 디바이스 해상도에 맞춤 제작한 반응형 웹사이트 </li>
-							<li>미디어 쿼리를 이용한 데스크탑, 태블릿, 모바일 각각에 최적화된 UI</li>
-							<li>오직 vanila js만을 이용한 웹페이지, spa 구현</li>
+							<li>미디어쿼리를 이용하여 제작한 반응형 웹사이트 </li>
+							<li>vw, vh 등을 이용한 풀 반응형 웹사이트 구현</li>
+							<li>오직 vanila js만을 이용한 SPA 구현</li>
 						</ul>
 						<a href="http://oilpaintingkim.cafe24.com/media/" class="visit" target="_blank" title="새창으로 열림">VISIT SITE<i class="fa-solid fa-arrow-right"></i></a>
 						<dl>
 							<dt>제작기간</dt>
-							<dd>약 1개월</dd>
+							<dd>약 2주일</dd>
 						</dl>
 						<dl>
 							<dt>제작스킬</dt>
@@ -226,14 +251,11 @@
 				<section class="bootstrap section" id="section7">
 					<h3 class="hidden">BOOTSTRAP</h3>
 					<div class="prj_pic">	
-						<!-- <img src="./images/monitor.png" alt="monitor_bg"> -->
-						<!-- <video autoplay muted playsinline loop>
-                            <source src="./images/video_posco_pc.mp4" type="video/mp4">
-                            <p>Your browser is old. <a href="https://aluvy.github.io/www/profile/images/video_posco_pc.mp4">Download this video instead.</a></p>
-                        </video> -->
+						<div class="monitor"><img src="./images/imac.png" alt=""></div>
+						<div class="monitor_pic"><img src="./images/boot.gif" alt=""></div>
 					</div>
 					<div class="prj_info">
-						<div class="ttl">ROUNDLAB<span>부트스트랩</span></div>
+						<div class="ttl"><strong>ROUNDLAB</strong><span>부트스트랩</span></div>
 						<ul>
 							<li>부트스트랩 프레임워크를 사용한 웹사이트</li>
 							<li>태그 형태의 CSS 사용 및 그리드 시스템 이용</li>
@@ -241,7 +263,7 @@
 						<a href="http://oilpaintingkim.cafe24.com/bootstrap/" class="visit" target="_blank" title="새창으로 열림">VISIT SITE<i class="fa-solid fa-arrow-right"></i></a>
 						<dl>
 							<dt>제작기간</dt>
-							<dd>약 1개월</dd>
+							<dd>약 2일</dd>
 						</dl>
 						<dl>
 							<dt>제작스킬</dt>
@@ -263,14 +285,11 @@
 				<section class="vue section" id="section8">
 					<h3 class="hidden">VUE</h3>
 					<div class="prj_pic">	
-						<!-- <img src="./images/monitor.png" alt="monitor_bg"> -->
-						<!-- <video autoplay muted playsinline loop>
-                            <source src="./images/video_posco_pc.mp4" type="video/mp4">
-                            <p>Your browser is old. <a href="https://aluvy.github.io/www/profile/images/video_posco_pc.mp4">Download this video instead.</a></p>
-                        </video> -->
+						<div class="monitor"><img src="./images/imac.png" alt=""></div>
+						<div class="monitor_pic"><img src="./images/vue.gif" alt=""></div>
 					</div>
 					<div class="prj_info">
-						<div class="ttl">경축 - 경기축구장<span>Vue 웹</span></div>
+						<div class="ttl"><strong>경축 - 경기축구장</strong><span>Vue 웹</span></div>
 						<ul>
 							<li>Vue 를 이용한 SPA 구현</li>
 							<li>Json 파일을 이용한 검색 기능 구현</li>
@@ -298,14 +317,11 @@
 						</dl>
 					</div>
 				</section>
-				<section class="react section" id="section9">
+				<!-- <section class="react section" id="section9">
 					<h3 class="hidden">REACT</h3>
 					<div class="prj_pic">	
-						<!-- <img src="./images/monitor.png" alt="monitor_bg"> -->
-						<!-- <video autoplay muted playsinline loop>
-                            <source src="./images/video_posco_pc.mp4" type="video/mp4">
-                            <p>Your browser is old. <a href="https://aluvy.github.io/www/profile/images/video_posco_pc.mp4">Download this video instead.</a></p>
-                        </video> -->
+						<div class="monitor"><img src="./images/imac.png" alt=""></div>
+						<div class="monitor_pic"><img src="./images/pc.gif" alt=""></div>
 					</div>
 					<div class="prj_info">
 						<div class="ttl">영어단어장<span>react 웹</span></div>
@@ -336,15 +352,12 @@
 							</dd>
 						</dl>
 					</div>
-				</section>
-				<section class="toy section" id="section10">
+				</section> -->
+				<!-- <section class="toy section" id="section10">
 					<h3 class="hidden">TOY</h3>
 					<div class="prj_pic">	
-						<!-- <img src="./images/monitor.png" alt="monitor_bg"> -->
-						<!-- <video autoplay muted playsinline loop>
-                            <source src="./images/video_posco_pc.mp4" type="video/mp4">
-                            <p>Your browser is old. <a href="https://aluvy.github.io/www/profile/images/video_posco_pc.mp4">Download this video instead.</a></p>
-                        </video> -->
+						<div class="monitor"><img src="./images/imac.png" alt=""></div>
+						<div class="monitor_pic"><img src="./images/pc.gif" alt=""></div>
 					</div>
 					<div class="prj_info">
 						<div class="ttl">ToyProject<span>etc</span></div>
@@ -374,7 +387,7 @@
 							</dd>
 						</dl>
 					</div>
-				</section>
+				</section> -->
 		</article>
 	
 		
