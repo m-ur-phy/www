@@ -1,3 +1,4 @@
+// if($(window).width() < 1025){ $('#fullpage').removeAttr('id'); }
 $(document).ready(function() {
 	// fullpage js
 	$('#contentArea').fullpage({
@@ -17,7 +18,7 @@ $(document).ready(function() {
 
 		//scrollingSpeed: 700,
 		//autoScrolling: true,
-        //fitToSection: true,
+        fitToSection: true,
         //fitToSectionDelay: 1000,
 		
 		lazyLoading: true,
@@ -37,7 +38,8 @@ $(document).ready(function() {
 		//easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)'				
 		//easingcss2: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)'
 		
-		
+		responsiveWidth: 1024,
+		// bigSectionsDestination: top,
 	});
 
 });
