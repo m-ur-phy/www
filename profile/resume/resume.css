@@ -54,8 +54,12 @@ header .head_ttl strong { font-weight: 400;}
 #contentArea .toggle-container dd span { display: block; }
 
 /* footer */
-footer .footer_inner { background: #000; color: #fff; }
-footer .footer_inner a { color: #fff;}
+footer .footer_inner { background: #000; color: #fff; text-align: center; padding: 20px 0;}
+footer .footer_inner p { font-weight: 100; }
+footer .footer_inner a { display:flex; color: #666;; justify-content: center; margin: 20px 0; padding: 10px; overflow: hidden; transition: all .5s; align-items: center;}
+footer .footer_inner a:hover { color: #fff}
+footer .footer_inner a i { transition: all 1s; font-size: 3em; margin: 0 10px;}
+footer .footer_inner a:hover i { color: #fff; transform: translateX(10px) translateY(-70px);}
 
 @media screen and (max-width:1024px) {
     #contentArea .toggle-container dl { display: block;}
