@@ -47,7 +47,7 @@ $(document).ready(function(){
 		mouseCursor.style.left = e.pageX + "px";
 		mouseCursor.style.top = e.pageY - scrollY + "px";
 }
-	const content = "안녕하세요, 프론트엔드 개발자 김유화 입니다. 저는 도전을 두려워 하지 않고 배움을 즐기는 성격이 강점입니다.".split("");
+	const content = "안녕하세요. 웹 퍼블리셔, 프론트엔드 개발자 김유화 입니다. 저는 도전을 두려워 하지 않고 배움을 즐기는 성격이 강점입니다.".split("");
 	let typingBool = false;
 	let typingIdx = 0;
 
@@ -64,8 +64,9 @@ $(document).ready(function(){
 		else{ 
 			$(".story_con p").empty();
         	typingIdx = 0;
-		} 
+			} 
 		}
 		setInterval(typing, 100)
+
 
 })
