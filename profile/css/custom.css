@@ -413,6 +413,7 @@ position:fixed; /* 고정=>fixed/ 스크롤처리=>absolute */
     } 
     #contentArea .prj_info {text-align: center; margin: 20px 0;}
     #contentArea .prj_info .visit{ margin: 0 auto;}
+    #contentArea .prj_info .qr { width: 100px; margin: 0 auto;}
 }
 
 /* 모바일 */
