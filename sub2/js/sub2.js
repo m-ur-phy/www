@@ -6,7 +6,7 @@ $('.tabNav .tab1').css('background','#c01').css('color','#fff'); //첫번째 탭
 $('.tab').click(function(e){
         e.preventDefault();   // <a> href="#" 값을 강제로 막는다  
 
-        let ind = $(this).index('.tab');  // 클릭시 해당 index를 뽑아준다
+        var ind = $(this).index('.tab');  // 클릭시 해당 index를 뽑아준다
 
         $(".contlist").hide(); //모든 탭내용을 안보이게...
         $(".contlist:eq("+ind+")").fadeIn('slow'); //클릭한 해당 탭내용만 보여라
@@ -18,7 +18,7 @@ $('.tab').click(function(e){
 // sub2_2
 // artSupport
 //객체배열(json)
-let artistData = [];
+var artistData = [];
 
 function artistPrint(i){
         $.ajax({
@@ -28,13 +28,13 @@ function artistPrint(i){
                 success: function(data){
                         artistData = data.artistData;
 
-                        let $Job = artistData[i].job;
-                        let $MusicianPic = artistData[i].musicianPic;
-                        let $MusicianName = artistData[i].musicianName;
-                        let $Instrument = artistData[i].instrument;
-                        let $Des = artistData[i].des;
+                        var $Job = artistData[i].job;
+                        var $MusicianPic = artistData[i].musicianPic;
+                        var $MusicianName = artistData[i].musicianName;
+                        var $Instrument = artistData[i].instrument;
+                        var $Des = artistData[i].des;
 
-                        let txt = '<dl>';
+                        var txt = '<dl>';
                         txt += '<dt>'+$Job+'</dt>';
                         txt += '<dd><img src="'+ $MusicianPic +'" alt="">';
                         txt += '<span><span>'+$Instrument+'</span>'+$MusicianName+'</span></dd>';
@@ -48,7 +48,7 @@ function artistPrint(i){
 
 $('.popMenu li a').click(function(e){
         e.preventDefault();
-        let popUpInd = $(this).index('.popMenu li a');  // 0 1 2 3
+        var popUpInd = $(this).index('.popMenu li a');  // 0 1 2 3
         
         $('.modalBox').fadeIn('fast');
         $('.popUp').fadeIn('fast');

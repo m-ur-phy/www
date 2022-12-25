@@ -2,18 +2,18 @@ $.ajax({
     url: './data/video.json',
     dataType : 'json',
     success : function(data){
-        let useVideo = data.video;
-        let ind = 0;
+        var useVideo = data.video;
+        var ind = 0;
 
         function videoPrint(){
 
-            let videomain = '<iframe width="900" height="500" src="' + useVideo[0].youtube + '?rel=0" frameborder="0" allowfullscreen></iframe>';
+            var videomain = '<iframe width="900" height="500" src="' + useVideo[0].youtube + '?rel=0" frameborder="0" allowfullscreen></iframe>';
             videomain += '<dl>';
             videomain += '<dt>' + useVideo[0].title + '</dt>';
             videomain += '<dd>' + useVideo[0].con + '</dd>';
 
-            let videotxt ='';
-            for(let i in useVideo){
+            var videotxt ='';
+            for(var i in useVideo){
                 videotxt += '<li><a href="#">';
                 videotxt += '<div class="image"><img src="'+ useVideo[i].image +'" alt="'+ useVideo[i].title +'"><i class="fa-brands fa-youtube"></i></div>';
                 videotxt += '<dl>'
@@ -31,7 +31,7 @@ $.ajax({
         $('.videoList li a').click(function(e){
             e.preventDefault();
 
-            let scrollvalue = $('.mainVideo').offset().top - 150;
+            var scrollvalue = $('.mainVideo').offset().top - 150;
             ind = $(this).index('.videoList li a');
 
             $('.mainVideo iframe').attr('src', useVideo[ind].youtube);

@@ -1,5 +1,5 @@
 // 금호 장학 시스템
-let scnt = 0;
+var scnt = 0;
 
 $(".support li").hide();
 $(".support li:eq(0)").show();
@@ -30,8 +30,8 @@ $(".supportBtn .prev").click(function(e){
 
 
 // 아티스트 slide
-let position = 0;
-let movesize = 330;
+var position = 0;
+var movesize = 330;
 $('.artistList').after($('.artistList').clone());
 
 $('.artistBtn a').click(function(e){

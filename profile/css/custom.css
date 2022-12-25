@@ -278,9 +278,10 @@ position:fixed; /* 고정=>fixed/ 스크롤처리=>absolute */
 #contentArea .prj_info .visit i { margin-left: 10px;}
 #contentArea .prj_info dl { margin: 20px 0;}
 #contentArea .prj_info dt { font-size: 1.2em; font-weight: 500;}
+#contentArea .prj_info .qr { width: 60px}
 
 /* section */
-#section3, #section4, #section5, #section6, #section7, #section8 { background: #fff;}
+#section3, #section4, #section5, #section6, #section7, #section8, #section9 { background: #fff;}
 #contentArea .section > .image { position: absolute; top: 10%; right: 10%; content: ''; width: 300px; height: 300px; opacity: 0; transition: all .7s;}
 #contentArea .section:hover  > .image {opacity: .2;}
 #contentArea .fp-scroller > .image { position: absolute; top: 0; right: 10%; content: ''; width: 300px; height: 300px; opacity: 0; transition: all .7s;}
@@ -374,7 +375,7 @@ position:fixed; /* 고정=>fixed/ 스크롤처리=>absolute */
         display: none;
     }
 
-    #section3, #section4, #section5, #section6, #section7, #section8 { padding: 10%;}
+    #section3, #section4, #section5, #section6, #section7, #section8, #section9{ padding: 10%;}
     section { margin: 10px; overflow: hidden;}
 
     #contentArea .home .home_ttl {

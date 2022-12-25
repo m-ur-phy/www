@@ -1,9 +1,9 @@
 // time
         
-let nowTime = document.querySelector('.nowTime');
-let canTime = document.querySelector('.canTime')
-let d = [], h = 0, m = 0;
-let ap = '';
+var nowTime = document.querySelector('.nowTime');
+var canTime = document.querySelector('.canTime')
+var d = [], h = 0, m = 0;
+var ap = '';
 
 // 요일 미리 지정하기
 d[0] = '일';
@@ -15,9 +15,9 @@ d[5] = '금';
 d[6] = '토';
 
 function clock1(){
-        let now = new Date();
-        let day = d[now.getDay()];
-        let can = ''; // 가능 불가능을 담아주는 변수
+        var now = new Date();
+        var day = d[now.getDay()];
+        var can = ''; // 가능 불가능을 담아주는 변수
 
         h = now.getHours(); // 0 ~ 23
         m = now.getMinutes();

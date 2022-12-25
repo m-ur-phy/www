@@ -6,7 +6,7 @@ $('.tabNav .tab1').css('background','#c01').css('color','#fff'); //첫번째 탭
 $('.tab').click(function(e){
         e.preventDefault();   // <a> href="#" 값을 강제로 막는다  
 
-        let ind = $(this).index('.tab');  // 클릭시 해당 index를 뽑아준다
+        var ind = $(this).index('.tab');  // 클릭시 해당 index를 뽑아준다
 
         $(".contlist").hide(); //모든 탭내용을 안보이게
         $(".contlist:eq("+ind+")").fadeIn('slow'); //클릭한 해당 탭내용만 보여라
@@ -18,8 +18,8 @@ $('.tab').click(function(e){
 
 // sub3_4
 // gallery ajax
-let modernData = [];
-let designData = [];
+var modernData = [];
+var designData = [];
 
 function modernArtPrint(i){
     $.ajax({
@@ -29,12 +29,12 @@ function modernArtPrint(i){
         success: function(data){
             modernData = data.modernWorks;
             
-            let $ArtistName = modernData[i].artistName;
-            let $Title = modernData[i].title;
-            let $ArtPic = modernData[i].artPic;
+            var $ArtistName = modernData[i].artistName;
+            var $Title = modernData[i].title;
+            var $ArtPic = modernData[i].artPic;
             
 
-            let txt = '<li>';
+            var txt = '<li>';
             txt += '<img src="'+ $ArtPic +'" alt="">';
             txt += '<p>';
             txt += '<span>'+$ArtistName+'</span>';
@@ -51,7 +51,7 @@ modernArtPrint(0);
 
 $('.modernSub li a').click(function(e){
     e.preventDefault();
-    let ind = $(this).index('.modernSub li a');
+    var ind = $(this).index('.modernSub li a');
 
     modernArtPrint(ind);
 
@@ -65,11 +65,11 @@ function designArtPrint(i){
         success: function(data){
             designData = data.designWorks;
             
-            let $Title = designData[i].title;
-            let $Num = designData[i].num;
-            let $ArtPic = designData[i].artPic;
+            var $Title = designData[i].title;
+            var $Num = designData[i].num;
+            var $ArtPic = designData[i].artPic;
 
-            let txt = '<li>';
+            var txt = '<li>';
             txt += '<img src="'+ $ArtPic +'" alt="">';
             txt += '<p>';
             txt += '<span>'+$Title+'</span>';
@@ -86,7 +86,7 @@ designArtPrint(0);
 
 $('.designSub li a').click(function(e){
     e.preventDefault();
-    let ind = $(this).index('.designSub li a');
+    var ind = $(this).index('.designSub li a');
 
     designArtPrint(ind);
 })

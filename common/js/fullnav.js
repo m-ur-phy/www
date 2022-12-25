@@ -129,10 +129,10 @@ $('.family .open').toggle(function(e){
 // scroll 통합
 // jquery scroll
 $(window).on('scroll',function(){
-    let scroll = $(window).scrollTop();
-    let secCon = [];
-    let secConNum = Number($('section').length);
-        for(let i = 0; i < secConNum; i++ ){
+    var scroll = $(window).scrollTop();
+    var secCon = [];
+    var secConNum = Number($('section').length);
+        for(var i = 0; i < secConNum; i++ ){
             secCon[i] = $('section:eq('+i+')');
             if(scroll > secCon[i].offset().top - 600){
                 $('section:eq('+i+')').addClass('moveToTop');

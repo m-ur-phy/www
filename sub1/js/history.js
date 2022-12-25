@@ -3,13 +3,13 @@ $(window).load(function(){ // 페이지 이미지까지 전부 로드 후 실행
     $('.navBox .hisTab li:eq(0) a').addClass('spy');
 
     // 첫번째 서브메뉴 활성화
-    let tabmove = $('.titleArea').height()+1000;
-    let h1= $('.history:eq(1)').offset().top - 400;
-    let h2= $('.history:eq(2)').offset().top - 400;
-    let h3= $('.history:eq(3)').offset().top - 400;
+    var tabmove = $('.titleArea').height()+1000;
+    var h1= $('.history:eq(1)').offset().top - 400;
+    var h2= $('.history:eq(2)').offset().top - 400;
+    var h3= $('.history:eq(3)').offset().top - 400;
 
     $(window).on('scroll',function(){
-        let scroll = $(window).scrollTop();
+        var scroll = $(window).scrollTop();
         // 스크롤top의 좌표
         // sticky menu 처리
         if(scroll>tabmove){ 

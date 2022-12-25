@@ -3,7 +3,7 @@ $(document).ready(function() {
 	// fullpage js
 	$('#contentArea').fullpage({
 		menu: '#menu',
-		anchors: ['home', 'story', 'profile', 'pc',  'mobile', 'responsive', 'bootstrap', 'vue'],
+		anchors: ['home', 'story', 'profile', 'pc',  'mobile', 'responsive', 'bootstrap', 'wordpress', 'vue'],
 		
 		scrollOverflow:true,
 		slidesNavigation: true,

@@ -1,5 +1,5 @@
 $(window).on('scroll',function(){
-    let scroll = $(window).scrollTop();
+    var scroll = $(window).scrollTop();
     if(scroll > $('.intro1').offset().top - 600){
         $('.intro1').addClass('moveToTop');
     } else {
@@ -7,7 +7,7 @@ $(window).on('scroll',function(){
     }
 
     const intro2Li = Number($('.intro2 li').length);
-    for(let i = 0; i < intro2Li; i++){
+    for(var i = 0; i < intro2Li; i++){
         if(scroll > $('.intro2 li:eq('+i+')').offset().top - 600){
             $('.intro2 li:eq('+i+')').addClass('moveToTop');
         } else {
