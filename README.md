@@ -107,13 +107,13 @@
 - php 의 inclue 를 이용하여 header 과 footer를 분리하였습니다.
 
 
-## 5. 화장품 브랜드 ROUNDLAB BootStrap 웹사이트
+## 4. 화장품 브랜드 ROUNDLAB BootStrap 웹사이트
 <img width="594" alt="스크린샷 2023-01-02 오후 5 37 54" src="https://user-images.githubusercontent.com/87026989/210209098-a0ed0b7c-4fcd-4c87-9999-6ba290bb9367.png">
 
 
 ### ROUNDLAB BootStrap
 - http://oilpaintingkim.cafe24.com/bootstrap/
-- 화장품 브랜드 ROUNDLAB의 웹사이트를 BootStrap 프레임워크를 사용하여 제작했습니다.
+- 화장품 브랜드 ROUNDLAB의 웹사이트를 BootStrap 프레임워크를 사용하여 제작한 원페이지 웹사이트입니다.
 
 ### 웹 접근성 / 표준성
 - W3C 웹표준 통합 마크업 검사(html/css (swiper.js 제외)) 를 완료했습니다.
@@ -122,20 +122,38 @@
 - 다양한 pc, tablet, mobile 디바이스에 맞추어 크로스 체크를 완료하였습니다.
 
 ### HTML / CSS
-- 태그형 css를 
-- 불필요한 div 태그를 남발하지 않았습니다.ㅅㅏ
-- 불필요한 div 태그를 남발하지 않았습니
+- BootStrap의 태그형 css와 그리드 시스템을 사용하여 다양한 기기에 맞는 반응형 레이아웃을 구현했습니다.
 
 ### javascript
-- jquery 를 사용하지 않고 순수 javascript 만을 
-- javascript 를 이용하여 module화 작업을 진행했습니다. 
-  - tabModule.js 로 탭 기능을 모듈화 하여 재사용하였습니다.
-- 
+- jquery 를 사용하지 않고 순수 javascript 만을 사용하여 작업했습니다.
 
 ### json / ajax
-- json 과 ajax 기능을 이용한 모달창을 구현하였습니다. *[문화사업 - 아티스트]*
+- json 과 ajax 기능을 이용한 모달창을 구현하였습니다. *[BEST - product]*
 
+## 5. Ben's cookies WordPress 웹사이트
+<img width="626" alt="스크린샷 2023-01-02 오후 6 13 17" src="https://user-images.githubusercontent.com/87026989/210212336-5486d8e3-0b9e-403a-9b21-b5a516f92ce1.png">
 
+### Ben's cookies WordPress
+- http://oilpaintingkim.cafe24.com/wordpress/
+- 오픈소스 CMS 중 가장 많이 쓰이는 워드프레스의 테마와 플러그인을 사용하여 벤스쿠키를 주제로 한 웹사이트를 구현했습니다.
 
+## 6. Vue.js - 경기도 축구장 찾기 웹사이트
+<img width="626" alt="스크린샷 2023-01-02 오후 6 13 17" src="https://user-images.githubusercontent.com/87026989/210212336-5486d8e3-0b9e-403a-9b21-b5a516f92ce1.png">
 
+### 경축 - 경기도 축구장 찾기
+- http://oilpaintingkim.cafe24.com/vue/
+- 오픈소스 CMS 중 가장 많이 쓰이는 워드프레스의 테마와 플러그인을 사용하여 벤스쿠키를 주제로 한 웹사이트를 구현했습니다.
 
+### HTML / CSS
+- 시맨틱 태그를 사용하였습니다. 
+- 불필요한 div 태그를 남발하지 않았습니다.
+- vuetify, media query 를 사용한 반응형 레이아웃을 구성했습니다.
+
+### function
+#### 컴포넌트 구성
+- 컴포넌트화를 통한 SPA 를 제작하였습니다.
+- footer, header, main visual, sub visual 을 컴포넌트화 하여 유지보수 및 재사용성을 고려했습니다.
+
+#### 검색 기능 구현
+- Json, V-model 을 이용한 양방향 데이터 바인딩을 활용하여 검색 기능을 구현했습니다.
+- 또한, v-for 을 이용하여 검색 리스트를 출력하였고, v-if 를 이용한 모달창도 만들어 보았습니다.
