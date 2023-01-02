@@ -138,7 +138,8 @@
 - 오픈소스 CMS 중 가장 많이 쓰이는 워드프레스의 테마와 플러그인을 사용하여 벤스쿠키를 주제로 한 웹사이트를 구현했습니다.
 
 ## 6. Vue.js - 경기도 축구장 찾기 웹사이트
-<img width="626" alt="스크린샷 2023-01-02 오후 6 13 17" src="https://user-images.githubusercontent.com/87026989/210212336-5486d8e3-0b9e-403a-9b21-b5a516f92ce1.png">
+<img width="557" alt="스크린샷 2023-01-02 오후 6 19 58" src="https://user-images.githubusercontent.com/87026989/210212917-3c614c3f-48d3-4bdc-a231-ed4b3e582e16.png">
+
 
 ### 경축 - 경기도 축구장 찾기
 - http://oilpaintingkim.cafe24.com/vue/
